@@ -1,0 +1,23 @@
+{
+  "total_steps": 1000000,
+  "curriculum_steps": 500000,
+  "trials_per_update": 4,
+  "hidden_dim": 32,
+  "learning_rate": 0.0003,
+  "gamma": 0.99,
+  "beta_trial": 1.0,
+  "ppo_epochs": 6,
+  "clip_range": 0.2,
+  "entropy_coef": 0.02,
+  "value_coef": 0.5,
+  "max_grad_norm": 1.0,
+  "step_penalty": 0.01,
+  "time_cap": 20.0,
+  "checkpoint_interval": 20,
+  "log_interval": 2,
+  "eval_trials_per_gate": 3,
+  "eval_seed": 10000,
+  "seed": 0,
+  "device": "cpu",
+  "output_dir": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/artifacts"
+}

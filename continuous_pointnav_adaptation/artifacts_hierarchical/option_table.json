@@ -1,0 +1,198 @@
+{
+  "open": {
+    "195": {
+      "direct": {
+        "route": "direct",
+        "success": true,
+        "timeout": false,
+        "return": 0.8169999999999998,
+        "steps": 183,
+        "danger_visits": 0,
+        "collision_events": 0,
+        "observed_gate": true
+      },
+      "upper": {
+        "route": "upper",
+        "success": false,
+        "timeout": true,
+        "return": -1.395,
+        "steps": 195,
+        "danger_visits": 1,
+        "collision_events": 0,
+        "observed_gate": true
+      },
+      "lower": {
+        "route": "lower",
+        "success": false,
+        "timeout": true,
+        "return": -1.195,
+        "steps": 195,
+        "danger_visits": 0,
+        "collision_events": 0,
+        "observed_gate": true
+      }
+    },
+    "255": {
+      "direct": {
+        "route": "direct",
+        "success": true,
+        "timeout": false,
+        "return": 0.8169999999999998,
+        "steps": 183,
+        "danger_visits": 0,
+        "collision_events": 0,
+        "observed_gate": true
+      },
+      "upper": {
+        "route": "upper",
+        "success": true,
+        "timeout": false,
+        "return": 0.5539999999999998,
+        "steps": 246,
+        "danger_visits": 1,
+        "collision_events": 0,
+        "observed_gate": true
+      },
+      "lower": {
+        "route": "lower",
+        "success": false,
+        "timeout": true,
+        "return": -1.2550000000000001,
+        "steps": 255,
+        "danger_visits": 0,
+        "collision_events": 0,
+        "observed_gate": true
+      }
+    },
+    "275": {
+      "direct": {
+        "route": "direct",
+        "success": true,
+        "timeout": false,
+        "return": 0.8169999999999998,
+        "steps": 183,
+        "danger_visits": 0,
+        "collision_events": 0,
+        "observed_gate": true
+      },
+      "upper": {
+        "route": "upper",
+        "success": true,
+        "timeout": false,
+        "return": 0.5539999999999998,
+        "steps": 246,
+        "danger_visits": 1,
+        "collision_events": 0,
+        "observed_gate": true
+      },
+      "lower": {
+        "route": "lower",
+        "success": true,
+        "timeout": false,
+        "return": 0.7339999999999998,
+        "steps": 266,
+        "danger_visits": 0,
+        "collision_events": 0,
+        "observed_gate": true
+      }
+    }
+  },
+  "closed": {
+    "195": {
+      "direct": {
+        "route": "direct",
+        "success": false,
+        "timeout": true,
+        "return": -1.245,
+        "steps": 195,
+        "danger_visits": 0,
+        "collision_events": 1,
+        "observed_gate": true
+      },
+      "upper": {
+        "route": "upper",
+        "success": false,
+        "timeout": true,
+        "return": -1.395,
+        "steps": 195,
+        "danger_visits": 1,
+        "collision_events": 0,
+        "observed_gate": true
+      },
+      "lower": {
+        "route": "lower",
+        "success": false,
+        "timeout": true,
+        "return": -1.195,
+        "steps": 195,
+        "danger_visits": 0,
+        "collision_events": 0,
+        "observed_gate": true
+      }
+    },
+    "255": {
+      "direct": {
+        "route": "direct",
+        "success": false,
+        "timeout": true,
+        "return": -1.3050000000000002,
+        "steps": 255,
+        "danger_visits": 0,
+        "collision_events": 1,
+        "observed_gate": true
+      },
+      "upper": {
+        "route": "upper",
+        "success": true,
+        "timeout": false,
+        "return": 0.5539999999999998,
+        "steps": 246,
+        "danger_visits": 1,
+        "collision_events": 0,
+        "observed_gate": true
+      },
+      "lower": {
+        "route": "lower",
+        "success": false,
+        "timeout": true,
+        "return": -1.2550000000000001,
+        "steps": 255,
+        "danger_visits": 0,
+        "collision_events": 0,
+        "observed_gate": true
+      }
+    },
+    "275": {
+      "direct": {
+        "route": "direct",
+        "success": false,
+        "timeout": true,
+        "return": -1.3250000000000002,
+        "steps": 275,
+        "danger_visits": 0,
+        "collision_events": 1,
+        "observed_gate": true
+      },
+      "upper": {
+        "route": "upper",
+        "success": true,
+        "timeout": false,
+        "return": 0.5539999999999998,
+        "steps": 246,
+        "danger_visits": 1,
+        "collision_events": 0,
+        "observed_gate": true
+      },
+      "lower": {
+        "route": "lower",
+        "success": true,
+        "timeout": false,
+        "return": 0.7339999999999998,
+        "steps": 266,
+        "danger_visits": 0,
+        "collision_events": 0,
+        "observed_gate": true
+      }
+    }
+  }
+}

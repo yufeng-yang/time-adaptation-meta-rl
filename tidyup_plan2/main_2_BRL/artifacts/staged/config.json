@@ -1,0 +1,42 @@
+{
+  "initial_model": null,
+  "output_dir": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/main_2_BRL/artifacts/staged",
+  "closed_steps": 200000,
+  "joint_steps": 300000,
+  "closed_learning_rate": 0.0003,
+  "joint_learning_rate": 0.0001,
+  "n_steps": 4096,
+  "batch_size": 256,
+  "ppo_epochs": 10,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "ent_coef": 0.02,
+  "episodes_per_trial": 5,
+  "step_penalty": 0.01,
+  "progress_scale": 0.02,
+  "checkpoint_frequency": 50000,
+  "seed": 0,
+  "device": "auto",
+  "initialization": "random",
+  "stages": [
+    {
+      "name": "closed",
+      "gate": "closed",
+      "deadlines": [
+        17,
+        19
+      ],
+      "initial_belief": 0.5
+    },
+    {
+      "name": "joint",
+      "gate": "uniform open/closed",
+      "deadlines": [
+        15,
+        17,
+        19
+      ],
+      "initial_belief": 0.5
+    }
+  ]
+}

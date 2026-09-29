@@ -1,0 +1,172 @@
+{
+  "gate_state": "closed",
+  "deadline": 17,
+  "trial_mechanism": false,
+  "initial_belief_open": 0.5,
+  "successes": 0,
+  "eval_episodes": 20,
+  "success_rate": 0.0,
+  "mean_return": -0.99,
+  "episodes": [
+    {
+      "episode": 1,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 2,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 3,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 4,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 5,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 6,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 7,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 8,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 9,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 10,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 11,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 12,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 13,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 14,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 15,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 16,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 17,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 18,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 19,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    },
+    {
+      "episode": 20,
+      "initial_belief_open": 0.5,
+      "final_belief_open": 0.5,
+      "return": -0.99,
+      "success": false,
+      "timeout": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+update,trial,total_steps,gate_state,trial_return,episode_1_return,episode_2_return,episode_3_return,episode_1_success,episode_2_success,episode_3_success,episode_1_route,episode_2_route,episode_3_route,episode_1_deadline,episode_2_deadline,episode_3_deadline,episode_1_probe,loss,entropy,clip_fraction

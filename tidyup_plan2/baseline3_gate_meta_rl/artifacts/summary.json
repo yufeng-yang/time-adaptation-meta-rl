@@ -1,0 +1,85 @@
+{
+  "training": {
+    "method": "time_conditioned_trial_ppo",
+    "objective": "equal environment rewards with cross-episode credit",
+    "total_steps": 1000035,
+    "trials": 13860,
+    "updates": 3465,
+    "recent_trial_return": -3.508399977684021,
+    "recent_final_success": 0.0,
+    "recent_episode1_probe": 0.0
+  },
+  "evaluation": {
+    "open": {
+      "15": {
+        "success_rate": 0.0,
+        "mean_return": -1.149999976158142,
+        "mean_steps": 15.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      },
+      "17": {
+        "success_rate": 0.0,
+        "mean_return": -1.1699999570846558,
+        "mean_steps": 17.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      },
+      "19": {
+        "success_rate": 0.0,
+        "mean_return": -1.190000057220459,
+        "mean_steps": 19.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      }
+    },
+    "closed": {
+      "15": {
+        "success_rate": 0.0,
+        "mean_return": -1.149999976158142,
+        "mean_steps": 15.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      },
+      "17": {
+        "success_rate": 0.0,
+        "mean_return": -1.1699999570846558,
+        "mean_steps": 17.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      },
+      "19": {
+        "success_rate": 0.0,
+        "mean_return": -1.190000057220459,
+        "mean_steps": 19.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      }
+    }
+  },
+  "episode1_hidden_mean_distance": 0.0
+}

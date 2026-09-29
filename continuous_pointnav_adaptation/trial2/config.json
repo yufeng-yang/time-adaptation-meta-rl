@@ -1,0 +1,13 @@
+{
+  "timesteps": 100000,
+  "seed": 1,
+  "n_envs": 8,
+  "expert_episodes": 20,
+  "expert_noise": 0.05,
+  "bc_epochs": 100,
+  "bc_initial_weight": 1.0,
+  "bc_final_weight": 0.05,
+  "bc_steps_per_rollout": 4,
+  "output_dir": "/home/yufeng.yang/codespace/time_adaptation/continuous_pointnav_adaptation/trial2",
+  "deadline": 250
+}

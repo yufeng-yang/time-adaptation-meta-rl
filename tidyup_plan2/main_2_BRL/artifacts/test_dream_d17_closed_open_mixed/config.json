@@ -1,0 +1,44 @@
+{
+  "mode": "train",
+  "closed_timesteps": 400000,
+  "open_timesteps": 400000,
+  "mixed_timesteps": 200000,
+  "learning_rate": 0.0003,
+  "n_steps": 4096,
+  "batch_size": 256,
+  "ppo_epochs": 10,
+  "gamma_episode": 0.99,
+  "beta_trial": 1.0,
+  "gae_lambda": 0.95,
+  "information_reward_scale": 1.0,
+  "ent_coef": 0.02,
+  "step_penalty": 0.01,
+  "progress_scale": 0.02,
+  "danger_penalty": 0.1,
+  "checkpoint_frequency": 50000,
+  "seed": 0,
+  "device": "auto",
+  "model_path": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/main_2_BRL/artifacts/test_dream_d17_closed_open_mixed/brl_dream_d17",
+  "deadline": 17,
+  "episodes_per_trial": 5,
+  "initial_belief_open": 0.5,
+  "initialization": "random",
+  "curriculum": [
+    {
+      "gate": "closed",
+      "timesteps": 400000
+    },
+    {
+      "gate": "open",
+      "timesteps": 400000
+    },
+    {
+      "gate": "uniform_open_closed",
+      "timesteps": 200000
+    }
+  ],
+  "episode_1_objective": "binary belief information gain only",
+  "episodes_2_to_5_objective": "sum_e beta_trial**e * sum_t gamma_episode**t * task_reward[e,t]",
+  "ppo_internal_gamma": 1.0,
+  "danger_penalty_timing": "episode_end"
+}

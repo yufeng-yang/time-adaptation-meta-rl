@@ -1,0 +1,7853 @@
+{
+  "aggregate": {
+    "open": {
+      "15": {
+        "success_rate": 0.0,
+        "mean_return": -1.149999976158142,
+        "mean_steps": 15.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      },
+      "17": {
+        "success_rate": 0.0,
+        "mean_return": -1.1699999570846558,
+        "mean_steps": 17.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      },
+      "19": {
+        "success_rate": 0.0,
+        "mean_return": -1.190000057220459,
+        "mean_steps": 19.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      }
+    },
+    "closed": {
+      "15": {
+        "success_rate": 0.0,
+        "mean_return": -1.149999976158142,
+        "mean_steps": 15.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      },
+      "17": {
+        "success_rate": 0.0,
+        "mean_return": -1.1699999570846558,
+        "mean_steps": 17.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      },
+      "19": {
+        "success_rate": 0.0,
+        "mean_return": -1.190000057220459,
+        "mean_steps": 19.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      }
+    }
+  },
+  "episode1_hidden_mean_distance": 0.0,
+  "episodes": [
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "open",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 0,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 1,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        15,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        17,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        15,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 15,
+      "success": false,
+      "return": -1.149999976158142,
+      "steps": 15,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        15
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 17,
+      "success": false,
+      "return": -1.1699999570846558,
+      "steps": 17,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 1,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 2,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "gate_state": "closed",
+      "trial": 2,
+      "episode": 3,
+      "deadline": 19,
+      "success": false,
+      "return": -1.190000057220459,
+      "steps": 19,
+      "route": "other",
+      "probed_gate": false,
+      "deadline_sequence": [
+        19,
+        19,
+        19
+      ]
+    }
+  ]
+}

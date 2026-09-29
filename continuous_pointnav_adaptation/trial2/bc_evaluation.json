@@ -1,0 +1,11 @@
+[
+  {
+    "deterministic": true,
+    "success": true,
+    "timeout": false,
+    "steps": 183,
+    "return": 0.8054939346368712,
+    "danger_visits": 1,
+    "goal_distance": 0.2876504793054341
+  }
+]

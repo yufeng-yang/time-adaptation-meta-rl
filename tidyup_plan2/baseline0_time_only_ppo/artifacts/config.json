@@ -1,0 +1,17 @@
+{
+  "timesteps": 300000,
+  "learning_rate": 0.0003,
+  "n_steps": 2048,
+  "batch_size": 256,
+  "ppo_epochs": 10,
+  "gamma": 1.0,
+  "gae_lambda": 1.0,
+  "ent_coef": 0.05,
+  "step_penalty": 0.01,
+  "seed": 0,
+  "eval_seed": 10000,
+  "eval_trials_per_case": 20,
+  "checkpoint_frequency": 50000,
+  "device": "cpu",
+  "output_dir": "tidyup_plan2/baseline0_time_only_ppo/artifacts"
+}

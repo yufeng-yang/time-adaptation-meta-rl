@@ -1,0 +1,237 @@
+{
+  "stage": 17,
+  "in_final_distribution": true,
+  "current_stage_episode_counts": {
+    "d15_direct": 0,
+    "d17_medium": 0,
+    "d19_detour": 0
+  },
+  "current_stage_success_rates": {
+    "d15_direct": 0.0,
+    "d17_medium": 0.0,
+    "d19_detour": 0.0
+  },
+  "completed_stages": [
+    {
+      "completed_stage": 0,
+      "episode_counts": {
+        "d15_direct": 40,
+        "d17_medium": 48,
+        "d19_detour": 44
+      },
+      "success_rates": {
+        "d15_direct": 1.0,
+        "d17_medium": 1.0,
+        "d19_detour": 1.0
+      }
+    },
+    {
+      "completed_stage": 1,
+      "episode_counts": {
+        "d15_direct": 40,
+        "d17_medium": 50,
+        "d19_detour": 49
+      },
+      "success_rates": {
+        "d15_direct": 1.0,
+        "d17_medium": 1.0,
+        "d19_detour": 0.975
+      }
+    },
+    {
+      "completed_stage": 2,
+      "episode_counts": {
+        "d15_direct": 45,
+        "d17_medium": 47,
+        "d19_detour": 40
+      },
+      "success_rates": {
+        "d15_direct": 1.0,
+        "d17_medium": 1.0,
+        "d19_detour": 1.0
+      }
+    },
+    {
+      "completed_stage": 3,
+      "episode_counts": {
+        "d15_direct": 50,
+        "d17_medium": 40,
+        "d19_detour": 48
+      },
+      "success_rates": {
+        "d15_direct": 1.0,
+        "d17_medium": 1.0,
+        "d19_detour": 0.975
+      }
+    },
+    {
+      "completed_stage": 4,
+      "episode_counts": {
+        "d15_direct": 40,
+        "d17_medium": 45,
+        "d19_detour": 55
+      },
+      "success_rates": {
+        "d15_direct": 1.0,
+        "d17_medium": 1.0,
+        "d19_detour": 0.9
+      }
+    },
+    {
+      "completed_stage": 5,
+      "episode_counts": {
+        "d15_direct": 47,
+        "d17_medium": 45,
+        "d19_detour": 53
+      },
+      "success_rates": {
+        "d15_direct": 1.0,
+        "d17_medium": 1.0,
+        "d19_detour": 0.75
+      }
+    },
+    {
+      "completed_stage": 6,
+      "episode_counts": {
+        "d15_direct": 83,
+        "d17_medium": 62,
+        "d19_detour": 66
+      },
+      "success_rates": {
+        "d15_direct": 0.975,
+        "d17_medium": 1.0,
+        "d19_detour": 0.75
+      }
+    },
+    {
+      "completed_stage": 7,
+      "episode_counts": {
+        "d15_direct": 56,
+        "d17_medium": 51,
+        "d19_detour": 40
+      },
+      "success_rates": {
+        "d15_direct": 1.0,
+        "d17_medium": 1.0,
+        "d19_detour": 0.85
+      }
+    },
+    {
+      "completed_stage": 8,
+      "episode_counts": {
+        "d15_direct": 47,
+        "d17_medium": 40,
+        "d19_detour": 46
+      },
+      "success_rates": {
+        "d15_direct": 0.9,
+        "d17_medium": 1.0,
+        "d19_detour": 0.95
+      }
+    },
+    {
+      "completed_stage": 9,
+      "episode_counts": {
+        "d15_direct": 50,
+        "d17_medium": 64,
+        "d19_detour": 40
+      },
+      "success_rates": {
+        "d15_direct": 0.775,
+        "d17_medium": 1.0,
+        "d19_detour": 0.95
+      }
+    },
+    {
+      "completed_stage": 10,
+      "episode_counts": {
+        "d15_direct": 40,
+        "d17_medium": 48,
+        "d19_detour": 40
+      },
+      "success_rates": {
+        "d15_direct": 1.0,
+        "d17_medium": 1.0,
+        "d19_detour": 0.975
+      }
+    },
+    {
+      "completed_stage": 11,
+      "episode_counts": {
+        "d15_direct": 60,
+        "d17_medium": 56,
+        "d19_detour": 40
+      },
+      "success_rates": {
+        "d15_direct": 1.0,
+        "d17_medium": 0.825,
+        "d19_detour": 0.925
+      }
+    },
+    {
+      "completed_stage": 12,
+      "episode_counts": {
+        "d15_direct": 49,
+        "d17_medium": 41,
+        "d19_detour": 41
+      },
+      "success_rates": {
+        "d15_direct": 0.975,
+        "d17_medium": 0.75,
+        "d19_detour": 0.95
+      }
+    },
+    {
+      "completed_stage": 13,
+      "episode_counts": {
+        "d15_direct": 45,
+        "d17_medium": 40,
+        "d19_detour": 62
+      },
+      "success_rates": {
+        "d15_direct": 1.0,
+        "d17_medium": 0.825,
+        "d19_detour": 0.95
+      }
+    },
+    {
+      "completed_stage": 14,
+      "episode_counts": {
+        "d15_direct": 58,
+        "d17_medium": 40,
+        "d19_detour": 66
+      },
+      "success_rates": {
+        "d15_direct": 0.8,
+        "d17_medium": 0.9,
+        "d19_detour": 0.8
+      }
+    },
+    {
+      "completed_stage": 15,
+      "episode_counts": {
+        "d15_direct": 40,
+        "d17_medium": 47,
+        "d19_detour": 46
+      },
+      "success_rates": {
+        "d15_direct": 0.925,
+        "d17_medium": 0.875,
+        "d19_detour": 0.875
+      }
+    },
+    {
+      "completed_stage": 16,
+      "episode_counts": {
+        "d15_direct": 40,
+        "d17_medium": 47,
+        "d19_detour": 59
+      },
+      "success_rates": {
+        "d15_direct": 0.95,
+        "d17_medium": 0.9,
+        "d19_detour": 0.95
+      }
+    }
+  ]
+}

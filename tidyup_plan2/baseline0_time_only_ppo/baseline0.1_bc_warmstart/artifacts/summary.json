@@ -1,0 +1,186 @@
+{
+  "open": {
+    "15": {
+      "success_rate": 0.0,
+      "mean_return": -1.1499999999999997,
+      "mean_steps": 15.0,
+      "route_rates": {
+        "direct": 0.0,
+        "medium": 0.0,
+        "detour": 0.0,
+        "other": 1.0
+      },
+      "deterministic_actions": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "17": {
+      "success_rate": 0.0,
+      "mean_return": -1.1700000000000004,
+      "mean_steps": 17.0,
+      "route_rates": {
+        "direct": 0.0,
+        "medium": 0.0,
+        "detour": 0.0,
+        "other": 1.0
+      },
+      "deterministic_actions": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "19": {
+      "success_rate": 0.0,
+      "mean_return": -1.1900000000000002,
+      "mean_steps": 19.0,
+      "route_rates": {
+        "direct": 0.0,
+        "medium": 0.0,
+        "detour": 0.0,
+        "other": 1.0
+      },
+      "deterministic_actions": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "closed": {
+    "15": {
+      "success_rate": 0.0,
+      "mean_return": -1.1499999999999997,
+      "mean_steps": 15.0,
+      "route_rates": {
+        "direct": 0.0,
+        "medium": 0.0,
+        "detour": 0.0,
+        "other": 1.0
+      },
+      "deterministic_actions": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "17": {
+      "success_rate": 0.0,
+      "mean_return": -1.1700000000000004,
+      "mean_steps": 17.0,
+      "route_rates": {
+        "direct": 0.0,
+        "medium": 0.0,
+        "detour": 0.0,
+        "other": 1.0
+      },
+      "deterministic_actions": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "19": {
+      "success_rate": 0.0,
+      "mean_return": -1.1900000000000002,
+      "mean_steps": 19.0,
+      "route_rates": {
+        "direct": 0.0,
+        "medium": 0.0,
+        "detour": 0.0,
+        "other": 1.0
+      },
+      "deterministic_actions": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}

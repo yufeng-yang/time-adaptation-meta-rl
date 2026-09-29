@@ -1,0 +1,302 @@
+[
+  {
+    "gate_state": "open",
+    "deadline": 15,
+    "trial_return": -4.95,
+    "successes": 0,
+    "episodes_per_trial": 5,
+    "final_belief_open": 0.5,
+    "subepisodes": [
+      {
+        "episode_index": 0,
+        "deadline": 15,
+        "return": -0.99,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 1,
+        "deadline": 15,
+        "return": -0.99,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 2,
+        "deadline": 15,
+        "return": -0.99,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 3,
+        "deadline": 15,
+        "return": -0.99,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 4,
+        "deadline": 15,
+        "return": -0.99,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      }
+    ]
+  },
+  {
+    "gate_state": "open",
+    "deadline": 17,
+    "trial_return": -5.050000000000002,
+    "successes": 0,
+    "episodes_per_trial": 5,
+    "final_belief_open": 0.5,
+    "subepisodes": [
+      {
+        "episode_index": 0,
+        "deadline": 17,
+        "return": -1.01,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 1,
+        "deadline": 17,
+        "return": -1.01,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 2,
+        "deadline": 17,
+        "return": -1.01,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 3,
+        "deadline": 17,
+        "return": -1.01,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 4,
+        "deadline": 17,
+        "return": -1.01,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      }
+    ]
+  },
+  {
+    "gate_state": "open",
+    "deadline": 19,
+    "trial_return": -5.150000000000002,
+    "successes": 0,
+    "episodes_per_trial": 5,
+    "final_belief_open": 0.5,
+    "subepisodes": [
+      {
+        "episode_index": 0,
+        "deadline": 19,
+        "return": -1.03,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 1,
+        "deadline": 19,
+        "return": -1.03,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 2,
+        "deadline": 19,
+        "return": -1.03,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 3,
+        "deadline": 19,
+        "return": -1.03,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 4,
+        "deadline": 19,
+        "return": -1.03,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      }
+    ]
+  },
+  {
+    "gate_state": "closed",
+    "deadline": 15,
+    "trial_return": -4.750000000000002,
+    "successes": 0,
+    "episodes_per_trial": 5,
+    "final_belief_open": 0.5,
+    "subepisodes": [
+      {
+        "episode_index": 0,
+        "deadline": 15,
+        "return": -0.95,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 1,
+        "deadline": 15,
+        "return": -0.95,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 2,
+        "deadline": 15,
+        "return": -0.95,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 3,
+        "deadline": 15,
+        "return": -0.95,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 4,
+        "deadline": 15,
+        "return": -0.95,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      }
+    ]
+  },
+  {
+    "gate_state": "closed",
+    "deadline": 17,
+    "trial_return": -4.850000000000001,
+    "successes": 0,
+    "episodes_per_trial": 5,
+    "final_belief_open": 0.5,
+    "subepisodes": [
+      {
+        "episode_index": 0,
+        "deadline": 17,
+        "return": -0.97,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 1,
+        "deadline": 17,
+        "return": -0.97,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 2,
+        "deadline": 17,
+        "return": -0.97,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 3,
+        "deadline": 17,
+        "return": -0.97,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 4,
+        "deadline": 17,
+        "return": -0.97,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      }
+    ]
+  },
+  {
+    "gate_state": "closed",
+    "deadline": 19,
+    "trial_return": -4.950000000000002,
+    "successes": 0,
+    "episodes_per_trial": 5,
+    "final_belief_open": 0.5,
+    "subepisodes": [
+      {
+        "episode_index": 0,
+        "deadline": 19,
+        "return": -0.99,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 1,
+        "deadline": 19,
+        "return": -0.99,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 2,
+        "deadline": 19,
+        "return": -0.99,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 3,
+        "deadline": 19,
+        "return": -0.99,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      },
+      {
+        "episode_index": 4,
+        "deadline": 19,
+        "return": -0.99,
+        "success": false,
+        "timeout": true,
+        "belief_open": 0.5
+      }
+    ]
+  }
+]

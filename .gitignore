@@ -1,0 +1,18 @@
+# This repository intentionally contains the current discrete and continuous
+# deadline-aware/meta-RL experiments only.
+/*
+!/.gitignore
+!/README.md
+!/tidyup_plan2/
+!/tidyup_plan2/**
+!/continuous_pointnav_adaptation/
+!/continuous_pointnav_adaptation/**
+
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+

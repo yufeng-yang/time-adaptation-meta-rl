@@ -1,0 +1,191 @@
+[
+  {
+    "deterministic": true,
+    "success": true,
+    "timeout": false,
+    "steps": 184,
+    "return": 0.8047164100430564,
+    "danger_visits": 1,
+    "goal_distance": 0.2820884144591518
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 186,
+    "return": 0.8020409031560121,
+    "danger_visits": 1,
+    "goal_distance": 0.2989785542881778
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 189,
+    "return": 0.7994070923245431,
+    "danger_visits": 1,
+    "goal_distance": 0.28982372794352146
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 184,
+    "return": 0.804066252207349,
+    "danger_visits": 1,
+    "goal_distance": 0.29834418980395844
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 190,
+    "return": 0.7981612906129385,
+    "danger_visits": 1,
+    "goal_distance": 0.29596864104925547
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 184,
+    "return": 0.8042650909821987,
+    "danger_visits": 1,
+    "goal_distance": 0.29337316946071673
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 185,
+    "return": 0.8036194353533119,
+    "danger_visits": 1,
+    "goal_distance": 0.2845136291662822
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 189,
+    "return": 0.7997611480247997,
+    "danger_visits": 1,
+    "goal_distance": 0.2809709895592074
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 187,
+    "return": 0.8016034859014098,
+    "danger_visits": 1,
+    "goal_distance": 0.28491261623076586
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 186,
+    "return": 0.8022724087420556,
+    "danger_visits": 1,
+    "goal_distance": 0.2931896387392748
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 184,
+    "return": 0.804049271532449,
+    "danger_visits": 1,
+    "goal_distance": 0.29876725380439373
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 184,
+    "return": 0.8046026649739701,
+    "danger_visits": 1,
+    "goal_distance": 0.28493469414624
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 184,
+    "return": 0.8042700423329734,
+    "danger_visits": 1,
+    "goal_distance": 0.2932504233561431
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 191,
+    "return": 0.7979378721997819,
+    "danger_visits": 1,
+    "goal_distance": 0.2765544249410004
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 185,
+    "return": 0.8034374168707927,
+    "danger_visits": 1,
+    "goal_distance": 0.28906419745804846
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 188,
+    "return": 0.8008570641010238,
+    "danger_visits": 1,
+    "goal_distance": 0.27857374134680407
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 186,
+    "return": 0.80221371136426,
+    "danger_visits": 1,
+    "goal_distance": 0.294657396589714
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 187,
+    "return": 0.8015897279922228,
+    "danger_visits": 1,
+    "goal_distance": 0.2852554650166433
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 185,
+    "return": 0.8036738517517961,
+    "danger_visits": 1,
+    "goal_distance": 0.2831525151718799
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 190,
+    "return": 0.7990072610664356,
+    "danger_visits": 1,
+    "goal_distance": 0.2748196237019353
+  },
+  {
+    "deterministic": false,
+    "success": true,
+    "timeout": false,
+    "steps": 189,
+    "return": 0.7999368949203927,
+    "danger_visits": 1,
+    "goal_distance": 0.27657806569774057
+  }
+]

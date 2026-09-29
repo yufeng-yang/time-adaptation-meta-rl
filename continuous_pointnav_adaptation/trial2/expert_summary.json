@@ -1,0 +1,122 @@
+[
+  {
+    "episode": 1,
+    "steps": 183,
+    "return": 0.8054932957963497,
+    "danger_visits": 1
+  },
+  {
+    "episode": 2,
+    "steps": 183,
+    "return": 0.8054938504741704,
+    "danger_visits": 1
+  },
+  {
+    "episode": 3,
+    "steps": 183,
+    "return": 0.8054919056579358,
+    "danger_visits": 1
+  },
+  {
+    "episode": 4,
+    "steps": 183,
+    "return": 0.8054917818201113,
+    "danger_visits": 1
+  },
+  {
+    "episode": 5,
+    "steps": 183,
+    "return": 0.8054881365726625,
+    "danger_visits": 1
+  },
+  {
+    "episode": 6,
+    "steps": 183,
+    "return": 0.8054838451892572,
+    "danger_visits": 1
+  },
+  {
+    "episode": 7,
+    "steps": 183,
+    "return": 0.8054934578088537,
+    "danger_visits": 1
+  },
+  {
+    "episode": 8,
+    "steps": 183,
+    "return": 0.8054921729130448,
+    "danger_visits": 1
+  },
+  {
+    "episode": 9,
+    "steps": 183,
+    "return": 0.8054933263561046,
+    "danger_visits": 1
+  },
+  {
+    "episode": 10,
+    "steps": 183,
+    "return": 0.8054905851097101,
+    "danger_visits": 1
+  },
+  {
+    "episode": 11,
+    "steps": 183,
+    "return": 0.8054915667053734,
+    "danger_visits": 1
+  },
+  {
+    "episode": 12,
+    "steps": 183,
+    "return": 0.8054873581257187,
+    "danger_visits": 1
+  },
+  {
+    "episode": 13,
+    "steps": 183,
+    "return": 0.8054874757367971,
+    "danger_visits": 1
+  },
+  {
+    "episode": 14,
+    "steps": 183,
+    "return": 0.8054932558755619,
+    "danger_visits": 1
+  },
+  {
+    "episode": 15,
+    "steps": 183,
+    "return": 0.8054932402692019,
+    "danger_visits": 1
+  },
+  {
+    "episode": 16,
+    "steps": 183,
+    "return": 0.805477083796313,
+    "danger_visits": 1
+  },
+  {
+    "episode": 17,
+    "steps": 183,
+    "return": 0.805474169829528,
+    "danger_visits": 1
+  },
+  {
+    "episode": 18,
+    "steps": 183,
+    "return": 0.8054927485187682,
+    "danger_visits": 1
+  },
+  {
+    "episode": 19,
+    "steps": 183,
+    "return": 0.805485655754307,
+    "danger_visits": 1
+  },
+  {
+    "episode": 20,
+    "steps": 183,
+    "return": 0.8054933744165036,
+    "danger_visits": 1
+  }
+]
