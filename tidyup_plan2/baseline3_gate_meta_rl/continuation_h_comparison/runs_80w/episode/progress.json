@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "mode": "episode",
+  "total_steps": 800027,
+  "updates": 2985,
+  "trials": 11940,
+  "start_steps": 645145,
+  "target_steps": 800000,
+  "bc_weight": 0.0,
+  "elapsed_seconds": 135.0940137290163
+}

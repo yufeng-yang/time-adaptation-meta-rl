@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "mode": "step",
+  "total_steps": 800003,
+  "updates": 2996,
+  "trials": 11984,
+  "start_steps": 643351,
+  "target_steps": 800000,
+  "bc_weight": 0.0,
+  "elapsed_seconds": 327.9501468029921
+}

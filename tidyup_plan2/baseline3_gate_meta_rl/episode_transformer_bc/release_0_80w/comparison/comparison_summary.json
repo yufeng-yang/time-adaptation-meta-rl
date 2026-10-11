@@ -1,0 +1,19 @@
+{
+  "endpoints": {
+    "episode": {
+      "steps": 645145,
+      "return_ep3": 0.4816666742165883
+    },
+    "step": {
+      "steps": 643351,
+      "return_ep3": -0.41333329677581787
+    },
+    "transformer": {
+      "steps": 800058,
+      "return_ep3": 0.44833335280418396
+    }
+  },
+  "first_optimal_transformer": 55181,
+  "last_optimal_transformer": 610128,
+  "plot": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/comparison/third_episode_three_methods.png"
+}

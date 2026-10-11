@@ -1,0 +1,25 @@
+{
+  "source_checkpoint": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/models/step_643351.pt",
+  "source_sha256": "f58165cf102dedad2cf325f3a3a5b687ee8f6ccb570623f20fd41a51096988fe",
+  "start_steps": 643351,
+  "start_updates": 2140,
+  "start_trials": 8560,
+  "optimizer_restored": true,
+  "rng_resume": "restored",
+  "resume_seed": 20261011,
+  "start_bc_weight": 0.0,
+  "total_steps_target": 800000,
+  "evaluation_interval": 5000,
+  "task_deadlines": {
+    "open": [
+      15,
+      17,
+      19
+    ],
+    "closed": [
+      15,
+      17,
+      19
+    ]
+  }
+}

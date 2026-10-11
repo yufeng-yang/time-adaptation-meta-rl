@@ -1,0 +1,92 @@
+{
+  "mode": "episode",
+  "total_steps": 800027,
+  "updates": 2985,
+  "trials": 11940,
+  "start_steps": 645145,
+  "additional_steps": 154882,
+  "additional_updates": 783,
+  "additional_trials": 3132,
+  "bc_weight": 0.0,
+  "best_steps": 645145,
+  "best_selection_score": 0.4816666742165883,
+  "evaluation": {
+    "open": {
+      "15": {
+        "success_rate": 1.0,
+        "mean_return": 0.8600000143051147,
+        "mean_steps": 14.0,
+        "route_rates": {
+          "direct": 1.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 0.0
+        }
+      },
+      "17": {
+        "success_rate": 1.0,
+        "mean_return": 0.8600000143051147,
+        "mean_steps": 14.0,
+        "route_rates": {
+          "direct": 1.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 0.0
+        }
+      },
+      "19": {
+        "success_rate": 1.0,
+        "mean_return": 0.8600000143051147,
+        "mean_steps": 14.0,
+        "route_rates": {
+          "direct": 1.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 0.0
+        }
+      }
+    },
+    "closed": {
+      "15": {
+        "success_rate": 0.0,
+        "mean_return": -1.6499998569488525,
+        "mean_steps": 15.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      },
+      "17": {
+        "success_rate": 0.0,
+        "mean_return": -1.7699999809265137,
+        "mean_steps": 17.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      },
+      "25": {
+        "success_rate": 0.0,
+        "mean_return": -2.25,
+        "mean_steps": 25.0,
+        "route_rates": {
+          "direct": 0.0,
+          "medium": 0.0,
+          "detour": 0.0,
+          "other": 1.0
+        }
+      }
+    }
+  },
+  "diagnostics": {
+    "mean_return_ep23": -0.3399999737739563,
+    "optimal_fraction_ep23": 0.5833333333333334,
+    "feasible_success_ep23": 0.6
+  },
+  "elapsed_seconds": 135.09390812402125,
+  "rng_resume": "restored"
+}

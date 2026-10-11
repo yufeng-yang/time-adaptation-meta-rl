@@ -1,7 +1,29 @@
 # Baseline 3 — 最终离散 Meta-RL
 
-当前正式结果只保留 [0–64.5 万步](release_0_64p5w/README.md)，统计每个 trial 的
-最后一局 return。旧纯 PPO、legacy 方案、重复绘图与完整中间实验目录已移出。
+最初的 episode-level / step-level 对比结果保留
+[0–64.5 万步](release_0_64p5w/README.md)，统计每个 trial 的最后一局 return。
+旧纯 PPO、legacy 方案、重复绘图与完整中间实验目录已移出。
+
+## Transformer 实验分目录
+
+- [episode_transformer_bc](episode_transformer_bc/README.md)：原 Transformer
+  半 BC + PPO，gamma=0.99，训练时步进惩罚不返还；当前保留的主版本。
+  入口为目录内 `train.py`；保留的 0–80 万步模型、曲线和 GIF 位于其
+  `release_0_80w/`。额外的去步数/折扣评分与曲线位于 `extra_evaluation_0_80w/`，
+  只调整评测口径，不改模型或送入 h 的奖励。
+- [episode_transformer_deadline_reach](episode_transformer_deadline_reach/README.md)：
+  已停用的对比实验，Transformer 半 BC + PPO，gamma=1，每局结束返还步进惩罚。
+  入口为该目录内 `train.py`；seed0 已完成 800,027 步训练，输出为其
+  `runs/seed0_80w/`。后期退化，最终第三局平均 return 为 0；完整曲线位于
+  该次训练的 `plots/`。
+
+两者为并列实验目录；共享网络/PPO实现，不共享训练输出。下文介绍最初的
+非 Transformer 对比方案及其 0–64.5 万步结果。
+
+蓝色 episode-level 与橙色 step-level 现已从保留的约64.5万步模型启动续训，
+目标均为累计80万步。模型/Adam/RNG恢复、BC不重启，输出分别在
+`continuation_h_comparison/runs_80w/episode/` 与 `runs_80w/step/`。
+原结果包保留不动，完成状态见各输出目录的 `progress.json` / `summary.json`。
 
 ## 保留的代码
 

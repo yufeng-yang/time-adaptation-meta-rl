@@ -1,0 +1,376 @@
+Fresh initialization; tasks=open/closed x D=(15,17,25); Transformer=2-way self-attention, no position encoding; h=episode-level
+closed D=25 BC: [(22, 0.78, 'detour', True), (18, 0.82, 'detour', True), (18, 0.82, 'detour', True)]
+EVAL steps=0 ep3_return=-1.1900 ep3_success=0.000
+update=1 trials=4 steps=192 ep3_return50=-1.285 bc=0.983*1.000 elapsed=0.6s
+update=20 trials=80 steps=4397 ep3_return50=-1.673 bc=0.503*0.993 elapsed=6.3s
+EVAL steps=5039 ep3_return=-1.8650 ep3_success=0.000
+update=40 trials=160 steps=9032 ep3_return50=-1.384 bc=0.329*0.985 elapsed=12.6s
+EVAL steps=10055 ep3_return=-1.5650 ep3_success=0.000
+update=60 trials=240 steps=13358 ep3_return50=-0.986 bc=0.237*0.978 elapsed=18.8s
+EVAL steps=15008 ep3_return=-0.5400 ep3_success=0.500
+update=80 trials=320 steps=17553 ep3_return50=-0.674 bc=0.210*0.971 elapsed=25.1s
+EVAL steps=20025 ep3_return=-0.1650 ep3_success=0.500
+update=100 trials=400 steps=21654 ep3_return50=-0.525 bc=0.189*0.964 elapsed=31.1s
+EVAL steps=25108 ep3_return=-0.1650 ep3_success=0.500
+update=120 trials=480 steps=25693 ep3_return50=-0.386 bc=0.156*0.957 elapsed=37.1s
+update=140 trials=560 steps=29802 ep3_return50=-0.359 bc=0.136*0.950 elapsed=43.0s
+EVAL steps=30039 ep3_return=0.1800 ep3_success=0.667
+update=160 trials=640 steps=33875 ep3_return50=-0.181 bc=0.107*0.944 elapsed=49.0s
+EVAL steps=35071 ep3_return=-0.1650 ep3_success=0.500
+update=180 trials=720 steps=37904 ep3_return50=-0.194 bc=0.084*0.937 elapsed=55.0s
+EVAL steps=40043 ep3_return=-0.4400 ep3_success=0.500
+update=200 trials=800 steps=41789 ep3_return50=-0.116 bc=0.077*0.930 elapsed=61.0s
+EVAL steps=45164 ep3_return=-0.1650 ep3_success=0.500
+update=220 trials=880 steps=45609 ep3_return50=-0.034 bc=0.053*0.924 elapsed=67.0s
+update=240 trials=960 steps=49430 ep3_return50=0.007 bc=0.031*0.918 elapsed=72.7s
+EVAL steps=50016 ep3_return=0.4183 ep3_success=0.833
+update=260 trials=1040 steps=53303 ep3_return50=0.396 bc=0.030*0.911 elapsed=78.6s
+EVAL steps=55181 ep3_return=0.4817 ep3_success=0.833
+update=280 trials=1120 steps=57078 ep3_return50=0.167 bc=0.047*0.905 elapsed=84.6s
+EVAL steps=60187 ep3_return=0.4483 ep3_success=0.833
+update=300 trials=1200 steps=60935 ep3_return50=0.310 bc=0.029*0.898 elapsed=90.6s
+update=320 trials=1280 steps=64688 ep3_return50=-0.048 bc=0.034*0.892 elapsed=96.4s
+EVAL steps=65062 ep3_return=0.4483 ep3_success=0.833
+update=340 trials=1360 steps=68455 ep3_return50=0.248 bc=0.019*0.886 elapsed=102.7s
+EVAL steps=70125 ep3_return=0.4817 ep3_success=0.833
+update=360 trials=1440 steps=72140 ep3_return50=0.169 bc=0.030*0.880 elapsed=108.8s
+EVAL steps=75184 ep3_return=0.4817 ep3_success=0.833
+update=380 trials=1520 steps=75903 ep3_return50=0.236 bc=0.015*0.873 elapsed=114.7s
+update=400 trials=1600 steps=79612 ep3_return50=0.399 bc=0.009*0.867 elapsed=120.3s
+EVAL steps=80015 ep3_return=0.4817 ep3_success=0.833
+update=420 trials=1680 steps=83428 ep3_return50=0.284 bc=0.009*0.861 elapsed=126.2s
+EVAL steps=85157 ep3_return=0.4817 ep3_success=0.833
+update=440 trials=1760 steps=87263 ep3_return50=0.369 bc=0.011*0.855 elapsed=132.1s
+EVAL steps=90030 ep3_return=0.4817 ep3_success=0.833
+update=460 trials=1840 steps=90980 ep3_return50=0.324 bc=0.008*0.848 elapsed=138.0s
+update=480 trials=1920 steps=94752 ep3_return50=0.393 bc=0.011*0.842 elapsed=143.6s
+EVAL steps=95112 ep3_return=0.4817 ep3_success=0.833
+update=500 trials=2000 steps=98523 ep3_return50=0.544 bc=0.006*0.836 elapsed=149.5s
+EVAL steps=100014 ep3_return=0.4817 ep3_success=0.833
+update=520 trials=2080 steps=102256 ep3_return50=0.404 bc=0.006*0.830 elapsed=155.4s
+EVAL steps=105109 ep3_return=0.4817 ep3_success=0.833
+update=540 trials=2160 steps=106025 ep3_return50=0.484 bc=0.004*0.823 elapsed=161.3s
+update=560 trials=2240 steps=109739 ep3_return50=0.482 bc=0.003*0.817 elapsed=166.8s
+EVAL steps=110102 ep3_return=0.4817 ep3_success=0.833
+update=580 trials=2320 steps=113421 ep3_return50=0.359 bc=0.003*0.811 elapsed=172.7s
+EVAL steps=115099 ep3_return=0.1167 ep3_success=0.667
+update=600 trials=2400 steps=117159 ep3_return50=-0.021 bc=0.029*0.805 elapsed=178.6s
+EVAL steps=120177 ep3_return=0.1467 ep3_success=0.667
+update=620 trials=2480 steps=120939 ep3_return50=0.372 bc=0.019*0.798 elapsed=184.5s
+update=640 trials=2560 steps=124738 ep3_return50=0.321 bc=0.024*0.792 elapsed=190.2s
+EVAL steps=125103 ep3_return=0.1800 ep3_success=0.667
+update=660 trials=2640 steps=128451 ep3_return50=0.323 bc=0.015*0.786 elapsed=196.1s
+EVAL steps=130190 ep3_return=0.1800 ep3_success=0.667
+update=680 trials=2720 steps=132314 ep3_return50=0.507 bc=0.018*0.779 elapsed=202.0s
+EVAL steps=135137 ep3_return=0.4483 ep3_success=0.833
+update=700 trials=2800 steps=136097 ep3_return50=0.483 bc=0.008*0.773 elapsed=207.9s
+update=720 trials=2880 steps=139807 ep3_return50=0.252 bc=0.011*0.767 elapsed=213.6s
+EVAL steps=140006 ep3_return=0.4817 ep3_success=0.833
+update=740 trials=2960 steps=143575 ep3_return50=0.489 bc=0.003*0.761 elapsed=219.8s
+EVAL steps=145038 ep3_return=0.4817 ep3_success=0.833
+update=760 trials=3040 steps=147237 ep3_return50=0.364 bc=0.002*0.755 elapsed=226.0s
+EVAL steps=150065 ep3_return=0.4817 ep3_success=0.833
+update=780 trials=3120 steps=151017 ep3_return50=0.469 bc=0.004*0.748 elapsed=232.1s
+update=800 trials=3200 steps=154727 ep3_return50=0.560 bc=0.002*0.742 elapsed=237.8s
+EVAL steps=155080 ep3_return=0.4817 ep3_success=0.833
+update=820 trials=3280 steps=158410 ep3_return50=0.596 bc=0.001*0.736 elapsed=243.9s
+EVAL steps=160085 ep3_return=0.4817 ep3_success=0.833
+update=840 trials=3360 steps=162123 ep3_return50=0.494 bc=0.002*0.730 elapsed=249.8s
+EVAL steps=165065 ep3_return=0.4817 ep3_success=0.833
+update=860 trials=3440 steps=165830 ep3_return50=0.413 bc=0.002*0.724 elapsed=255.8s
+update=880 trials=3520 steps=169567 ep3_return50=0.446 bc=0.001*0.717 elapsed=261.6s
+EVAL steps=170132 ep3_return=0.4817 ep3_success=0.833
+update=900 trials=3600 steps=173298 ep3_return50=0.417 bc=0.001*0.711 elapsed=267.7s
+EVAL steps=175183 ep3_return=0.4817 ep3_success=0.833
+update=920 trials=3680 steps=177078 ep3_return50=0.640 bc=0.001*0.705 elapsed=273.9s
+EVAL steps=180028 ep3_return=0.4817 ep3_success=0.833
+update=940 trials=3760 steps=180775 ep3_return50=0.427 bc=0.001*0.699 elapsed=279.9s
+update=960 trials=3840 steps=184465 ep3_return50=0.524 bc=0.001*0.693 elapsed=285.8s
+EVAL steps=185034 ep3_return=0.4817 ep3_success=0.833
+update=980 trials=3920 steps=188177 ep3_return50=0.531 bc=0.001*0.686 elapsed=291.9s
+EVAL steps=190028 ep3_return=0.4817 ep3_success=0.833
+update=1000 trials=4000 steps=191872 ep3_return50=0.389 bc=0.001*0.680 elapsed=298.1s
+EVAL steps=195137 ep3_return=0.4817 ep3_success=0.833
+update=1020 trials=4080 steps=195507 ep3_return50=0.370 bc=0.001*0.674 elapsed=304.0s
+update=1040 trials=4160 steps=199230 ep3_return50=0.457 bc=0.001*0.668 elapsed=309.8s
+EVAL steps=200173 ep3_return=0.4817 ep3_success=0.833
+update=1060 trials=4240 steps=202905 ep3_return50=0.311 bc=0.001*0.662 elapsed=315.8s
+EVAL steps=205157 ep3_return=0.4817 ep3_success=0.833
+update=1080 trials=4320 steps=206651 ep3_return50=0.535 bc=0.001*0.656 elapsed=321.9s
+EVAL steps=210163 ep3_return=0.4817 ep3_success=0.833
+update=1100 trials=4400 steps=210356 ep3_return50=0.385 bc=0.004*0.649 elapsed=328.1s
+update=1120 trials=4480 steps=214001 ep3_return50=0.339 bc=0.000*0.643 elapsed=333.7s
+EVAL steps=215122 ep3_return=0.4817 ep3_success=0.833
+update=1140 trials=4560 steps=217715 ep3_return50=0.456 bc=0.000*0.637 elapsed=339.6s
+EVAL steps=220113 ep3_return=0.4817 ep3_success=0.833
+update=1160 trials=4640 steps=221434 ep3_return50=0.538 bc=0.000*0.631 elapsed=345.5s
+update=1180 trials=4720 steps=225062 ep3_return50=0.216 bc=0.000*0.625 elapsed=351.2s
+EVAL steps=225062 ep3_return=0.4817 ep3_success=0.833
+update=1200 trials=4800 steps=228779 ep3_return50=0.356 bc=0.001*0.619 elapsed=357.0s
+EVAL steps=230078 ep3_return=0.4817 ep3_success=0.833
+update=1220 trials=4880 steps=232462 ep3_return50=0.521 bc=0.000*0.613 elapsed=363.0s
+EVAL steps=235057 ep3_return=0.4817 ep3_success=0.833
+update=1240 trials=4960 steps=236166 ep3_return50=0.396 bc=0.001*0.606 elapsed=368.9s
+update=1260 trials=5040 steps=239828 ep3_return50=0.234 bc=0.000*0.600 elapsed=374.6s
+EVAL steps=240019 ep3_return=0.4817 ep3_success=0.833
+update=1280 trials=5120 steps=243524 ep3_return50=0.568 bc=0.000*0.594 elapsed=380.7s
+EVAL steps=245047 ep3_return=0.4817 ep3_success=0.833
+update=1300 trials=5200 steps=247316 ep3_return50=0.583 bc=0.000*0.588 elapsed=386.8s
+EVAL steps=250103 ep3_return=0.4817 ep3_success=0.833
+update=1320 trials=5280 steps=251054 ep3_return50=0.539 bc=0.000*0.582 elapsed=392.8s
+update=1340 trials=5360 steps=254752 ep3_return50=0.417 bc=0.000*0.575 elapsed=398.5s
+EVAL steps=255134 ep3_return=0.4817 ep3_success=0.833
+update=1360 trials=5440 steps=258438 ep3_return50=0.447 bc=0.000*0.569 elapsed=404.5s
+EVAL steps=260099 ep3_return=0.4817 ep3_success=0.833
+update=1380 trials=5520 steps=262125 ep3_return50=0.389 bc=0.000*0.563 elapsed=410.7s
+EVAL steps=265128 ep3_return=0.4817 ep3_success=0.833
+update=1400 trials=5600 steps=265886 ep3_return50=0.607 bc=0.000*0.557 elapsed=416.8s
+update=1420 trials=5680 steps=269601 ep3_return50=0.456 bc=0.000*0.551 elapsed=422.5s
+EVAL steps=270170 ep3_return=0.4817 ep3_success=0.833
+update=1440 trials=5760 steps=273240 ep3_return50=0.327 bc=0.000*0.545 elapsed=428.5s
+EVAL steps=275087 ep3_return=0.4817 ep3_success=0.833
+update=1460 trials=5840 steps=276952 ep3_return50=0.504 bc=0.000*0.538 elapsed=434.4s
+EVAL steps=280062 ep3_return=0.4817 ep3_success=0.833
+update=1480 trials=5920 steps=280618 ep3_return50=0.449 bc=0.000*0.532 elapsed=440.3s
+update=1500 trials=6000 steps=284260 ep3_return50=0.547 bc=0.000*0.526 elapsed=446.0s
+EVAL steps=285181 ep3_return=0.4817 ep3_success=0.833
+update=1520 trials=6080 steps=287952 ep3_return50=0.414 bc=0.000*0.520 elapsed=452.1s
+EVAL steps=290128 ep3_return=0.4817 ep3_success=0.833
+update=1540 trials=6160 steps=291601 ep3_return50=0.381 bc=0.000*0.514 elapsed=458.1s
+EVAL steps=295093 ep3_return=0.4817 ep3_success=0.833
+update=1560 trials=6240 steps=295284 ep3_return50=0.521 bc=0.000*0.508 elapsed=464.0s
+update=1580 trials=6320 steps=298924 ep3_return50=0.335 bc=0.000*0.502 elapsed=469.6s
+EVAL steps=300026 ep3_return=0.4817 ep3_success=0.833
+update=1600 trials=6400 steps=302596 ep3_return50=0.410 bc=0.001*0.496 elapsed=475.5s
+EVAL steps=305047 ep3_return=0.4817 ep3_success=0.833
+update=1620 trials=6480 steps=306351 ep3_return50=0.500 bc=0.000*0.489 elapsed=481.5s
+update=1640 trials=6560 steps=310025 ep3_return50=0.447 bc=0.000*0.483 elapsed=487.1s
+EVAL steps=310025 ep3_return=0.4817 ep3_success=0.833
+update=1660 trials=6640 steps=313699 ep3_return50=0.484 bc=0.000*0.477 elapsed=493.0s
+EVAL steps=315056 ep3_return=0.4817 ep3_success=0.833
+update=1680 trials=6720 steps=317449 ep3_return50=0.449 bc=0.000*0.471 elapsed=498.8s
+EVAL steps=320067 ep3_return=0.4817 ep3_success=0.833
+update=1700 trials=6800 steps=321184 ep3_return50=0.422 bc=0.001*0.465 elapsed=504.8s
+update=1720 trials=6880 steps=324882 ep3_return50=0.413 bc=0.000*0.459 elapsed=510.5s
+EVAL steps=325060 ep3_return=0.4817 ep3_success=0.833
+update=1740 trials=6960 steps=328552 ep3_return50=0.489 bc=0.000*0.452 elapsed=516.5s
+EVAL steps=330024 ep3_return=0.4817 ep3_success=0.833
+update=1760 trials=7040 steps=332257 ep3_return50=0.496 bc=0.000*0.446 elapsed=522.4s
+EVAL steps=335024 ep3_return=0.4817 ep3_success=0.833
+update=1780 trials=7120 steps=335941 ep3_return50=0.442 bc=0.000*0.440 elapsed=528.3s
+update=1800 trials=7200 steps=339601 ep3_return50=0.492 bc=0.000*0.434 elapsed=533.9s
+EVAL steps=340140 ep3_return=0.4817 ep3_success=0.833
+update=1820 trials=7280 steps=343289 ep3_return50=0.482 bc=0.000*0.428 elapsed=539.7s
+EVAL steps=345122 ep3_return=0.4817 ep3_success=0.833
+update=1840 trials=7360 steps=346963 ep3_return50=0.450 bc=0.000*0.422 elapsed=545.6s
+EVAL steps=350137 ep3_return=0.4817 ep3_success=0.833
+update=1860 trials=7440 steps=350703 ep3_return50=0.571 bc=0.000*0.415 elapsed=551.6s
+update=1880 trials=7520 steps=354394 ep3_return50=0.489 bc=0.000*0.409 elapsed=557.3s
+EVAL steps=355141 ep3_return=0.4817 ep3_success=0.833
+update=1900 trials=7600 steps=358130 ep3_return50=0.500 bc=0.000*0.403 elapsed=563.3s
+EVAL steps=360128 ep3_return=0.4817 ep3_success=0.833
+update=1920 trials=7680 steps=361785 ep3_return50=0.445 bc=0.000*0.397 elapsed=569.3s
+EVAL steps=365142 ep3_return=0.4817 ep3_success=0.833
+update=1940 trials=7760 steps=365503 ep3_return50=0.457 bc=0.000*0.391 elapsed=575.3s
+update=1960 trials=7840 steps=369244 ep3_return50=0.543 bc=0.000*0.385 elapsed=581.0s
+EVAL steps=370165 ep3_return=0.4817 ep3_success=0.833
+update=1980 trials=7920 steps=372963 ep3_return50=0.464 bc=0.000*0.378 elapsed=587.0s
+EVAL steps=375013 ep3_return=0.4817 ep3_success=0.833
+update=2000 trials=8000 steps=376659 ep3_return50=0.481 bc=0.000*0.372 elapsed=593.2s
+EVAL steps=380181 ep3_return=0.4817 ep3_success=0.833
+update=2020 trials=8080 steps=380381 ep3_return50=0.568 bc=0.000*0.366 elapsed=599.4s
+update=2040 trials=8160 steps=384054 ep3_return50=0.521 bc=0.000*0.360 elapsed=605.1s
+EVAL steps=385167 ep3_return=0.4817 ep3_success=0.833
+update=2060 trials=8240 steps=387774 ep3_return50=0.568 bc=0.000*0.354 elapsed=611.1s
+EVAL steps=390002 ep3_return=0.4817 ep3_success=0.833
+update=2080 trials=8320 steps=391470 ep3_return50=0.452 bc=0.000*0.348 elapsed=617.0s
+EVAL steps=395002 ep3_return=0.4817 ep3_success=0.833
+update=2100 trials=8400 steps=395180 ep3_return50=0.504 bc=0.000*0.341 elapsed=622.9s
+update=2120 trials=8480 steps=398847 ep3_return50=0.353 bc=0.000*0.335 elapsed=628.6s
+EVAL steps=400141 ep3_return=0.4817 ep3_success=0.833
+update=2140 trials=8560 steps=402574 ep3_return50=0.567 bc=0.000*0.329 elapsed=634.6s
+EVAL steps=405174 ep3_return=0.4817 ep3_success=0.833
+update=2160 trials=8640 steps=406273 ep3_return50=0.457 bc=0.000*0.323 elapsed=640.6s
+update=2180 trials=8720 steps=410045 ep3_return50=0.511 bc=0.000*0.317 elapsed=646.3s
+EVAL steps=410045 ep3_return=0.4817 ep3_success=0.833
+update=2200 trials=8800 steps=413732 ep3_return50=0.533 bc=0.000*0.310 elapsed=652.2s
+EVAL steps=415022 ep3_return=0.4817 ep3_success=0.833
+update=2220 trials=8880 steps=417423 ep3_return50=0.521 bc=0.000*0.304 elapsed=658.2s
+EVAL steps=420014 ep3_return=0.4817 ep3_success=0.833
+update=2240 trials=8960 steps=421165 ep3_return50=0.579 bc=0.000*0.298 elapsed=664.4s
+update=2260 trials=9040 steps=424800 ep3_return50=0.363 bc=0.000*0.292 elapsed=670.3s
+EVAL steps=425187 ep3_return=0.4817 ep3_success=0.833
+update=2280 trials=9120 steps=428515 ep3_return50=0.417 bc=0.000*0.286 elapsed=676.2s
+EVAL steps=430044 ep3_return=0.4817 ep3_success=0.833
+update=2300 trials=9200 steps=432212 ep3_return50=0.298 bc=0.000*0.280 elapsed=682.1s
+EVAL steps=435158 ep3_return=0.4817 ep3_success=0.833
+update=2320 trials=9280 steps=435927 ep3_return50=0.575 bc=0.000*0.273 elapsed=687.9s
+update=2340 trials=9360 steps=439675 ep3_return50=0.571 bc=0.000*0.267 elapsed=693.7s
+EVAL steps=440044 ep3_return=0.4817 ep3_success=0.833
+update=2360 trials=9440 steps=443362 ep3_return50=0.418 bc=0.000*0.261 elapsed=699.6s
+EVAL steps=445058 ep3_return=0.4817 ep3_success=0.833
+update=2380 trials=9520 steps=447046 ep3_return50=0.260 bc=0.001*0.255 elapsed=705.6s
+EVAL steps=450000 ep3_return=0.4817 ep3_success=0.833
+update=2400 trials=9600 steps=450730 ep3_return50=0.373 bc=0.000*0.249 elapsed=711.7s
+update=2420 trials=9680 steps=454395 ep3_return50=0.342 bc=0.000*0.243 elapsed=717.6s
+EVAL steps=455138 ep3_return=0.4817 ep3_success=0.833
+update=2440 trials=9760 steps=458123 ep3_return50=0.508 bc=0.000*0.236 elapsed=723.5s
+EVAL steps=460138 ep3_return=0.4817 ep3_success=0.833
+update=2460 trials=9840 steps=461797 ep3_return50=0.414 bc=0.000*0.230 elapsed=729.4s
+EVAL steps=465133 ep3_return=0.4817 ep3_success=0.833
+update=2480 trials=9920 steps=465489 ep3_return50=0.496 bc=0.000*0.224 elapsed=735.3s
+update=2500 trials=10000 steps=469195 ep3_return50=0.341 bc=0.000*0.218 elapsed=740.9s
+EVAL steps=470151 ep3_return=0.4817 ep3_success=0.833
+update=2520 trials=10080 steps=472911 ep3_return50=0.337 bc=0.000*0.212 elapsed=746.9s
+EVAL steps=475079 ep3_return=0.4817 ep3_success=0.833
+update=2540 trials=10160 steps=476556 ep3_return50=0.325 bc=0.000*0.206 elapsed=752.9s
+EVAL steps=480067 ep3_return=0.4817 ep3_success=0.833
+update=2560 trials=10240 steps=480245 ep3_return50=0.409 bc=0.000*0.200 elapsed=758.9s
+update=2580 trials=10320 steps=483945 ep3_return50=0.484 bc=0.000*0.193 elapsed=764.7s
+EVAL steps=485053 ep3_return=0.4817 ep3_success=0.833
+update=2600 trials=10400 steps=487655 ep3_return50=0.496 bc=0.000*0.187 elapsed=770.9s
+EVAL steps=490088 ep3_return=0.4817 ep3_success=0.833
+update=2620 trials=10480 steps=491396 ep3_return50=0.459 bc=0.000*0.181 elapsed=777.2s
+update=2640 trials=10560 steps=495099 ep3_return50=0.636 bc=0.000*0.175 elapsed=783.1s
+EVAL steps=495099 ep3_return=0.4817 ep3_success=0.833
+update=2660 trials=10640 steps=498844 ep3_return50=0.424 bc=0.000*0.169 elapsed=789.0s
+EVAL steps=500147 ep3_return=0.4817 ep3_success=0.833
+update=2680 trials=10720 steps=502571 ep3_return50=0.495 bc=0.000*0.162 elapsed=794.9s
+EVAL steps=505174 ep3_return=0.4817 ep3_success=0.833
+update=2700 trials=10800 steps=506287 ep3_return50=0.500 bc=0.000*0.156 elapsed=800.8s
+update=2720 trials=10880 steps=510070 ep3_return50=0.305 bc=0.046*0.150 elapsed=806.5s
+EVAL steps=510070 ep3_return=0.4183 ep3_success=0.833
+update=2740 trials=10960 steps=513794 ep3_return50=0.127 bc=0.029*0.144 elapsed=812.4s
+EVAL steps=515147 ep3_return=0.4483 ep3_success=0.833
+update=2760 trials=11040 steps=517551 ep3_return50=0.312 bc=0.020*0.137 elapsed=818.3s
+EVAL steps=520154 ep3_return=0.4483 ep3_success=0.833
+update=2780 trials=11120 steps=521249 ep3_return50=0.313 bc=0.001*0.131 elapsed=824.1s
+update=2800 trials=11200 steps=525015 ep3_return50=0.488 bc=0.000*0.125 elapsed=829.8s
+EVAL steps=525015 ep3_return=0.4817 ep3_success=0.833
+update=2820 trials=11280 steps=528739 ep3_return50=0.492 bc=0.001*0.119 elapsed=835.6s
+EVAL steps=530060 ep3_return=0.4817 ep3_success=0.833
+update=2840 trials=11360 steps=532448 ep3_return50=0.485 bc=0.000*0.113 elapsed=841.5s
+EVAL steps=535081 ep3_return=0.4817 ep3_success=0.833
+update=2860 trials=11440 steps=536204 ep3_return50=0.455 bc=0.050*0.106 elapsed=847.4s
+update=2880 trials=11520 steps=539960 ep3_return50=0.523 bc=0.001*0.100 elapsed=853.0s
+EVAL steps=540138 ep3_return=0.4817 ep3_success=0.833
+update=2900 trials=11600 steps=543703 ep3_return50=0.585 bc=0.000*0.094 elapsed=858.9s
+EVAL steps=545154 ep3_return=0.4817 ep3_success=0.833
+update=2920 trials=11680 steps=547362 ep3_return50=0.449 bc=0.000*0.088 elapsed=864.8s
+EVAL steps=550146 ep3_return=0.4817 ep3_success=0.833
+update=2940 trials=11760 steps=551080 ep3_return50=0.610 bc=0.000*0.082 elapsed=870.6s
+update=2960 trials=11840 steps=554838 ep3_return50=0.542 bc=0.000*0.075 elapsed=876.3s
+EVAL steps=555038 ep3_return=0.4817 ep3_success=0.833
+update=2980 trials=11920 steps=558595 ep3_return50=0.388 bc=0.000*0.069 elapsed=882.1s
+EVAL steps=560072 ep3_return=0.4817 ep3_success=0.833
+update=3000 trials=12000 steps=562347 ep3_return50=0.613 bc=0.000*0.063 elapsed=888.0s
+EVAL steps=565148 ep3_return=0.4817 ep3_success=0.833
+update=3020 trials=12080 steps=566069 ep3_return50=0.539 bc=0.000*0.057 elapsed=893.9s
+update=3040 trials=12160 steps=569738 ep3_return50=0.520 bc=0.002*0.050 elapsed=899.5s
+EVAL steps=570130 ep3_return=0.4817 ep3_success=0.833
+update=3060 trials=12240 steps=573467 ep3_return50=0.492 bc=0.000*0.044 elapsed=905.4s
+EVAL steps=575140 ep3_return=0.4817 ep3_success=0.833
+update=3080 trials=12320 steps=577186 ep3_return50=0.457 bc=0.001*0.038 elapsed=911.3s
+EVAL steps=580137 ep3_return=0.4817 ep3_success=0.833
+update=3100 trials=12400 steps=580881 ep3_return50=0.570 bc=0.000*0.032 elapsed=917.2s
+update=3120 trials=12480 steps=584571 ep3_return50=0.524 bc=0.008*0.026 elapsed=922.8s
+EVAL steps=585167 ep3_return=0.4817 ep3_success=0.833
+update=3140 trials=12560 steps=588327 ep3_return50=0.406 bc=0.001*0.019 elapsed=928.7s
+EVAL steps=590180 ep3_return=0.4817 ep3_success=0.833
+update=3160 trials=12640 steps=592028 ep3_return50=0.375 bc=0.000*0.013 elapsed=934.6s
+EVAL steps=595135 ep3_return=0.4817 ep3_success=0.833
+update=3180 trials=12720 steps=595700 ep3_return50=0.377 bc=0.000*0.007 elapsed=940.4s
+update=3200 trials=12800 steps=599385 ep3_return50=0.560 bc=0.000*0.001 elapsed=946.0s
+EVAL steps=600154 ep3_return=0.4817 ep3_success=0.833
+update=3220 trials=12880 steps=603099 ep3_return50=0.517 bc=0.001*0.000 elapsed=951.9s
+EVAL steps=605120 ep3_return=0.4817 ep3_success=0.833
+update=3240 trials=12960 steps=606798 ep3_return50=0.389 bc=0.001*0.000 elapsed=957.8s
+EVAL steps=610128 ep3_return=0.4817 ep3_success=0.833
+update=3260 trials=13040 steps=610506 ep3_return50=0.358 bc=0.005*0.000 elapsed=963.7s
+update=3280 trials=13120 steps=614336 ep3_return50=0.083 bc=0.170*0.000 elapsed=969.4s
+EVAL steps=615090 ep3_return=0.1800 ep3_success=0.667
+update=3300 trials=13200 steps=618165 ep3_return50=0.157 bc=0.147*0.000 elapsed=975.3s
+EVAL steps=620090 ep3_return=0.4183 ep3_success=0.833
+update=3320 trials=13280 steps=621945 ep3_return50=0.408 bc=0.927*0.000 elapsed=981.2s
+EVAL steps=625137 ep3_return=-0.0233 ep3_success=0.667
+update=3340 trials=13360 steps=625749 ep3_return50=0.104 bc=0.867*0.000 elapsed=987.1s
+update=3360 trials=13440 steps=629648 ep3_return50=-0.164 bc=1.259*0.000 elapsed=992.9s
+EVAL steps=630054 ep3_return=-0.0233 ep3_success=0.667
+update=3380 trials=13520 steps=633772 ep3_return50=-0.378 bc=1.058*0.000 elapsed=999.0s
+EVAL steps=635195 ep3_return=-0.0233 ep3_success=0.667
+update=3400 trials=13600 steps=637841 ep3_return50=-0.342 bc=1.857*0.000 elapsed=1005.0s
+EVAL steps=640017 ep3_return=-0.0233 ep3_success=0.667
+update=3420 trials=13680 steps=641736 ep3_return50=-0.193 bc=0.423*0.000 elapsed=1011.0s
+EVAL steps=645131 ep3_return=0.4183 ep3_success=0.833
+update=3440 trials=13760 steps=645501 ep3_return50=0.033 bc=0.235*0.000 elapsed=1017.0s
+update=3460 trials=13840 steps=649229 ep3_return50=0.127 bc=0.262*0.000 elapsed=1022.6s
+EVAL steps=650140 ep3_return=0.4183 ep3_success=0.833
+update=3480 trials=13920 steps=653002 ep3_return50=0.287 bc=0.274*0.000 elapsed=1028.5s
+EVAL steps=655146 ep3_return=0.4417 ep3_success=0.833
+update=3500 trials=14000 steps=656893 ep3_return50=0.183 bc=0.271*0.000 elapsed=1034.5s
+EVAL steps=660136 ep3_return=0.4417 ep3_success=0.833
+update=3520 trials=14080 steps=660708 ep3_return50=0.196 bc=0.266*0.000 elapsed=1040.4s
+update=3540 trials=14160 steps=664728 ep3_return50=0.091 bc=0.313*0.000 elapsed=1046.1s
+EVAL steps=665106 ep3_return=0.0217 ep3_success=0.667
+update=3560 trials=14240 steps=668566 ep3_return50=0.003 bc=0.109*0.000 elapsed=1052.0s
+EVAL steps=670105 ep3_return=0.1467 ep3_success=0.667
+update=3580 trials=14320 steps=672386 ep3_return50=0.357 bc=0.118*0.000 elapsed=1058.0s
+EVAL steps=675086 ep3_return=0.1467 ep3_success=0.667
+update=3600 trials=14400 steps=676188 ep3_return50=0.096 bc=0.091*0.000 elapsed=1063.9s
+update=3620 trials=14480 steps=680060 ep3_return50=0.065 bc=0.273*0.000 elapsed=1069.6s
+EVAL steps=680060 ep3_return=0.4183 ep3_success=0.833
+update=3640 trials=14560 steps=683828 ep3_return50=0.295 bc=0.243*0.000 elapsed=1075.5s
+EVAL steps=685178 ep3_return=0.4183 ep3_success=0.833
+update=3660 trials=14640 steps=687624 ep3_return50=0.414 bc=0.279*0.000 elapsed=1081.4s
+EVAL steps=690080 ep3_return=0.4417 ep3_success=0.833
+update=3680 trials=14720 steps=691431 ep3_return50=0.419 bc=0.283*0.000 elapsed=1087.3s
+update=3700 trials=14800 steps=695176 ep3_return50=0.423 bc=0.347*0.000 elapsed=1093.1s
+EVAL steps=695176 ep3_return=0.4483 ep3_success=0.833
+update=3720 trials=14880 steps=698977 ep3_return50=0.108 bc=0.429*0.000 elapsed=1099.2s
+EVAL steps=700098 ep3_return=0.4483 ep3_success=0.833
+update=3740 trials=14960 steps=702707 ep3_return50=0.304 bc=0.245*0.000 elapsed=1105.4s
+EVAL steps=705075 ep3_return=0.4483 ep3_success=0.833
+update=3760 trials=15040 steps=706364 ep3_return50=0.294 bc=0.167*0.000 elapsed=1111.4s
+update=3780 trials=15120 steps=710149 ep3_return50=0.301 bc=0.643*0.000 elapsed=1117.1s
+EVAL steps=710149 ep3_return=0.3683 ep3_success=0.833
+update=3800 trials=15200 steps=713998 ep3_return50=0.453 bc=0.413*0.000 elapsed=1123.0s
+EVAL steps=715102 ep3_return=0.4083 ep3_success=0.833
+update=3820 trials=15280 steps=717798 ep3_return50=0.296 bc=0.693*0.000 elapsed=1129.0s
+EVAL steps=720054 ep3_return=0.4183 ep3_success=0.833
+update=3840 trials=15360 steps=721552 ep3_return50=0.467 bc=0.627*0.000 elapsed=1134.8s
+EVAL steps=725093 ep3_return=0.4183 ep3_success=0.833
+update=3860 trials=15440 steps=725275 ep3_return50=0.344 bc=0.511*0.000 elapsed=1140.7s
+update=3880 trials=15520 steps=728996 ep3_return50=0.423 bc=0.370*0.000 elapsed=1146.4s
+EVAL steps=730085 ep3_return=0.4117 ep3_success=0.833
+update=3900 trials=15600 steps=732765 ep3_return50=0.477 bc=0.144*0.000 elapsed=1152.4s
+EVAL steps=735019 ep3_return=0.4483 ep3_success=0.833
+update=3920 trials=15680 steps=736507 ep3_return50=0.283 bc=0.321*0.000 elapsed=1158.4s
+EVAL steps=740097 ep3_return=0.4483 ep3_success=0.833
+update=3940 trials=15760 steps=740295 ep3_return50=0.332 bc=0.245*0.000 elapsed=1164.4s
+update=3960 trials=15840 steps=744067 ep3_return50=0.506 bc=0.112*0.000 elapsed=1170.2s
+EVAL steps=745181 ep3_return=0.4483 ep3_success=0.833
+update=3980 trials=15920 steps=747801 ep3_return50=0.387 bc=0.208*0.000 elapsed=1176.2s
+EVAL steps=750000 ep3_return=0.4483 ep3_success=0.833
+update=4000 trials=16000 steps=751549 ep3_return50=0.309 bc=0.337*0.000 elapsed=1182.4s
+EVAL steps=755123 ep3_return=0.4483 ep3_success=0.833
+update=4020 trials=16080 steps=755315 ep3_return50=0.413 bc=0.139*0.000 elapsed=1188.3s
+update=4040 trials=16160 steps=758987 ep3_return50=0.290 bc=0.095*0.000 elapsed=1194.0s
+EVAL steps=760101 ep3_return=0.4483 ep3_success=0.833
+update=4060 trials=16240 steps=762674 ep3_return50=0.278 bc=0.093*0.000 elapsed=1199.9s
+EVAL steps=765122 ep3_return=0.4183 ep3_success=0.833
+update=4080 trials=16320 steps=766453 ep3_return50=0.142 bc=0.162*0.000 elapsed=1205.7s
+EVAL steps=770040 ep3_return=0.4483 ep3_success=0.833
+update=4100 trials=16400 steps=770240 ep3_return50=0.412 bc=0.175*0.000 elapsed=1211.6s
+update=4120 trials=16480 steps=773995 ep3_return50=0.306 bc=0.254*0.000 elapsed=1217.2s
+EVAL steps=775146 ep3_return=0.4483 ep3_success=0.833
+update=4140 trials=16560 steps=777776 ep3_return50=0.497 bc=0.183*0.000 elapsed=1223.2s
+EVAL steps=780079 ep3_return=0.4483 ep3_success=0.833
+update=4160 trials=16640 steps=781631 ep3_return50=0.506 bc=0.229*0.000 elapsed=1229.1s
+EVAL steps=785010 ep3_return=0.4483 ep3_success=0.833
+update=4180 trials=16720 steps=785376 ep3_return50=0.423 bc=0.242*0.000 elapsed=1235.0s
+update=4200 trials=16800 steps=789008 ep3_return50=0.278 bc=0.467*0.000 elapsed=1240.6s
+EVAL steps=790112 ep3_return=0.4183 ep3_success=0.833
+update=4220 trials=16880 steps=792728 ep3_return50=0.401 bc=0.589*0.000 elapsed=1246.5s
+EVAL steps=795136 ep3_return=0.4483 ep3_success=0.833
+update=4240 trials=16960 steps=796474 ep3_return50=0.466 bc=0.442*0.000 elapsed=1252.3s
+EVAL steps=800058 ep3_return=0.4483 ep3_success=0.833

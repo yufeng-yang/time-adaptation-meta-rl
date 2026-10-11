@@ -1,0 +1,30 @@
+{
+  "policy": "Original ASAP Transformer; gamma=.99; original rewards preserved in h",
+  "evaluation_metric": "Post-hoc deadline score = undiscounted return + .01 * steps",
+  "formula": "I_success - .2*I_danger - .05*N_collisions - I_timeout",
+  "gamma_note": "Original curve was already undiscounted; no extra gamma correction added to it",
+  "smoothing": false,
+  "training_seeds": 1,
+  "evaluation_seeds_per_case": 3,
+  "curve_provenance": "Rescored saved evaluations, not reruns of every historical checkpoint",
+  "final_provenance": "Fresh original-reward rollouts match all 54 saved episode records",
+  "source_release": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w",
+  "checkpoint_sha256": "9a37f2215463a0c0cf8fff209ce3ea753be3c69608ca1505bfbee9e9ae49bbf0",
+  "source_curve_sha256": "1dfdd24a580bd845adcdc76e5fcd1b499f3e3dce410b2c950e0ce6b70aab7580",
+  "optimal_six_case_score": 0.6333333333333333,
+  "final": {
+    "total_steps": 800058,
+    "original_return": 0.44833335280418396,
+    "deadline_score": 0.6000000194708507,
+    "success_rate": 0.8333333333333334,
+    "bc_weight": 0.0,
+    "case_scores": {
+      "open_D15": 1.0000000143051149,
+      "open_D17": 1.0000000143051149,
+      "open_D25": 1.0000000143051149,
+      "closed_D15": -1.1999999046325684,
+      "closed_D17": 0.7999999856948853,
+      "closed_D25": 0.9999999928474427
+    }
+  }
+}
