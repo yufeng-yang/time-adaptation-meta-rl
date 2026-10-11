@@ -1,20 +1,45 @@
-# Baseline 3 — Time-conditioned Trial Meta-RL
+# Baseline 3 — 最终离散 Meta-RL
 
-三局 trial 的 meta-RL：策略显式观察当前剩余预算 `D-t`，真实门状态隐藏并在
-trial 内固定。上下文 `h` 只从已经完成 episode 的
-`(s,a,r_env,s',done)` 中推断。
+当前正式结果只保留 [0–64.5 万步](release_0_64p5w/README.md)，统计每个 trial 的
+最后一局 return。旧纯 PPO、legacy 方案、重复绘图与完整中间实验目录已移出。
 
-- 三个 episode 使用完全相同的环境奖励、策略和终止规则；没有 probe reward
-- 一个共享 actor 负责探索局和后续局，不使用人为分开的探索/执行策略头
-- `h` 在 episode 内固定，只在 episode 边界更新
-- 每个 trial 固定 3 个 episode，门开/关各 50%
-- 目标 deadline 阶段每局独立均匀采样 `{15,17,19}`
-- 训练采用 `500 → 100 → 50 → 25 → {15,17,19}` 路径发现 curriculum
-- PPO 优化层级 trial return：每局内部使用 `gamma`，跨局使用 `beta_trial`
-- 默认 `beta_trial=1`，即等权优化 `G1+G2+G3`
-- 后两局回报进入第一局动作的 advantage，提供跨 episode 信用分配
+## 保留的代码
 
-主要训练入口：`train.py`。
+- `train_final.py`：统一续训入口，从保留的约 55 万步模型训练至约 64.5 万步。
+- `train_decay_bc.py`：episode-level PPO + 退火 BC 的核心实现，也提供第一阶段从头训练。
+- `ablation_stepwise_h/train.py`：step-level 的逐转移 h 更新、完整 trial 重放与训练。
+- `continuation_h_comparison/train.py`：两版共享的模型/Adam 恢复、任务采样及续训实现。
+- `continuation_h_comparison/render_*_checkpoint.py`：使用保留的模型渲染真实三局轨迹。
+- `release_0_64p5w/`：曲线、模型、评估、截取日志、复现和结果包测试。
+- `test_trial_protocol.py`、逐步版本及结果包的测试：验证 trial 协议和可复现性。
 
-`train_trial_ppo_legacy.py` 是旧的无时间、probe reward、final-only 对照，不再作为
-推荐训练入口。
+## 机制
+
+每个 trial 三局，门和 deadline 固定。每局重置位置、计时，h 跨局继承；新 trial
+才将 h 清零。episode-level 的 h 局内固定、局末更新；step-level 每步更新，
+包含终止转移。两版均沿完整 trial 反向传播。
+
+策略输入为局部 5×5 观测、方向和显式 D-t。门进入局部视野时可观察开关状态，
+视野外不提供标签。三局环境奖励完全相同，不额外设置第一局 probe reward。
+奖励为步进 −0.01、到达 goal +1、撞墙/门 −0.05、超时 −1，danger 每局首次进入扣 0.2。
+
+每次更新开门/关门各两个 trial，顺序随机；对应 deadline 等概率抽样。
+初始阶段为开/关 × D15/17/19。约 55 万步之后，episode-level 仅将关门 D19
+换成 D25，BC 专家与评估同步替换；step-level 保持原任务。
+BC 权重按累计步数在 60 万步归零，续训不会重启 BC 或课程。
+
+## 常用入口
+
+从仓库根目录执行，使用已准备好的依赖环境：
+
+```bash
+python tidyup_plan2/baseline3_gate_meta_rl/train_final.py --mode episode
+python tidyup_plan2/baseline3_gate_meta_rl/train_final.py --mode step
+python tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/reproduce.py plot
+python tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/reproduce.py verify
+python tidyup_plan2/baseline3_gate_meta_rl/continuation_h_comparison/render_episode_checkpoint.py
+python tidyup_plan2/baseline3_gate_meta_rl/continuation_h_comparison/render_step_checkpoint.py
+```
+
+训练写入 `release_0_64p5w/runs/`，绘图和渲染写入 `generated/`；都不会覆盖保留的数据。
+续训遇到非空输出目录会拒绝覆盖。依赖版本、完整结果及测试命令见结果目录 README。

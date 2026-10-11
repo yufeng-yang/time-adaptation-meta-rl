@@ -1,0 +1,2005 @@
+{
+  "metric": "Only episode 3, undiscounted return, equal weight over six cases and three eval seeds per case",
+  "nominal_range": "0 to 64.5w (645000 steps)",
+  "actual_episode_endpoint": 645145,
+  "initial_points": "Seed-0 reconstructed untrained networks, reused from prior verified evaluations",
+  "smoothing": false,
+  "extrapolation": false,
+  "evaluation_seeds": [
+    10000,
+    10001,
+    10002
+  ],
+  "caveat": "After 551179 steps episode-level uses closed D25; step-level keeps closed D19. Not a matched-task ablation.",
+  "training_seeds_per_method": 1,
+  "curves": {
+    "episode": [
+      {
+        "steps": 0,
+        "return_ep3": -1.1699999968210857,
+        "phase": "reconstructed_initial",
+        "source": "evaluations/episode_0.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 61933,
+        "return_ep3": -1.7449999451637268,
+        "phase": "original_training",
+        "source": "evaluations/episode_61933.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 113026,
+        "return_ep3": -1.7449999451637268,
+        "phase": "original_training",
+        "source": "evaluations/episode_113026.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 157276,
+        "return_ep3": -0.47999995946884155,
+        "phase": "original_training",
+        "source": "evaluations/episode_157276.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 200098,
+        "return_ep3": -0.47999995946884155,
+        "phase": "original_training",
+        "source": "evaluations/episode_200098.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 249923,
+        "return_ep3": -0.15499999125798544,
+        "phase": "original_training",
+        "source": "evaluations/episode_249923.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 298921,
+        "return_ep3": 0.18000001708666483,
+        "phase": "original_training",
+        "source": "evaluations/episode_298921.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 351173,
+        "return_ep3": 0.4816666742165883,
+        "phase": "original_training",
+        "source": "evaluations/episode_351173.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 400102,
+        "return_ep3": 0.4816666742165883,
+        "phase": "original_training",
+        "source": "evaluations/episode_400102.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 451672,
+        "return_ep3": 0.4816666742165883,
+        "phase": "original_training",
+        "source": "evaluations/episode_451672.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 499478,
+        "return_ep3": 0.4816666742165883,
+        "phase": "original_training",
+        "source": "evaluations/episode_499478.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 551179,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_551179.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 555091,
+        "return_ep3": 0.18000001708666483,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_555091.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 560021,
+        "return_ep3": 0.05500003695487976,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_560021.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 565100,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_565100.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 570164,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_570164.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 575004,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_575004.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 580013,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_580013.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 585085,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_585085.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 590115,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_590115.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 595018,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_595018.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 600010,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_600010.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 605050,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_605050.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 610057,
+        "return_ep3": 0.0966666837533315,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_610057.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 615143,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_615143.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 620156,
+        "return_ep3": -0.16499998172124228,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_620156.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 625011,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_625011.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 630085,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_630085.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 635179,
+        "return_ep3": 0.18000001708666483,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_635179.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 640035,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_640035.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 645145,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed25_continuation",
+        "source": "evaluations/episode_645145.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      }
+    ],
+    "step": [
+      {
+        "steps": 0,
+        "return_ep3": -1.1699999968210857,
+        "phase": "reconstructed_initial",
+        "source": "evaluations/step_0.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 51780,
+        "return_ep3": -1.7449999451637268,
+        "phase": "original_training",
+        "source": "evaluations/step_51780.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 101702,
+        "return_ep3": -1.7449999451637268,
+        "phase": "original_training",
+        "source": "evaluations/step_101702.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 150125,
+        "return_ep3": -1.4949999650319417,
+        "phase": "original_training",
+        "source": "evaluations/step_150125.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 200333,
+        "return_ep3": -0.47999995946884155,
+        "phase": "original_training",
+        "source": "evaluations/step_200333.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 250011,
+        "return_ep3": -0.3883333206176758,
+        "phase": "original_training",
+        "source": "evaluations/step_250011.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 300006,
+        "return_ep3": -0.4999999801317851,
+        "phase": "original_training",
+        "source": "evaluations/step_300006.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 350021,
+        "return_ep3": 0.18000001708666483,
+        "phase": "original_training",
+        "source": "evaluations/step_350021.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 400079,
+        "return_ep3": 0.44833335280418396,
+        "phase": "original_training",
+        "source": "evaluations/step_400079.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 450157,
+        "return_ep3": 0.4816666742165883,
+        "phase": "original_training",
+        "source": "evaluations/step_450157.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 500180,
+        "return_ep3": 0.4816666742165883,
+        "phase": "original_training",
+        "source": "evaluations/step_500180.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 550096,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed19_continuation",
+        "source": "evaluations/step_550096.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 554127,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_554127.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 561506,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_561506.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 565149,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_565149.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 568834,
+        "return_ep3": 0.4816666742165883,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_568834.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 575131,
+        "return_ep3": -0.023333311080932617,
+        "phase": "closed19_continuation",
+        "source": "evaluations/step_575131.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 580270,
+        "return_ep3": -0.15499999125798544,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_580270.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 584042,
+        "return_ep3": 0.4516666730244954,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_584042.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 591468,
+        "return_ep3": 0.04333333174387614,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_591468.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 595169,
+        "return_ep3": 0.4516666730244954,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_595169.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 600067,
+        "return_ep3": 0.41833335161209106,
+        "phase": "closed19_continuation",
+        "source": "evaluations/step_600067.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 606170,
+        "return_ep3": 0.15000001589457193,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_606170.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 609880,
+        "return_ep3": 0.03499998648961385,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_609880.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 613644,
+        "return_ep3": 0.37833333015441895,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_613644.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 621189,
+        "return_ep3": 0.37833333015441895,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_621189.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 625094,
+        "return_ep3": 0.4516666730244954,
+        "phase": "closed19_continuation",
+        "source": "evaluations/step_625094.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 628557,
+        "return_ep3": 0.42166667183240253,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_628557.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 635915,
+        "return_ep3": 0.41833335161209106,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_635915.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 639661,
+        "return_ep3": 0.41833335161209106,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_639661.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 643351,
+        "return_ep3": -0.41333329677581787,
+        "phase": "closed19_checkpoint_recheck",
+        "source": "evaluations/step_643351.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      }
+    ]
+  }
+}

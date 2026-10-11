@@ -16,3 +16,15 @@
 .ruff_cache/
 .DS_Store
 
+# Local intermediate experiments; publish the curated 0--64.5w release instead.
+/tidyup_plan2/baseline3_gate_meta_rl/artifacts_*/
+/tidyup_plan2/baseline3_gate_meta_rl/ablation_stepwise_h/artifacts/
+/tidyup_plan2/baseline3_gate_meta_rl/comparison_h_granularity/
+/tidyup_plan2/baseline3_gate_meta_rl/continuation_h_comparison/*
+!/tidyup_plan2/baseline3_gate_meta_rl/continuation_h_comparison/train.py
+!/tidyup_plan2/baseline3_gate_meta_rl/continuation_h_comparison/render_episode_checkpoint.py
+!/tidyup_plan2/baseline3_gate_meta_rl/continuation_h_comparison/render_step_checkpoint.py
+!/tidyup_plan2/baseline3_gate_meta_rl/continuation_h_comparison/README.md
+/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/runs/
+/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/generated/
+/.local_experiment_archive/
