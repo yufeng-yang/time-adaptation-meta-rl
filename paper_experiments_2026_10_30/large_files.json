@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "path": "deadline_go2_gates/runs/half_bc_steps100k_seed0/expert_trajectories.pt",
+    "size": 193192565,
+    "sha256": "9066f46d64c2eb9f73f19457c8416cb6887c857fcc784fe3ddd2ec75ef130354",
+    "parts": [
+      "deadline_go2_gates/runs/half_bc_steps100k_seed0/expert_trajectories.pt.part000",
+      "deadline_go2_gates/runs/half_bc_steps100k_seed0/expert_trajectories.pt.part001",
+      "deadline_go2_gates/runs/half_bc_steps100k_seed0/expert_trajectories.pt.part002",
+      "deadline_go2_gates/runs/half_bc_steps100k_seed0/expert_trajectories.pt.part003",
+      "deadline_go2_gates/runs/half_bc_steps100k_seed0/expert_trajectories.pt.part004"
+    ]
+  }
+]

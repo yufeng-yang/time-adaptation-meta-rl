@@ -1,0 +1,626 @@
+[
+  {
+    "deadline": 18.0,
+    "doors": [
+      true,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": false,
+        "reward": 0.0,
+        "delivered_value": 0.0,
+        "seconds": 18.0,
+        "pickup_time": 6.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.3162476122379303,
+          2.005011796951294
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.3385506868362427,
+          -0.21458923816680908
+        ]
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.22381706535816193,
+          -0.2568715214729309
+        ]
+      }
+    ],
+    "steps": 82
+  },
+  {
+    "deadline": 18.0,
+    "doors": [
+      true,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": false,
+        "reward": 0.0,
+        "delivered_value": 0.0,
+        "seconds": 18.0,
+        "pickup_time": 6.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.342714786529541,
+          1.9994773864746094
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.3460146188735962,
+          -0.22896607220172882
+        ]
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.22701455652713776,
+          -0.25896453857421875
+        ]
+      }
+    ],
+    "steps": 82
+  },
+  {
+    "deadline": 18.0,
+    "doors": [
+      false,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": false,
+        "reward": 0.0,
+        "delivered_value": 0.0,
+        "seconds": 18.0,
+        "pickup_time": 6.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.25616151094436646,
+          1.9803168773651123
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.3557993173599243,
+          -0.22197747230529785
+        ]
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.21529342234134674,
+          -0.2660682499408722
+        ]
+      }
+    ],
+    "steps": 82
+  },
+  {
+    "deadline": 18.0,
+    "doors": [
+      false,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": false,
+        "reward": 0.0,
+        "delivered_value": 0.0,
+        "seconds": 18.0,
+        "pickup_time": 6.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.33490628004074097,
+          2.0005581378936768
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.36678043007850647,
+          -0.23460893332958221
+        ]
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 12.5,
+        "pickup_time": 6.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.21275560557842255,
+          -0.23859886825084686
+        ]
+      }
+    ],
+    "steps": 84
+  },
+  {
+    "deadline": 48.0,
+    "doors": [
+      true,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.0,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.2145688384771347,
+          -0.37303426861763
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.24505260586738586,
+          -0.23455137014389038
+        ]
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 12.5,
+        "pickup_time": 6.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.1638871431350708,
+          -0.24097242951393127
+        ]
+      }
+    ],
+    "steps": 70
+  },
+  {
+    "deadline": 48.0,
+    "doors": [
+      true,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.0,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.19746816158294678,
+          -0.3845040798187256
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.2373141348361969,
+          -0.23118048906326294
+        ]
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 12.5,
+        "pickup_time": 6.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.1902606189250946,
+          -0.22498610615730286
+        ]
+      }
+    ],
+    "steps": 70
+  },
+  {
+    "deadline": 48.0,
+    "doors": [
+      false,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.0,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.20930996537208557,
+          -0.3680821657180786
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.2885730266571045,
+          -0.22202059626579285
+        ]
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 12.5,
+        "pickup_time": 6.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.1888635754585266,
+          -0.236098974943161
+        ]
+      }
+    ],
+    "steps": 70
+  },
+  {
+    "deadline": 48.0,
+    "doors": [
+      false,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.0,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.21349187195301056,
+          -0.36296650767326355
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.25803321599960327,
+          -0.21875528991222382
+        ]
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 12.5,
+        "pickup_time": 6.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.18153297901153564,
+          -0.23609626293182373
+        ]
+      }
+    ],
+    "steps": 70
+  },
+  {
+    "deadline": 100.0,
+    "doors": [
+      true,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": false,
+        "reward": 0.0,
+        "delivered_value": 0.0,
+        "seconds": 100.0,
+        "pickup_time": 36.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 37,
+        "final_position": [
+          2.7888848781585693,
+          -5.997238636016846
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": false,
+        "reward": 0.0,
+        "delivered_value": 0.0,
+        "seconds": 100.0,
+        "pickup_time": null,
+        "motion_failed": false,
+        "wall_contact_decisions": 113,
+        "final_position": [
+          6.730332851409912,
+          -6.121996879577637
+        ]
+      },
+      {
+        "episode": 3,
+        "delivered": false,
+        "reward": 0.0,
+        "delivered_value": 0.0,
+        "seconds": 100.0,
+        "pickup_time": null,
+        "motion_failed": false,
+        "wall_contact_decisions": 132,
+        "final_position": [
+          -0.9221466779708862,
+          -5.926815986633301
+        ]
+      }
+    ],
+    "steps": 600
+  },
+  {
+    "deadline": 100.0,
+    "doors": [
+      true,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": false,
+        "reward": 0.0,
+        "delivered_value": 0.0,
+        "seconds": 100.0,
+        "pickup_time": null,
+        "motion_failed": false,
+        "wall_contact_decisions": 138,
+        "final_position": [
+          -0.9222720265388489,
+          -5.932883262634277
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 14.0,
+        "pickup_time": 8.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.17688395082950592,
+          -0.22346705198287964
+        ]
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 12.0,
+        "pickup_time": 6.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.26204970479011536,
+          -0.3620399236679077
+        ]
+      }
+    ],
+    "steps": 252
+  },
+  {
+    "deadline": 100.0,
+    "doors": [
+      false,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": false,
+        "reward": 0.0,
+        "delivered_value": 0.0,
+        "seconds": 100.0,
+        "pickup_time": null,
+        "motion_failed": false,
+        "wall_contact_decisions": 137,
+        "final_position": [
+          -0.9220618009567261,
+          -5.932485580444336
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 14.0,
+        "pickup_time": 8.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.1668856292963028,
+          -0.22692200541496277
+        ]
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 13.0,
+        "pickup_time": 7.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.20919296145439148,
+          -0.3359360098838806
+        ]
+      }
+    ],
+    "steps": 254
+  },
+  {
+    "deadline": 100.0,
+    "doors": [
+      false,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": false,
+        "reward": 0.0,
+        "delivered_value": 0.0,
+        "seconds": 100.0,
+        "pickup_time": null,
+        "motion_failed": false,
+        "wall_contact_decisions": 138,
+        "final_position": [
+          -0.9198212027549744,
+          -5.932465076446533
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 13.0,
+        "pickup_time": 7.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.23306435346603394,
+          -0.3455183207988739
+        ]
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 12.5,
+        "pickup_time": 6.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.3227252662181854,
+          -0.17603008449077606
+        ]
+      }
+    ],
+    "steps": 251
+  }
+]

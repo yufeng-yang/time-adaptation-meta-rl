@@ -1,0 +1,111 @@
+{
+  "config": {
+    "dt": 0.5,
+    "episodes": 3,
+    "deadlines": [
+      18.0,
+      48.0,
+      100.0
+    ],
+    "base": [
+      0.0,
+      0.0
+    ],
+    "goal": [
+      6.0,
+      0.0
+    ],
+    "fallback_goal": [
+      -0.35,
+      -2.6
+    ],
+    "fallback_value": 1.0,
+    "goal_value": 4.0,
+    "command_limits": [
+      0.6,
+      0.4,
+      0.0
+    ],
+    "pickup_radius": 0.45,
+    "delivery_radius": 0.45,
+    "gate_open_probability": 0.5,
+    "sensor_range": 2.0,
+    "map_extent": 4.0,
+    "coordinate_scale": 8.0,
+    "grid_size": 64,
+    "voxel_size": 0.125,
+    "voxel_height": 1.5,
+    "ground_cutoff": 0.08
+  },
+  "patterns": [
+    "11",
+    "10",
+    "01",
+    "00"
+  ],
+  "initial_state_vectors_identical": true,
+  "initial_grids_identical": true,
+  "initial_raw_scans_identical": true,
+  "initial_gate_open_measurements": [
+    [
+      null,
+      null
+    ],
+    [
+      null,
+      null
+    ],
+    [
+      null,
+      null
+    ],
+    [
+      null,
+      null
+    ]
+  ],
+  "local_probe_open_measurements": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "task_persists_over_three_episodes": true,
+  "closed_gate_physical_contact": [
+    false,
+    false,
+    true,
+    true
+  ],
+  "push_test_final_pose": [
+    [
+      4.657893180847168,
+      -0.10306515544652939,
+      -0.10699965804815292
+    ],
+    [
+      4.657893180847168,
+      -0.10306515544652939,
+      -0.10699965804815292
+    ],
+    [
+      3.538224935531616,
+      -0.07083511352539062,
+      0.14604823291301727
+    ],
+    [
+      3.538224935531616,
+      -0.07083511352539062,
+      0.14604823291301727
+    ]
+  ],
+  "note": "Intentional push test is a collision diagnostic; it is not a successful-navigation rollout"
+}

@@ -1,0 +1,101 @@
+{
+  "output": "deadline_go2_gates/runs/half_bc_steps100k_seed0",
+  "device": "cuda",
+  "seed": 0,
+  "bc_updates": 200,
+  "total_steps": 100000,
+  "bc_decay_steps": 80000,
+  "bc_initial_weight": 1.0,
+  "batch_trials": 12,
+  "eval_every": 5,
+  "expert_repeats": 2,
+  "calibration_only": false,
+  "primary_metric": "episode3",
+  "task": {
+    "dt": 0.5,
+    "episodes": 3,
+    "deadlines": [
+      18.0,
+      48.0,
+      100.0
+    ],
+    "base": [
+      0.0,
+      0.0
+    ],
+    "goal": [
+      6.0,
+      0.0
+    ],
+    "fallback_goal": [
+      -0.35,
+      -2.6
+    ],
+    "fallback_value": 1.0,
+    "goal_value": 4.0,
+    "command_limits": [
+      0.6,
+      0.4,
+      0.0
+    ],
+    "pickup_radius": 0.45,
+    "delivery_radius": 0.45,
+    "gate_open_probability": 0.5,
+    "sensor_range": 2.0,
+    "map_extent": 4.0,
+    "coordinate_scale": 8.0,
+    "grid_size": 64,
+    "voxel_size": 0.125,
+    "voxel_height": 1.5,
+    "ground_cutoff": 0.08
+  },
+  "state_fields": [
+    "base_body_x_over8",
+    "base_body_y_over8",
+    "fallback_body_x_over8",
+    "fallback_body_y_over8",
+    "goal_body_x_over8",
+    "goal_body_y_over8",
+    "sin_heading",
+    "cos_heading",
+    "body_vx_over06",
+    "body_vy_over04",
+    "remaining_fraction",
+    "deadline_over120",
+    "carrying",
+    "carried_value_over4",
+    "previous_normalized_vx",
+    "previous_normalized_vy",
+    "previous_reward",
+    "episode_index_over2",
+    "terminal"
+  ],
+  "state_dim": 19,
+  "grid_shape": [
+    3,
+    64,
+    64
+  ],
+  "observation": "known base/goal relative coordinates + ideal odometry + local raycast voxel projection; no global map or gate labels",
+  "reward": "delivered fixed value / 4: near=0.25, far=1; timeout/fall=0; one delivery per episode",
+  "cargo": "Known fixed values 1 and 4; identical unloaded dynamics; logical loading; higher-value contact upgrades cargo, never downgrades it",
+  "trial": "two independent Bernoulli gates sampled once; unchanged over 3 episodes; deadline fixed within trial",
+  "backend": "Genesis 0.4.6 + frozen Full_8000 unloaded locomotion + first-hit lidar",
+  "reset": "step ends an episode; next_episode keeps hidden gates; reset starts a new trial",
+  "locomotion_sha256": "ca985effc63f5e61fd9d3278d6ec04ae748e64eac9a12d2510ef61d44331fc47",
+  "step_unit": "high-level decisions at 2 Hz; frozen locomotion at 50 Hz",
+  "bc_schedule": {
+    "warmstart_updates": 200,
+    "initial_auxiliary_coefficient": 1.0,
+    "linear_decay_high_level_steps": 80000,
+    "formula": "beta(s) = initial * max(0, 1 - s/decay_steps)",
+    "sampling": "s is the active transition count at rollout start; one beta per PPO update",
+    "step_count": "summed active high-level transitions across all parallel trials; excludes demonstrations, BC replay, evaluation, and inactive physics",
+    "loss": "PPO loss + beta * BC action MSE; PPO coefficient remains 1",
+    "optimizer_weight_decay": 0.0,
+    "meaning": "BC loss coefficient decays during PPO; optimizer parameters are not decayed"
+  },
+  "torch": "2.11.0+cu128",
+  "architecture": "CNN + causal Transformer + episode-boundary GRU",
+  "test_protocol": "all four seen gate patterns at all three deadlines; validation initial seeds 300000+, final evaluation seeds 400000+; feasibility only"
+}

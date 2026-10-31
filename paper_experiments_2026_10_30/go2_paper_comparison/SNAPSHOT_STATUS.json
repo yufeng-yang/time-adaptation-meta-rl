@@ -1,0 +1,43 @@
+{
+  "snapshot_at_utc": "2026-10-31T05:16:30.872387+00:00",
+  "training_complete": false,
+  "queue": {
+    "timestamp": 1793422768.9903727,
+    "phase": "training",
+    "current": "state",
+    "completed": []
+  },
+  "runs": {
+    "state_seed0_100k": {
+      "phase": "ppo",
+      "update": 6,
+      "steps": 19186,
+      "available_checkpoints": [
+        "bc.pt",
+        "latest.pt",
+        "best.pt"
+      ],
+      "checkpoint_metadata": {
+        "bc.pt": {
+          "phase": "bc",
+          "update": 200,
+          "steps": 0,
+          "mode": "state"
+        },
+        "latest.pt": {
+          "phase": "ppo",
+          "update": 5,
+          "steps": 15980,
+          "mode": "state"
+        },
+        "best.pt": {
+          "phase": "ppo",
+          "update": 5,
+          "steps": 15980,
+          "mode": "state"
+        }
+      }
+    }
+  },
+  "note": "Partial training snapshot. The three new Go2 baselines and paired evaluation are not yet complete. Missing methods/results must not be interpreted as zero performance. Frozen original full-model run is retained separately."
+}

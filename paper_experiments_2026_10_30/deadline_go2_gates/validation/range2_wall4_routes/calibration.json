@@ -1,0 +1,186 @@
+{
+  "config": {
+    "dt": 0.5,
+    "episodes": 3,
+    "deadlines": [
+      18.0,
+      48.0,
+      100.0
+    ],
+    "base": [
+      0.0,
+      0.0
+    ],
+    "goal": [
+      6.0,
+      0.0
+    ],
+    "fallback_goal": [
+      -0.35,
+      -2.6
+    ],
+    "fallback_value": 1.0,
+    "goal_value": 4.0,
+    "command_limits": [
+      0.6,
+      0.4,
+      0.0
+    ],
+    "pickup_radius": 0.45,
+    "delivery_radius": 0.45,
+    "gate_open_probability": 0.5,
+    "sensor_range": 2.0,
+    "map_extent": 4.0,
+    "coordinate_scale": 8.0,
+    "grid_size": 64,
+    "voxel_size": 0.125,
+    "voxel_height": 1.5,
+    "ground_cutoff": 0.08
+  },
+  "records": [
+    {
+      "route": "fallback",
+      "doors": "00",
+      "seed": 0,
+      "pickup_seconds": 6.0,
+      "return_seconds": 11.5,
+      "motion_failed": false,
+      "wall_contact_decisions": 0,
+      "minimum_circle_clearance_m": 0.348068881034851,
+      "final_pose": [
+        -0.024443691596388817,
+        -0.2665834128856659,
+        -0.2156277894973755
+      ]
+    },
+    {
+      "route": "middle",
+      "doors": "10",
+      "seed": 0,
+      "pickup_seconds": 12.0,
+      "return_seconds": 24.0,
+      "motion_failed": false,
+      "wall_contact_decisions": 0,
+      "minimum_circle_clearance_m": 0.37396945953369143,
+      "final_pose": [
+        0.16123975813388824,
+        0.014972253702580929,
+        -0.1824485808610916
+      ]
+    },
+    {
+      "route": "upper",
+      "doors": "01",
+      "seed": 0,
+      "pickup_seconds": 21.5,
+      "return_seconds": 44.0,
+      "motion_failed": false,
+      "wall_contact_decisions": 0,
+      "minimum_circle_clearance_m": 0.3139912983061939,
+      "final_pose": [
+        0.2559094727039337,
+        0.23891669511795044,
+        -1.0282028913497925
+      ]
+    },
+    {
+      "route": "lower",
+      "doors": "00",
+      "seed": 0,
+      "pickup_seconds": 30.0,
+      "return_seconds": 58.0,
+      "motion_failed": false,
+      "wall_contact_decisions": 0,
+      "minimum_circle_clearance_m": 0.36169987440149054,
+      "final_pose": [
+        0.16066808998584747,
+        -0.26524943113327026,
+        -1.0607072114944458
+      ]
+    },
+    {
+      "route": "fallback",
+      "doors": "00",
+      "seed": 1,
+      "pickup_seconds": 6.0,
+      "return_seconds": 11.5,
+      "motion_failed": false,
+      "wall_contact_decisions": 0,
+      "minimum_circle_clearance_m": 0.35019316077232354,
+      "final_pose": [
+        -0.02852279134094715,
+        -0.28749385476112366,
+        -0.23502974212169647
+      ]
+    },
+    {
+      "route": "middle",
+      "doors": "10",
+      "seed": 1,
+      "pickup_seconds": 12.0,
+      "return_seconds": 24.0,
+      "motion_failed": false,
+      "wall_contact_decisions": 0,
+      "minimum_circle_clearance_m": 0.3740784298628569,
+      "final_pose": [
+        0.17080946266651154,
+        0.015244558453559875,
+        -0.20577138662338257
+      ]
+    },
+    {
+      "route": "upper",
+      "doors": "01",
+      "seed": 1,
+      "pickup_seconds": 21.5,
+      "return_seconds": 44.0,
+      "motion_failed": false,
+      "wall_contact_decisions": 0,
+      "minimum_circle_clearance_m": 0.341628083662353,
+      "final_pose": [
+        0.26649582386016846,
+        0.25737616419792175,
+        -1.001075267791748
+      ]
+    },
+    {
+      "route": "lower",
+      "doors": "00",
+      "seed": 1,
+      "pickup_seconds": 30.0,
+      "return_seconds": 57.5,
+      "motion_failed": false,
+      "wall_contact_decisions": 0,
+      "minimum_circle_clearance_m": 0.32118834317049794,
+      "final_pose": [
+        0.16058386862277985,
+        -0.2751157581806183,
+        -1.0096337795257568
+      ]
+    }
+  ],
+  "all_clean": true,
+  "wall_seconds": 20.587926884996705,
+  "provenance": "Actual Genesis rigid dynamics and frozen Full_8000; no position snapping; no policy training",
+  "waypoint_tolerance_m": 0.2,
+  "final_tolerance_m": 0.4,
+  "caveat": "Measured scripted-route feasibility, not globally shortest paths or real-world timing bounds",
+  "source_sha256": {
+    "calibrate.py": "6927f401caa2e1bad8101ab04e13c8542f3088c3bfe439256efa9daec654f696",
+    "test0.py": "2e5c4b3113d16bec5c13636125a9e00beae1f14d45020bc311f25ad9184d2613",
+    "demo.py": "65e0bf41bde349c3ddef87338aa626802f022d7dfa849c2fdf61d2b19c98775c",
+    "layout.py": "d2f55046694e3c60776e17d49e4b921a44c89e2aad4b627544a5632c5c2f969b",
+    "test_environment.py": "ad983f61301c9c5e321c03890fdc3f9968c7c6d604635324eba38f0bb0d0d73c",
+    "validate_sensors.py": "6415290bc051f1de8f00b0ce0db955fe7b1717fc64e8163b733989943c1a2d0f",
+    "environment.py": "1792f878601544c311db1be75969f23bc3f7135f3eef9bd1d06b769e44cc172a",
+    "validate_deadlines.py": "2b40a652174faac1f37c190fb36a81219d1367c237cb2630820c0d9d5e82db0a",
+    "teacher.py": "a34ead04682b9ef9eee3d49f321f34ce105d218f49464f057f6ebb97bdd954a3",
+    "simulation.py": "3f450f8ab52cbb7345f636b2ce051c127387ff663411b51868e6da3750ad4e74"
+  },
+  "route_max_seconds": {
+    "fallback": 11.5,
+    "middle": 24.0,
+    "upper": 44.0,
+    "lower": 58.0
+  }
+}

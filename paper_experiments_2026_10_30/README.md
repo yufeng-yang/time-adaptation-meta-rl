@@ -6,7 +6,7 @@ Run commands from this folder so its sibling runtime packages resolve correctly.
 - `discrete_paper_comparison`: discrete navigation; use the retained 800k full model.
 - `continuous_paper_comparison`: continuous navigation; full model in `final_experiment_2`.
 - `pick_place_paper_comparison`: nine-option ideal Cartesian pick-place; full model in `final_experiment_3`.
-- Go2 gate delivery is still training and is not part of this initial upload. It will be added after training and paired evaluation finish.
+- `go2_paper_comparison`: **partial snapshot while training is ongoing**; see `SNAPSHOT_STATUS.json`. The archived full model is included; new baseline training and paired testing are incomplete.
 
 Each experiment retains its actual code/configuration, checkpoints, training logs,
 paired test tasks and individual results. Read each experiment's README and

@@ -1,0 +1,1914 @@
+[
+  {
+    "deadline": 18.0,
+    "doors": [
+      true,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.02335411310195923,
+          -0.2673768699169159
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.02335411310195923,
+          -0.2673768699169159
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.02335411310195923,
+          -0.2673768699169159
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 69
+  },
+  {
+    "deadline": 18.0,
+    "doors": [
+      true,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.02415376529097557,
+          -0.263698935508728
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.02415376529097557,
+          -0.263698935508728
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.02415376529097557,
+          -0.263698935508728
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 69
+  },
+  {
+    "deadline": 18.0,
+    "doors": [
+      false,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.02470015361905098,
+          -0.29192259907722473
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.02470015361905098,
+          -0.29192259907722473
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.02470015361905098,
+          -0.29192259907722473
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 69
+  },
+  {
+    "deadline": 18.0,
+    "doors": [
+      false,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.025313850492239,
+          -0.28844308853149414
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.025313850492239,
+          -0.28844308853149414
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.025313850492239,
+          -0.28844308853149414
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 69
+  },
+  {
+    "deadline": 48.0,
+    "doors": [
+      true,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.39548298716545105,
+          0.01643378846347332
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": true,
+            "time": 6.5,
+            "position": [
+              3.03338885307312,
+              -0.013355391100049019
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.39548298716545105,
+          0.01643378846347332
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.39548298716545105,
+          0.01643378846347332
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 141
+  },
+  {
+    "deadline": 48.0,
+    "doors": [
+      true,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.39426517486572266,
+          0.01925412006676197
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": true,
+            "time": 6.5,
+            "position": [
+              3.0383846759796143,
+              -0.012932457961142063
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.39426517486572266,
+          0.01925412006676197
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.39426517486572266,
+          0.01925412006676197
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 141
+  },
+  {
+    "deadline": 48.0,
+    "doors": [
+      false,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 39.0,
+        "pickup_time": 34.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.003915220499038696,
+          -0.40673044323921204
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          false,
+          true
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": false,
+            "time": 6.5,
+            "position": [
+              3.0473833084106445,
+              -0.012358206324279308
+            ]
+          },
+          {
+            "gate": 1,
+            "opened": true,
+            "time": 15.5,
+            "position": [
+              3.1413111686706543,
+              3.4908127784729004
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 44.5,
+        "pickup_time": 22.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.2278238832950592,
+          0.20475883781909943
+        ],
+        "route": "upper",
+        "known_gates_after": [
+          false,
+          true
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 44.5,
+        "pickup_time": 22.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.2278238832950592,
+          0.20475883781909943
+        ],
+        "route": "upper",
+        "known_gates_after": [
+          false,
+          true
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 256
+  },
+  {
+    "deadline": 48.0,
+    "doors": [
+      false,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 39.0,
+        "pickup_time": 34.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.0010505690006539226,
+          -0.41364675760269165
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          false,
+          false
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": false,
+            "time": 6.5,
+            "position": [
+              3.037980556488037,
+              -0.013226283714175224
+            ]
+          },
+          {
+            "gate": 1,
+            "opened": false,
+            "time": 15.5,
+            "position": [
+              3.1409387588500977,
+              3.4832866191864014
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.026464279741048813,
+          -0.2800571322441101
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          false,
+          false
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.026464279741048813,
+          -0.2800571322441101
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          false,
+          false
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 124
+  },
+  {
+    "deadline": 100.0,
+    "doors": [
+      true,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.39323532581329346,
+          0.016926901414990425
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": true,
+            "time": 6.5,
+            "position": [
+              3.0432627201080322,
+              -0.013904665596783161
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.39323532581329346,
+          0.016926901414990425
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.39323532581329346,
+          0.016926901414990425
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 141
+  },
+  {
+    "deadline": 100.0,
+    "doors": [
+      true,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.40424659848213196,
+          0.023015780374407768
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": true,
+            "time": 6.5,
+            "position": [
+              3.0374667644500732,
+              -0.012410026043653488
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.40424659848213196,
+          0.023015780374407768
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.40424659848213196,
+          0.023015780374407768
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 141
+  },
+  {
+    "deadline": 100.0,
+    "doors": [
+      false,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 49.0,
+        "pickup_time": 26.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.2274753451347351,
+          0.19781561195850372
+        ],
+        "route": "upper",
+        "known_gates_after": [
+          false,
+          true
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": false,
+            "time": 6.5,
+            "position": [
+              3.0391862392425537,
+              -0.013395567424595356
+            ]
+          },
+          {
+            "gate": 1,
+            "opened": true,
+            "time": 15.5,
+            "position": [
+              3.139651298522949,
+              3.4895877838134766
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 44.5,
+        "pickup_time": 22.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.22469407320022583,
+          0.19679106771945953
+        ],
+        "route": "upper",
+        "known_gates_after": [
+          false,
+          true
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 44.5,
+        "pickup_time": 22.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.22469407320022583,
+          0.19679106771945953
+        ],
+        "route": "upper",
+        "known_gates_after": [
+          false,
+          true
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 276
+  },
+  {
+    "deadline": 100.0,
+    "doors": [
+      false,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 79.0,
+        "pickup_time": 52.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.13498537242412567,
+          -0.21174049377441406
+        ],
+        "route": "lower",
+        "known_gates_after": [
+          false,
+          false
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": false,
+            "time": 6.5,
+            "position": [
+              3.0452349185943604,
+              -0.01251866016536951
+            ]
+          },
+          {
+            "gate": 1,
+            "opened": false,
+            "time": 15.5,
+            "position": [
+              3.1394340991973877,
+              3.5001912117004395
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 57.5,
+        "pickup_time": 30.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.15140067040920258,
+          -0.24900846183300018
+        ],
+        "route": "lower",
+        "known_gates_after": [
+          false,
+          false
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 57.5,
+        "pickup_time": 30.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.15140067040920258,
+          -0.24900846183300018
+        ],
+        "route": "lower",
+        "known_gates_after": [
+          false,
+          false
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 388
+  },
+  {
+    "deadline": 18.0,
+    "doors": [
+      true,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.028776127845048904,
+          -0.30330872535705566
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.028776127845048904,
+          -0.30330872535705566
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.028776127845048904,
+          -0.30330872535705566
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 69
+  },
+  {
+    "deadline": 18.0,
+    "doors": [
+      true,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.025546345859766006,
+          -0.26219362020492554
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.025546345859766006,
+          -0.26219362020492554
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.025546345859766006,
+          -0.26219362020492554
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 69
+  },
+  {
+    "deadline": 18.0,
+    "doors": [
+      false,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.026636889204382896,
+          -0.2857692837715149
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.026636889204382896,
+          -0.2857692837715149
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.026636889204382896,
+          -0.2857692837715149
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 69
+  },
+  {
+    "deadline": 18.0,
+    "doors": [
+      false,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.027880605310201645,
+          -0.2715808153152466
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.027880605310201645,
+          -0.2715808153152466
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.027880605310201645,
+          -0.2715808153152466
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          null,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 69
+  },
+  {
+    "deadline": 48.0,
+    "doors": [
+      true,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.4339432716369629,
+          0.018708910793066025
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": true,
+            "time": 6.5,
+            "position": [
+              3.0372533798217773,
+              -0.015658684074878693
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.4339432716369629,
+          0.018708910793066025
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.4339432716369629,
+          0.018708910793066025
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 141
+  },
+  {
+    "deadline": 48.0,
+    "doors": [
+      true,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.3982672691345215,
+          0.02059335820376873
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": true,
+            "time": 6.5,
+            "position": [
+              3.0438456535339355,
+              -0.014099988155066967
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.3982672691345215,
+          0.02059335820376873
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.3982672691345215,
+          0.02059335820376873
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 141
+  },
+  {
+    "deadline": 48.0,
+    "doors": [
+      false,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 39.0,
+        "pickup_time": 34.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.0008974366937763989,
+          -0.42482584714889526
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          false,
+          true
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": false,
+            "time": 6.5,
+            "position": [
+              3.045229911804199,
+              -0.013624176383018494
+            ]
+          },
+          {
+            "gate": 1,
+            "opened": true,
+            "time": 15.5,
+            "position": [
+              3.1370952129364014,
+              3.502486228942871
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 43.5,
+        "pickup_time": 21.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.2418329268693924,
+          0.2171555757522583
+        ],
+        "route": "upper",
+        "known_gates_after": [
+          false,
+          true
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 43.5,
+        "pickup_time": 21.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.2418329268693924,
+          0.2171555757522583
+        ],
+        "route": "upper",
+        "known_gates_after": [
+          false,
+          true
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 252
+  },
+  {
+    "deadline": 48.0,
+    "doors": [
+      false,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 39.5,
+        "pickup_time": 34.5,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.0024776319041848183,
+          -0.2168869972229004
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          false,
+          false
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": false,
+            "time": 6.5,
+            "position": [
+              3.0381462574005127,
+              -0.013737511821091175
+            ]
+          },
+          {
+            "gate": 1,
+            "opened": false,
+            "time": 15.5,
+            "position": [
+              3.1401984691619873,
+              3.4972615242004395
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.025172842666506767,
+          -0.2672663927078247
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          false,
+          false
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 0.25,
+        "delivered_value": 1.0,
+        "seconds": 11.5,
+        "pickup_time": 6.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          -0.025172842666506767,
+          -0.2672663927078247
+        ],
+        "route": "fallback",
+        "known_gates_after": [
+          false,
+          false
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 125
+  },
+  {
+    "deadline": 100.0,
+    "doors": [
+      true,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.41211920976638794,
+          0.01900775544345379
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": true,
+            "time": 6.5,
+            "position": [
+              3.0380210876464844,
+              -0.015048121102154255
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.41211920976638794,
+          0.01900775544345379
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.41211920976638794,
+          0.01900775544345379
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 141
+  },
+  {
+    "deadline": 100.0,
+    "doors": [
+      true,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.39248013496398926,
+          0.018437745049595833
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": true,
+            "time": 6.5,
+            "position": [
+              3.031730890274048,
+              -0.01283207442611456
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.39248013496398926,
+          0.018437745049595833
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 23.5,
+        "pickup_time": 12.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.39248013496398926,
+          0.018437745049595833
+        ],
+        "route": "middle",
+        "known_gates_after": [
+          true,
+          null
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 141
+  },
+  {
+    "deadline": 100.0,
+    "doors": [
+      false,
+      true
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 48.0,
+        "pickup_time": 26.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.2299356758594513,
+          0.20530402660369873
+        ],
+        "route": "upper",
+        "known_gates_after": [
+          false,
+          true
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": false,
+            "time": 6.5,
+            "position": [
+              3.0390331745147705,
+              -0.012431330047547817
+            ]
+          },
+          {
+            "gate": 1,
+            "opened": true,
+            "time": 15.5,
+            "position": [
+              3.1397316455841064,
+              3.4856226444244385
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 44.5,
+        "pickup_time": 22.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.21089549362659454,
+          0.18077406287193298
+        ],
+        "route": "upper",
+        "known_gates_after": [
+          false,
+          true
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 44.5,
+        "pickup_time": 22.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.21089549362659454,
+          0.18077406287193298
+        ],
+        "route": "upper",
+        "known_gates_after": [
+          false,
+          true
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 274
+  },
+  {
+    "deadline": 100.0,
+    "doors": [
+      false,
+      false
+    ],
+    "records": [
+      {
+        "episode": 1,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 77.5,
+        "pickup_time": 51.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.1501288115978241,
+          -0.22865396738052368
+        ],
+        "route": "lower",
+        "known_gates_after": [
+          false,
+          false
+        ],
+        "gate_observations": [
+          {
+            "gate": 0,
+            "opened": false,
+            "time": 6.5,
+            "position": [
+              3.0406229496002197,
+              -0.011292864568531513
+            ]
+          },
+          {
+            "gate": 1,
+            "opened": false,
+            "time": 15.5,
+            "position": [
+              3.139141082763672,
+              3.4908225536346436
+            ]
+          }
+        ]
+      },
+      {
+        "episode": 2,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 58.0,
+        "pickup_time": 30.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.15238149464130402,
+          -0.25343114137649536
+        ],
+        "route": "lower",
+        "known_gates_after": [
+          false,
+          false
+        ],
+        "gate_observations": []
+      },
+      {
+        "episode": 3,
+        "delivered": true,
+        "reward": 1.0,
+        "delivered_value": 4.0,
+        "seconds": 58.0,
+        "pickup_time": 30.0,
+        "motion_failed": false,
+        "wall_contact_decisions": 0,
+        "final_position": [
+          0.15238149464130402,
+          -0.25343114137649536
+        ],
+        "route": "lower",
+        "known_gates_after": [
+          false,
+          false
+        ],
+        "gate_observations": []
+      }
+    ],
+    "steps": 387
+  }
+]
