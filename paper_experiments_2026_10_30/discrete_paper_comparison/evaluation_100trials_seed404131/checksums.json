@@ -1,0 +1,18 @@
+{
+  "state_trials.json": "45e69a28c4a483700702719b3590a2426495a592ab699a2463d6f953a08796a7",
+  "verification.json": "e879e3dc3ac4db90dc3b93688701fc6391fcb4628d7df79a23385b0ee6992692",
+  "results.json": "cabe7f279c2b339ca74be5b0cdcd27feef45cfd773ce8eae810e891791c18dcf",
+  "full_trials.json": "5ed089e9bd5fdfa56b3f4527e764e6fdfff2cdbbdf24f7da6859e019b2a58a48",
+  "oracle.json": "f99fcfa62de2fe759519e39e01712c6cdd1860fecb2a3daa873c41fca71b98cb",
+  "results_table.png": "b655dfd52e005a84e966589b927cae82042ab41f70bef513f1ea2d70441ffa4c",
+  "route_choices.png": "bfd6cf3c840d78f54744e0129da3189ac00a75b968f64d9fe3e76f31aecd2d47",
+  "comparison.png": "ea32f4d4475dff2c4d95757cb6a5b302434fc78b6f28c0aba9e03ba9c998f5d7",
+  "paired_full_minus_baseline.json": "14259bead1e05e944cb26976660b1c3acc4bce192b2a06738e0574dadc9e92f8",
+  "tasks.json": "e497d53d0ef99c004f21efa01eebb5f2742d11e443a8cba5084f302c65397aef",
+  "metrics.csv": "348a5bec89fdb8d519e2ecbf63cfb3ac68ae76ba11f784ad043a9b9a4dd705ca",
+  "REPORT.md": "e5d9f2a73f0d5b5e7c766fffc9d346e91bd8bb928e5ef96e50f155fd542395ca",
+  "comparison.pdf": "a76f638d30cd1f49de38c35baca63b4a7f8fb8e1410f1d740e50cd20ed0f77e5",
+  "time_trials.json": "b7dc5bc71ca88fc66bb90b5c105b8b92506eed9e8e6c376f02beedbc1e1979fd",
+  "context_trials.json": "70560e03a00b9eb91ab20d9a337159460ee53722f4ddb7c7bca4e38e09b41a01",
+  "training_curves.png": "66c938aed4dc667e4582f37da50ff1862665336b973784c7f9f8c3c6a103509f"
+}

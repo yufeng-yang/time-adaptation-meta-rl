@@ -1,0 +1,452 @@
+[
+  {
+    "records": [
+      {
+        "episode": 1,
+        "deadline": 30,
+        "score": 1.0,
+        "delivered": true,
+        "ball": "S",
+        "low_steps": 25,
+        "inspections": [],
+        "actions": [
+          "deliver_S"
+        ]
+      },
+      {
+        "episode": 2,
+        "deadline": 30,
+        "score": 1.0,
+        "delivered": true,
+        "ball": "S",
+        "low_steps": 25,
+        "inspections": [],
+        "actions": [
+          "deliver_S"
+        ]
+      },
+      {
+        "episode": 3,
+        "deadline": 30,
+        "score": 1.0,
+        "delivered": true,
+        "ball": "S",
+        "low_steps": 25,
+        "inspections": [],
+        "actions": [
+          "deliver_S"
+        ]
+      }
+    ],
+    "scores": [
+      1.0,
+      4.0,
+      2.0,
+      0.0,
+      1.0
+    ],
+    "positions": [
+      [
+        -0.18,
+        0.0,
+        0.026000000000000002
+      ],
+      [
+        -0.10763841414569514,
+        -0.3435316168858404,
+        0.026000000000000002
+      ],
+      [
+        -0.002063156396916553,
+        0.35999408798712496,
+        0.026000000000000002
+      ],
+      [
+        -0.24397624555801173,
+        -0.26471794726352943,
+        0.026000000000000002
+      ],
+      [
+        -0.2700960141702471,
+        0.23800870389409226,
+        0.026000000000000002
+      ]
+    ],
+    "deadline": 30
+  },
+  {
+    "records": [
+      {
+        "episode": 1,
+        "deadline": 30,
+        "score": 1.0,
+        "delivered": true,
+        "ball": "S",
+        "low_steps": 25,
+        "inspections": [],
+        "actions": [
+          "deliver_S"
+        ]
+      },
+      {
+        "episode": 2,
+        "deadline": 30,
+        "score": 1.0,
+        "delivered": true,
+        "ball": "S",
+        "low_steps": 25,
+        "inspections": [],
+        "actions": [
+          "deliver_S"
+        ]
+      },
+      {
+        "episode": 3,
+        "deadline": 30,
+        "score": 1.0,
+        "delivered": true,
+        "ball": "S",
+        "low_steps": 25,
+        "inspections": [],
+        "actions": [
+          "deliver_S"
+        ]
+      }
+    ],
+    "scores": [
+      1.0,
+      1.0,
+      2.0,
+      4.0,
+      0.0
+    ],
+    "positions": [
+      [
+        -0.18,
+        0.0,
+        0.026000000000000002
+      ],
+      [
+        -0.2102685019652422,
+        -0.2922108093163101,
+        0.026000000000000002
+      ],
+      [
+        -0.11219229038804672,
+        -0.34207146910767666,
+        0.026000000000000002
+      ],
+      [
+        0.029832311679688535,
+        -0.35876180563132126,
+        0.026000000000000002
+      ],
+      [
+        -0.27617945865205074,
+        0.2309218625826931,
+        0.026000000000000002
+      ]
+    ],
+    "deadline": 30
+  },
+  {
+    "records": [
+      {
+        "episode": 1,
+        "deadline": 65,
+        "score": 2.0,
+        "delivered": true,
+        "ball": "B",
+        "low_steps": 37,
+        "inspections": [],
+        "actions": [
+          "deliver_B"
+        ]
+      },
+      {
+        "episode": 2,
+        "deadline": 65,
+        "score": 0.0,
+        "delivered": true,
+        "ball": "C",
+        "low_steps": 37,
+        "inspections": [],
+        "actions": [
+          "deliver_C"
+        ]
+      },
+      {
+        "episode": 3,
+        "deadline": 65,
+        "score": 4.0,
+        "delivered": true,
+        "ball": "A",
+        "low_steps": 37,
+        "inspections": [],
+        "actions": [
+          "deliver_A"
+        ]
+      }
+    ],
+    "scores": [
+      1.0,
+      4.0,
+      2.0,
+      0.0,
+      1.0
+    ],
+    "positions": [
+      [
+        -0.18,
+        0.0,
+        0.026000000000000002
+      ],
+      [
+        -0.10763841414569514,
+        -0.3435316168858404,
+        0.026000000000000002
+      ],
+      [
+        -0.002063156396916553,
+        0.35999408798712496,
+        0.026000000000000002
+      ],
+      [
+        -0.24397624555801173,
+        -0.26471794726352943,
+        0.026000000000000002
+      ],
+      [
+        -0.2700960141702471,
+        0.23800870389409226,
+        0.026000000000000002
+      ]
+    ],
+    "deadline": 65
+  },
+  {
+    "records": [
+      {
+        "episode": 1,
+        "deadline": 65,
+        "score": 2.0,
+        "delivered": true,
+        "ball": "B",
+        "low_steps": 37,
+        "inspections": [],
+        "actions": [
+          "deliver_B"
+        ]
+      },
+      {
+        "episode": 2,
+        "deadline": 65,
+        "score": 4.0,
+        "delivered": true,
+        "ball": "C",
+        "low_steps": 37,
+        "inspections": [],
+        "actions": [
+          "deliver_C"
+        ]
+      },
+      {
+        "episode": 3,
+        "deadline": 65,
+        "score": 4.0,
+        "delivered": true,
+        "ball": "C",
+        "low_steps": 37,
+        "inspections": [],
+        "actions": [
+          "deliver_C"
+        ]
+      }
+    ],
+    "scores": [
+      1.0,
+      1.0,
+      2.0,
+      4.0,
+      0.0
+    ],
+    "positions": [
+      [
+        -0.18,
+        0.0,
+        0.026000000000000002
+      ],
+      [
+        -0.2102685019652422,
+        -0.2922108093163101,
+        0.026000000000000002
+      ],
+      [
+        -0.11219229038804672,
+        -0.34207146910767666,
+        0.026000000000000002
+      ],
+      [
+        0.029832311679688535,
+        -0.35876180563132126,
+        0.026000000000000002
+      ],
+      [
+        -0.27617945865205074,
+        0.2309218625826931,
+        0.026000000000000002
+      ]
+    ],
+    "deadline": 65
+  },
+  {
+    "records": [
+      {
+        "episode": 1,
+        "deadline": 150,
+        "score": 2.0,
+        "delivered": true,
+        "ball": "B",
+        "low_steps": 37,
+        "inspections": [],
+        "actions": [
+          "deliver_B"
+        ]
+      },
+      {
+        "episode": 2,
+        "deadline": 150,
+        "score": 0.0,
+        "delivered": true,
+        "ball": "C",
+        "low_steps": 37,
+        "inspections": [],
+        "actions": [
+          "deliver_C"
+        ]
+      },
+      {
+        "episode": 3,
+        "deadline": 150,
+        "score": 4.0,
+        "delivered": true,
+        "ball": "A",
+        "low_steps": 37,
+        "inspections": [],
+        "actions": [
+          "deliver_A"
+        ]
+      }
+    ],
+    "scores": [
+      1.0,
+      4.0,
+      2.0,
+      0.0,
+      1.0
+    ],
+    "positions": [
+      [
+        -0.18,
+        0.0,
+        0.026000000000000002
+      ],
+      [
+        -0.10763841414569514,
+        -0.3435316168858404,
+        0.026000000000000002
+      ],
+      [
+        -0.002063156396916553,
+        0.35999408798712496,
+        0.026000000000000002
+      ],
+      [
+        -0.24397624555801173,
+        -0.26471794726352943,
+        0.026000000000000002
+      ],
+      [
+        -0.2700960141702471,
+        0.23800870389409226,
+        0.026000000000000002
+      ]
+    ],
+    "deadline": 150
+  },
+  {
+    "records": [
+      {
+        "episode": 1,
+        "deadline": 150,
+        "score": 2.0,
+        "delivered": true,
+        "ball": "B",
+        "low_steps": 37,
+        "inspections": [],
+        "actions": [
+          "deliver_B"
+        ]
+      },
+      {
+        "episode": 2,
+        "deadline": 150,
+        "score": 4.0,
+        "delivered": true,
+        "ball": "C",
+        "low_steps": 37,
+        "inspections": [],
+        "actions": [
+          "deliver_C"
+        ]
+      },
+      {
+        "episode": 3,
+        "deadline": 150,
+        "score": 4.0,
+        "delivered": true,
+        "ball": "C",
+        "low_steps": 37,
+        "inspections": [],
+        "actions": [
+          "deliver_C"
+        ]
+      }
+    ],
+    "scores": [
+      1.0,
+      1.0,
+      2.0,
+      4.0,
+      0.0
+    ],
+    "positions": [
+      [
+        -0.18,
+        0.0,
+        0.026000000000000002
+      ],
+      [
+        -0.2102685019652422,
+        -0.2922108093163101,
+        0.026000000000000002
+      ],
+      [
+        -0.11219229038804672,
+        -0.34207146910767666,
+        0.026000000000000002
+      ],
+      [
+        0.029832311679688535,
+        -0.35876180563132126,
+        0.026000000000000002
+      ],
+      [
+        -0.27617945865205074,
+        0.2309218625826931,
+        0.026000000000000002
+      ]
+    ],
+    "deadline": 150
+  }
+]

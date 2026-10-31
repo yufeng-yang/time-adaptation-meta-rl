@@ -1,0 +1,224 @@
+{
+  "total_steps": 800116,
+  "updates": 4113,
+  "trials": 16452,
+  "elapsed_seconds": 423.07519246899756,
+  "evaluation": {
+    "open": {
+      "15": {
+        "1": {
+          "mean_return": 0.8600000143051147,
+          "success_rate": 1.0,
+          "mean_steps": 14.0,
+          "route_rates": {
+            "direct": 1.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 0.0
+          }
+        },
+        "2": {
+          "mean_return": 0.8600000143051147,
+          "success_rate": 1.0,
+          "mean_steps": 14.0,
+          "route_rates": {
+            "direct": 1.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 0.0
+          }
+        },
+        "3": {
+          "mean_return": 0.8600000143051147,
+          "success_rate": 1.0,
+          "mean_steps": 14.0,
+          "route_rates": {
+            "direct": 1.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 0.0
+          }
+        }
+      },
+      "17": {
+        "1": {
+          "mean_return": 0.8600000143051147,
+          "success_rate": 1.0,
+          "mean_steps": 14.0,
+          "route_rates": {
+            "direct": 1.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 0.0
+          }
+        },
+        "2": {
+          "mean_return": 0.8600000143051147,
+          "success_rate": 1.0,
+          "mean_steps": 14.0,
+          "route_rates": {
+            "direct": 1.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 0.0
+          }
+        },
+        "3": {
+          "mean_return": 0.8600000143051147,
+          "success_rate": 1.0,
+          "mean_steps": 14.0,
+          "route_rates": {
+            "direct": 1.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 0.0
+          }
+        }
+      },
+      "25": {
+        "1": {
+          "mean_return": 0.8600000143051147,
+          "success_rate": 1.0,
+          "mean_steps": 14.0,
+          "route_rates": {
+            "direct": 1.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 0.0
+          }
+        },
+        "2": {
+          "mean_return": 0.8600000143051147,
+          "success_rate": 1.0,
+          "mean_steps": 14.0,
+          "route_rates": {
+            "direct": 1.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 0.0
+          }
+        },
+        "3": {
+          "mean_return": 0.8600000143051147,
+          "success_rate": 1.0,
+          "mean_steps": 14.0,
+          "route_rates": {
+            "direct": 1.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 0.0
+          }
+        }
+      }
+    },
+    "closed": {
+      "15": {
+        "1": {
+          "mean_return": -1.149999976158142,
+          "success_rate": 0.0,
+          "mean_steps": 15.0,
+          "route_rates": {
+            "direct": 0.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 1.0
+          }
+        },
+        "2": {
+          "mean_return": -1.149999976158142,
+          "success_rate": 0.0,
+          "mean_steps": 15.0,
+          "route_rates": {
+            "direct": 0.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 1.0
+          }
+        },
+        "3": {
+          "mean_return": -1.149999976158142,
+          "success_rate": 0.0,
+          "mean_steps": 15.0,
+          "route_rates": {
+            "direct": 0.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 1.0
+          }
+        }
+      },
+      "17": {
+        "1": {
+          "mean_return": -1.1699999570846558,
+          "success_rate": 0.0,
+          "mean_steps": 17.0,
+          "route_rates": {
+            "direct": 0.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 1.0
+          }
+        },
+        "2": {
+          "mean_return": -1.1699999570846558,
+          "success_rate": 0.0,
+          "mean_steps": 17.0,
+          "route_rates": {
+            "direct": 0.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 1.0
+          }
+        },
+        "3": {
+          "mean_return": -1.1699999570846558,
+          "success_rate": 0.0,
+          "mean_steps": 17.0,
+          "route_rates": {
+            "direct": 0.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 1.0
+          }
+        }
+      },
+      "25": {
+        "1": {
+          "mean_return": -1.25,
+          "success_rate": 0.0,
+          "mean_steps": 25.0,
+          "route_rates": {
+            "direct": 0.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 1.0
+          }
+        },
+        "2": {
+          "mean_return": -1.25,
+          "success_rate": 0.0,
+          "mean_steps": 25.0,
+          "route_rates": {
+            "direct": 0.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 1.0
+          }
+        },
+        "3": {
+          "mean_return": -1.25,
+          "success_rate": 0.0,
+          "mean_steps": 25.0,
+          "route_rates": {
+            "direct": 0.0,
+            "medium": 0.0,
+            "detour": 0.0,
+            "other": 1.0
+          }
+        }
+      }
+    }
+  },
+  "third_episode_mean_return": -0.16499998172124228,
+  "third_episode_success_rate": 0.5
+}

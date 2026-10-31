@@ -1,0 +1,102 @@
+{
+  "name": "final_experiment_2",
+  "selected_model": "best_model.pt",
+  "selected_checkpoint_steps": 211346,
+  "original_training_run": "/home/yufeng.yang/codespace/time_adaptation/continuous_pointnav_adaptation/hierarchical_fixedtime/runs/seed0_wide_left_v3_D145bonus002_D230normal_BCturn5win2_500k",
+  "original_path_replay": "/home/yufeng.yang/codespace/time_adaptation/continuous_pointnav_adaptation/hierarchical_fixedtime/runs/path_views/D145bonus_D230normal_best_closed_request01",
+  "completed_training_steps": 500286,
+  "best_third_episode_successes": 5,
+  "evaluated_cases": 6,
+  "feasible_cases": 5,
+  "best_third_episode_mean_return": 0.44333333770434064,
+  "final_model_third_episode_successes": 4,
+  "selected_high_sha256": "541f6d28edd9e2b5159aefb9051c1491fc66a4f9dd433ae7cb418764409d0ec5",
+  "frozen_low_sha256": "2becea05587037b7b452a0b6152a4d2cc6ff49097ad9a8b62361f5cdb62cf1f3",
+  "runtime_source": "runtime_source",
+  "original_snapshot": "training_run/source_snapshot",
+  "supplemental_local_dependencies": [
+    "continuous_pointnav_adaptation/trial6_merged_lidar_transformer/environment.py",
+    "continuous_pointnav_adaptation/trial4_gate_transformer_meta_rl/environment.py",
+    "continuous_pointnav_adaptation/trial3_gate_meta_bc/environment.py",
+    "continuous_pointnav_adaptation/options.py"
+  ],
+  "original_checkpoint_embedded_paths": "Retained for provenance; replay.py resolves archived runtime and checkpoints locally.",
+  "deterministic_evaluation_seed": 20000,
+  "closed_trials": [
+    {
+      "gate": "closed",
+      "deadline": 145,
+      "episode": 1,
+      "success": false,
+      "route": "lower",
+      "steps": 145,
+      "return_": -1.290000081062317,
+      "collision_events": 0,
+      "danger_visits": 0,
+      "observed_gate": null
+    },
+    {
+      "gate": "closed",
+      "deadline": 145,
+      "episode": 2,
+      "success": true,
+      "route": "upper",
+      "steps": 128,
+      "return_": 0.543999969959259,
+      "collision_events": 0,
+      "danger_visits": 1,
+      "observed_gate": null
+    },
+    {
+      "gate": "closed",
+      "deadline": 145,
+      "episode": 3,
+      "success": true,
+      "route": "upper",
+      "steps": 130,
+      "return_": 0.5399999618530273,
+      "collision_events": 0,
+      "danger_visits": 1,
+      "observed_gate": null
+    },
+    {
+      "gate": "closed",
+      "deadline": 230,
+      "episode": 1,
+      "success": false,
+      "route": "lower",
+      "steps": 230,
+      "return_": -1.4600000381469727,
+      "collision_events": 0,
+      "danger_visits": 0,
+      "observed_gate": null
+    },
+    {
+      "gate": "closed",
+      "deadline": 230,
+      "episode": 2,
+      "success": false,
+      "route": "lower",
+      "steps": 230,
+      "return_": -1.4600000381469727,
+      "collision_events": 0,
+      "danger_visits": 0,
+      "observed_gate": null
+    },
+    {
+      "gate": "closed",
+      "deadline": 230,
+      "episode": 3,
+      "success": true,
+      "route": "lower",
+      "steps": 155,
+      "return_": 0.6899999976158142,
+      "collision_events": 0,
+      "danger_visits": 0,
+      "observed_gate": null
+    }
+  ],
+  "scene_initialization_seed": 100000,
+  "replay_verification": "replay_verification.json",
+  "independent_replay_verified": true
+}

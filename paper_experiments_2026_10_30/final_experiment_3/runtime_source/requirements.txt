@@ -1,0 +1,3 @@
+# robosuite 1.5.2 uses MuJoCo APIs that changed in MuJoCo 3.10+.
+robosuite==1.5.2
+mujoco==3.9.0

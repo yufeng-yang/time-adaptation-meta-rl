@@ -1,0 +1,15 @@
+{
+  "protocol_tests": 8,
+  "models": 4,
+  "trials_per_model": 100,
+  "episodes_audited": 1200,
+  "paired_task_seed": 404131,
+  "checkpoints": {
+    "state": "940e131f549aa5cdff4744fab084172ef4210c7256a81609450e695de0561a5c",
+    "time": "9f0c90eae3c6117727067a362762074e377e7065ac0dfc6aef49bbd8cd8e50d2",
+    "context": "3dbae32537140a0ae6e29eb453d463fd32b64f928b3c3d3f877d581b197b6f40",
+    "full": "9a37f2215463a0c0cf8fff209ce3ea753be3c69608ca1505bfbee9e9ae49bbf0"
+  },
+  "no_test_checkpoint_selection": true,
+  "all_checkpoints_unchanged": true
+}

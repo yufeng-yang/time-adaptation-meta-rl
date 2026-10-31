@@ -1,0 +1,63 @@
+{
+  "experiment_number": 3,
+  "name": "Deadline Pick-Place",
+  "saved_date": "2026-10-26",
+  "numbering_basis": "Existing final_experiment_2 is the navigation archive.",
+  "selected_variant": "half_bc",
+  "selected_checkpoint": "half_bc/best.pt",
+  "status": "Upper-policy feasibility experiment with ideal lower executor; physical lower policy not trained.",
+  "test_trials_per_deadline": 128,
+  "training_seed": 0,
+  "variants": {
+    "half_bc": {
+      "original_training_run": "/home/yufeng.yang/codespace/time_adaptation/deadline_pick_place/high_level/runs/fixed_score_set_seed0",
+      "directory": "half_bc",
+      "best_checkpoint": "half_bc/best.pt",
+      "final_checkpoint": "half_bc/final.pt",
+      "selected_checkpoint": {
+        "phase": "ppo",
+        "update": 40,
+        "low_steps": 152964
+      },
+      "ppo_low_steps": 775917,
+      "best_test_trial_scores": {
+        "30": 3.0,
+        "65": 9.890625,
+        "150": 12.0
+      },
+      "final_test_trial_scores": {
+        "30": 3.0,
+        "65": 9.7734375,
+        "150": 11.9375
+      },
+      "best.pt_sha256": "d21bab8f148f3173c2ff891fa0958855f88a31dd6d2f557ada75f3f452ee6ff4",
+      "final.pt_sha256": "bc541e104d9893d7e218767a06977c2b8649318fd2711285e3fdd466ff34b57c"
+    },
+    "pure_ppo": {
+      "original_training_run": "/home/yufeng.yang/codespace/time_adaptation/deadline_pick_place/high_level/runs/v2_no_bc_seed0_1000",
+      "directory": "pure_ppo",
+      "best_checkpoint": "pure_ppo/best.pt",
+      "final_checkpoint": "pure_ppo/final.pt",
+      "selected_checkpoint": {
+        "phase": "ppo",
+        "update": 280,
+        "low_steps": 894529
+      },
+      "ppo_low_steps": 2943521,
+      "best_test_trial_scores": {
+        "30": 3.0,
+        "65": 7.1328125,
+        "150": 7.1328125
+      },
+      "final_test_trial_scores": {
+        "30": 2.921875,
+        "65": 5.5859375,
+        "150": 7.1328125
+      },
+      "best.pt_sha256": "21b35af49ef9f299a41f53c0df1cbf9c3e8557ea14c2cf26c55613ddbdb5de48",
+      "final.pt_sha256": "cdb7c57d6df8cf381c5e85ae7589f9dc1f8df2f8a4492e16338e76c7ffedb371"
+    }
+  },
+  "independent_replay_verified": true,
+  "replay_verification": "replay_verification.json"
+}

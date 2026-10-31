@@ -1,0 +1,20 @@
+BC time 100 3
+BC time 200 4
+BC time 300 5
+BC time 400 7
+BC time 500 8
+BC time 600 9
+BC time 700 10
+BC time 800 11
+BC time 900 13
+BC time 1000 14
+PPO time 20 78062 validation 6.0781 seconds 22
+PPO time 40 155089 validation 4.9531 seconds 28
+PPO time 60 232094 validation 5.2188 seconds 35
+PPO time 80 308187 validation 4.9896 seconds 42
+PPO time 100 386957 validation 4.875 seconds 48
+PPO time 120 466387 validation 5.2865 seconds 54
+PPO time 140 548201 validation 5.6719 seconds 61
+PPO time 160 638880 validation 6.6406 seconds 67
+PPO time 180 735992 validation 6.7396 seconds 75
+PPO time 200 840347 validation 6.7083 seconds 83

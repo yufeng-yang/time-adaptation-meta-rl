@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "phase": "complete",
+  "total_steps": 500286,
+  "updates": 273,
+  "target_steps": 500000,
+  "elapsed_seconds": 2231.3735181849916,
+  "bc_weight": 0.1,
+  "final_evaluation": {
+    "total_steps": 500286,
+    "zero_memory": false,
+    "third_episode_success_rate": 0.6666666666666666,
+    "third_episode_mean_return": 0.08533332745234172,
+    "episode_1_success_rate": 0.5,
+    "episode_2_success_rate": 0.6666666666666666,
+    "episode_3_success_rate": 0.6666666666666666,
+    "phase": "online"
+  }
+}

@@ -1,0 +1,20 @@
+BC context 100 3
+BC context 200 4
+BC context 300 5
+BC context 400 7
+BC context 500 8
+BC context 600 9
+BC context 700 10
+BC context 800 12
+BC context 900 13
+BC context 1000 14
+PPO context 20 75684 validation 7.0312 seconds 23
+PPO context 40 152974 validation 6.7656 seconds 30
+PPO context 60 232360 validation 6.8854 seconds 38
+PPO context 80 311030 validation 6.5938 seconds 45
+PPO context 100 391456 validation 6.7083 seconds 53
+PPO context 120 471127 validation 6.9062 seconds 59
+PPO context 140 551577 validation 6.6146 seconds 66
+PPO context 160 633148 validation 6.8646 seconds 73
+PPO context 180 714449 validation 6.6667 seconds 79
+PPO context 200 797340 validation 6.8333 seconds 86

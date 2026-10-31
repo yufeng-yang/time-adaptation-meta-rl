@@ -1,0 +1,6928 @@
+{
+  "metric": "Undiscounted episode-3 return; equal mean of six tasks, three evaluation seeds per task",
+  "smoothing": false,
+  "extrapolation": false,
+  "training_seeds_per_method": 1,
+  "caveat": "Different task sets, curriculum and time scaling; not an architecture-only ablation",
+  "series": {
+    "episode": [
+      {
+        "steps": 0,
+        "return_ep3": -1.1699999968210857,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_0.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 61933,
+        "return_ep3": -1.7449999451637268,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_61933.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 113026,
+        "return_ep3": -1.7449999451637268,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_113026.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 157276,
+        "return_ep3": -0.47999995946884155,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_157276.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 200098,
+        "return_ep3": -0.47999995946884155,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_200098.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 249923,
+        "return_ep3": -0.15499999125798544,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_249923.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 298921,
+        "return_ep3": 0.18000001708666483,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_298921.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 351173,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_351173.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 400102,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_400102.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 451672,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_451672.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 499478,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_499478.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 551179,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_551179.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 555091,
+        "return_ep3": 0.18000001708666483,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_555091.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 560021,
+        "return_ep3": 0.05500003695487976,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_560021.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 565100,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_565100.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 570164,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_570164.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 575004,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_575004.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 580013,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_580013.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 585085,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_585085.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 590115,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_590115.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 595018,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_595018.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 600010,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_600010.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 605050,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_605050.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 610057,
+        "return_ep3": 0.0966666837533315,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_610057.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 615143,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_615143.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 620156,
+        "return_ep3": -0.16499998172124228,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_620156.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 625011,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_625011.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 630085,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_630085.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 635179,
+        "return_ep3": 0.18000001708666483,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_635179.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 640035,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_640035.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 645145,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/episode_645145.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      }
+    ],
+    "step": [
+      {
+        "steps": 0,
+        "return_ep3": -1.1699999968210857,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_0.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 51780,
+        "return_ep3": -1.7449999451637268,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_51780.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 101702,
+        "return_ep3": -1.7449999451637268,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_101702.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 150125,
+        "return_ep3": -1.4949999650319417,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_150125.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 200333,
+        "return_ep3": -0.47999995946884155,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_200333.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 250011,
+        "return_ep3": -0.3883333206176758,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_250011.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 300006,
+        "return_ep3": -0.4999999801317851,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_300006.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 350021,
+        "return_ep3": 0.18000001708666483,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_350021.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 400079,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_400079.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 450157,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_450157.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 500180,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_500180.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 550096,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_550096.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 554127,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_554127.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 561506,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_561506.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 565149,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_565149.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 568834,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_568834.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 575131,
+        "return_ep3": -0.023333311080932617,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_575131.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 580270,
+        "return_ep3": -0.15499999125798544,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_580270.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 584042,
+        "return_ep3": 0.4516666730244954,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_584042.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 591468,
+        "return_ep3": 0.04333333174387614,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_591468.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 595169,
+        "return_ep3": 0.4516666730244954,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_595169.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 600067,
+        "return_ep3": 0.41833335161209106,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_600067.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 606170,
+        "return_ep3": 0.15000001589457193,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_606170.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 609880,
+        "return_ep3": 0.03499998648961385,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_609880.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 613644,
+        "return_ep3": 0.37833333015441895,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_613644.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 621189,
+        "return_ep3": 0.37833333015441895,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_621189.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 625094,
+        "return_ep3": 0.4516666730244954,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_625094.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 628557,
+        "return_ep3": 0.42166667183240253,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_628557.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 635915,
+        "return_ep3": 0.41833335161209106,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_635915.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 639661,
+        "return_ep3": 0.41833335161209106,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_639661.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      },
+      {
+        "steps": 643351,
+        "return_ep3": -0.41333329677581787,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/evaluations/step_643351.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            19
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            19
+          ]
+        ]
+      }
+    ],
+    "transformer": [
+      {
+        "steps": 0,
+        "return_ep3": -1.1899999777475994,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_0.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 5039,
+        "return_ep3": -1.8649999300638835,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_5039.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 10055,
+        "return_ep3": -1.5649999578793843,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_10055.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 15008,
+        "return_ep3": -0.5399999618530273,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_15008.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 20025,
+        "return_ep3": -0.16499998172124228,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_20025.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 25108,
+        "return_ep3": -0.16499998172124228,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_25108.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 30039,
+        "return_ep3": 0.18000001708666483,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_30039.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 35071,
+        "return_ep3": -0.16499998172124228,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_35071.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 40043,
+        "return_ep3": -0.43999993801116943,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_40043.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 45164,
+        "return_ep3": -0.16499998172124228,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_45164.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 50016,
+        "return_ep3": 0.41833335161209106,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_50016.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 55181,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_55181.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 60187,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_60187.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 65062,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_65062.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 70125,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_70125.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 75184,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_75184.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 80015,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_80015.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 85157,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_85157.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 90030,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_90030.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 95112,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_95112.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 100014,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_100014.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 105109,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_105109.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 110102,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_110102.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 115099,
+        "return_ep3": 0.11666669448216756,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_115099.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 120177,
+        "return_ep3": 0.14666669567426047,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_120177.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 125103,
+        "return_ep3": 0.18000001708666483,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_125103.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 130190,
+        "return_ep3": 0.18000001708666483,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_130190.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 135137,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_135137.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 140006,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_140006.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 145038,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_145038.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 150065,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_150065.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 155080,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_155080.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 160085,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_160085.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 165065,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_165065.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 170132,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_170132.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 175183,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_175183.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 180028,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_180028.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 185034,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_185034.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 190028,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_190028.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 195137,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_195137.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 200173,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_200173.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 205157,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_205157.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 210163,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_210163.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 215122,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_215122.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 220113,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_220113.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 225062,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_225062.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 230078,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_230078.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 235057,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_235057.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 240019,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_240019.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 245047,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_245047.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 250103,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_250103.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 255134,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_255134.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 260099,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_260099.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 265128,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_265128.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 270170,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_270170.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 275087,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_275087.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 280062,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_280062.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 285181,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_285181.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 290128,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_290128.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 295093,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_295093.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 300026,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_300026.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 305047,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_305047.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 310025,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_310025.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 315056,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_315056.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 320067,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_320067.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 325060,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_325060.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 330024,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_330024.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 335024,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_335024.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 340140,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_340140.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 345122,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_345122.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 350137,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_350137.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 355141,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_355141.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 360128,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_360128.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 365142,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_365142.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 370165,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_370165.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 375013,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_375013.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 380181,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_380181.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 385167,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_385167.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 390002,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_390002.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 395002,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_395002.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 400141,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_400141.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 405174,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_405174.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 410045,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_410045.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 415022,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_415022.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 420014,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_420014.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 425187,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_425187.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 430044,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_430044.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 435158,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_435158.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 440044,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_440044.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 445058,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_445058.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 450000,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_450000.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 455138,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_455138.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 460138,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_460138.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 465133,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_465133.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 470151,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_470151.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 475079,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_475079.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 480067,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_480067.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 485053,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_485053.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 490088,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_490088.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 495099,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_495099.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 500147,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_500147.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 505174,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_505174.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 510070,
+        "return_ep3": 0.41833335161209106,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_510070.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 515147,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_515147.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 520154,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_520154.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 525015,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_525015.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 530060,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_530060.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 535081,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_535081.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 540138,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_540138.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 545154,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_545154.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 550146,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_550146.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 555038,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_555038.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 560072,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_560072.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 565148,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_565148.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 570130,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_570130.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 575140,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_575140.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 580137,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_580137.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 585167,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_585167.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 590180,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_590180.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 595135,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_595135.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 600154,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_600154.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 605120,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_605120.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 610128,
+        "return_ep3": 0.4816666742165883,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_610128.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 615090,
+        "return_ep3": 0.18000001708666483,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_615090.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 620090,
+        "return_ep3": 0.41833335161209106,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_620090.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 625137,
+        "return_ep3": -0.023333311080932617,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_625137.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 630054,
+        "return_ep3": -0.023333311080932617,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_630054.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 635195,
+        "return_ep3": -0.023333311080932617,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_635195.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 640017,
+        "return_ep3": -0.023333311080932617,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_640017.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 645131,
+        "return_ep3": 0.41833335161209106,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_645131.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 650140,
+        "return_ep3": 0.41833335161209106,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_650140.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 655146,
+        "return_ep3": 0.4416666825612386,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_655146.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 660136,
+        "return_ep3": 0.4416666825612386,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_660136.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 665106,
+        "return_ep3": 0.021666685740152996,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_665106.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 670105,
+        "return_ep3": 0.14666669567426047,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_670105.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 675086,
+        "return_ep3": 0.14666669567426047,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_675086.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 680060,
+        "return_ep3": 0.41833335161209106,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_680060.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 685178,
+        "return_ep3": 0.41833335161209106,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_685178.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 690080,
+        "return_ep3": 0.4416666825612386,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_690080.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 695176,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_695176.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 700098,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_700098.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 705075,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_705075.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 710149,
+        "return_ep3": 0.368333359559377,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_710149.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 715102,
+        "return_ep3": 0.40833336114883423,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_715102.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 720054,
+        "return_ep3": 0.41833335161209106,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_720054.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 725093,
+        "return_ep3": 0.41833335161209106,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_725093.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 730085,
+        "return_ep3": 0.4116666913032532,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_730085.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 735019,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_735019.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 740097,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_740097.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 745181,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_745181.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 750000,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_750000.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 755123,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_755123.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 760101,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_760101.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 765122,
+        "return_ep3": 0.41833336154619855,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_765122.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 770040,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_770040.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 775146,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_775146.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 780079,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_780079.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 785010,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_785010.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 790112,
+        "return_ep3": 0.41833335161209106,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_790112.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 795136,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_795136.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      },
+      {
+        "steps": 800058,
+        "return_ep3": 0.44833335280418396,
+        "source": "/home/yufeng.yang/codespace/time_adaptation/tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/release_0_80w/evaluations/steps_800058.json",
+        "task_cases": [
+          [
+            "closed",
+            15
+          ],
+          [
+            "closed",
+            17
+          ],
+          [
+            "closed",
+            25
+          ],
+          [
+            "open",
+            15
+          ],
+          [
+            "open",
+            17
+          ],
+          [
+            "open",
+            25
+          ]
+        ]
+      }
+    ]
+  }
+}

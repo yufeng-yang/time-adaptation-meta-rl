@@ -1,0 +1,70 @@
+{
+  "open_D15": {
+    "route_values": {
+      "direct": 1.0,
+      "medium": -1.2,
+      "detour": -1.0
+    },
+    "optimal_routes": [
+      "direct"
+    ],
+    "feasible": true
+  },
+  "open_D17": {
+    "route_values": {
+      "direct": 1.0,
+      "medium": 0.8,
+      "detour": -1.0
+    },
+    "optimal_routes": [
+      "direct"
+    ],
+    "feasible": true
+  },
+  "open_D25": {
+    "route_values": {
+      "direct": 1.0,
+      "medium": 0.8,
+      "detour": 1.0
+    },
+    "optimal_routes": [
+      "direct",
+      "detour"
+    ],
+    "feasible": true
+  },
+  "closed_D15": {
+    "route_values": {
+      "direct": -1.0,
+      "medium": -1.2,
+      "detour": -1.0
+    },
+    "optimal_routes": [
+      "direct",
+      "detour"
+    ],
+    "feasible": false
+  },
+  "closed_D17": {
+    "route_values": {
+      "direct": -1.0,
+      "medium": 0.8,
+      "detour": -1.0
+    },
+    "optimal_routes": [
+      "medium"
+    ],
+    "feasible": true
+  },
+  "closed_D25": {
+    "route_values": {
+      "direct": -1.0,
+      "medium": 0.8,
+      "detour": 1.0
+    },
+    "optimal_routes": [
+      "detour"
+    ],
+    "feasible": true
+  }
+}

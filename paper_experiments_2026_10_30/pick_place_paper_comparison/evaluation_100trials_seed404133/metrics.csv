@@ -1,0 +1,5 @@
+policy,trial_return,final_episode_return,ODR,trial_raw_score,final_raw_score
+state,1.5825,0.485,0.47,6.33,1.94
+time,1.9375,0.6075,0.45,7.75,2.43
+context,2.415,0.9025,0.91,9.66,3.61
+full,2.5275,0.905,0.92,10.11,3.62

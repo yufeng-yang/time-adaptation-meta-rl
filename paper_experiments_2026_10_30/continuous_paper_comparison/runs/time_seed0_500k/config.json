@@ -1,0 +1,253 @@
+{
+  "output_dir": "/home/yufeng.yang/codespace/time_adaptation/continuous_paper_comparison/runs/time_seed0_500k",
+  "include_infeasible_training": false,
+  "total_steps": 500000,
+  "workers": 5,
+  "seed": 0,
+  "eval_steps": 10000,
+  "bc_warmup_updates": 20,
+  "bc_decay_steps": 400000,
+  "bc_initial_weight": 1.0,
+  "bc_min_weight": 0.1,
+  "learning_rate": 0.0003,
+  "bc_critical_weight": 5.0,
+  "bc_turn_window": 2,
+  "gamma": 1.0,
+  "ppo_epochs": 4,
+  "clip_range": 0.2,
+  "entropy_coef": 0.005,
+  "value_coef": 0.5,
+  "max_grad_norm": 1.0,
+  "return_objective": "weighted_episodes",
+  "episode_weights": [
+    0.2,
+    0.5,
+    1.0
+  ],
+  "scenario": "physical_fixedtime",
+  "absolute_xy": true,
+  "deadlines": [
+    75,
+    145,
+    230
+  ],
+  "cases": [
+    [
+      "open",
+      75
+    ],
+    [
+      "open",
+      145
+    ],
+    [
+      "open",
+      230
+    ],
+    [
+      "closed",
+      75
+    ],
+    [
+      "closed",
+      145
+    ],
+    [
+      "closed",
+      230
+    ]
+  ],
+  "episodes_per_trial": 3,
+  "action_dim": 3,
+  "objective_episode_weights": [
+    0.2,
+    0.5,
+    1.0
+  ],
+  "context_update": "completed episodes only; fixed within episode; reset each trial",
+  "observation_spec": {
+    "version": "physical_frozen_low_three_actions_v1",
+    "obs_dim": 63,
+    "door_range": 1.0,
+    "wall_range": 3.0,
+    "goal_range": 3.0,
+    "bins": 16,
+    "door_channel": true,
+    "merged_obstacles": false,
+    "danger_channel": false,
+    "absolute_xy": true,
+    "xy_input": "raw world x,y before remaining time",
+    "time_scale": 50.0,
+    "deadlines": [
+      75,
+      145,
+      230
+    ],
+    "directions": null,
+    "distance": null,
+    "coordinate_frame": "egocentric",
+    "deadline_unit": "fixed_duration_commands",
+    "dynamics": "MuJoCo implicit; learned frozen heading/speed actor",
+    "body_sensors": 12,
+    "pseudo_lidar": true,
+    "map_version": "physical_wide_left_center_spawn_v3",
+    "danger_center": [
+      0.0,
+      2.75
+    ],
+    "upper_entry": "left of x=-2.42 at y=1",
+    "left_wall_x": -4.75,
+    "upper_entry_clear_width": 2.23,
+    "spawn_position": [
+      -3.375,
+      0.0
+    ],
+    "reward_version": "deadline_specific_ep1_danger_bonus_v2",
+    "first_episode_danger_bonus": 0.02,
+    "first_episode_bonus_deadlines": [
+      145
+    ],
+    "danger_reward_frequency": "first entry only, reset each episode",
+    "high_action_names": [
+      "left",
+      "straight",
+      "right"
+    ],
+    "action_dim": 3,
+    "command_period": 0.2,
+    "max_turn_degrees": 15.0,
+    "target_speed": 0.4,
+    "action_target_speeds": [
+      0.0,
+      0.4,
+      0.0
+    ],
+    "turn_semantics": "zero-speed turning with measured small drift",
+    "low_control_period": 0.01,
+    "physics_timestep": 0.002,
+    "integrator": "implicit",
+    "low_sha256": "2becea05587037b7b452a0b6152a4d2cc6ff49097ad9a8b62361f5cdb62cf1f3",
+    "initial_heading_degrees": 0.0,
+    "time_input": "remaining_commands/50 = remaining_seconds/10"
+  },
+  "low_checkpoint": "/home/yufeng.yang/codespace/time_adaptation/continuous_pointnav_adaptation/hierarchical_fixedtime/frozen_low_actor.pt",
+  "low_sha256": "2becea05587037b7b452a0b6152a4d2cc6ff49097ad9a8b62361f5cdb62cf1f3",
+  "low_frozen": true,
+  "step_penalty": 0.002,
+  "collision_penalty": 0.1,
+  "danger_penalty": 0.2,
+  "goal_reward": 1.0,
+  "timeout_penalty": 1.0,
+  "first_episode_danger_bonus": 0.02,
+  "first_episode_bonus_deadlines": [
+    145
+  ],
+  "reward_version": "deadline_specific_ep1_danger_bonus_v2",
+  "bc_sample_weighting": "expert left/right turn and +/- window commands: critical weight; other steps: 1; weighted sum / sum weights",
+  "input_normalization": "frozen demonstration mean/std min 0.1, clamp +-5; time unchanged",
+  "memory_rewards": "raw environment rewards; weights affect PPO targets only",
+  "evaluation_action_selection": "deterministic argmax; all 3 episodes for memory",
+  "checkpoint_selection": "third episode success first, third episode mean return as tie breaker",
+  "initialization": "new high network; no prior high checkpoint loaded",
+  "demonstration_waypoints": {
+    "direct": [
+      [
+        2.5,
+        0.0
+      ]
+    ],
+    "upper": [
+      [
+        -3.375,
+        1.75
+      ],
+      [
+        -0.65,
+        2.75
+      ],
+      [
+        0.7,
+        2.75
+      ],
+      [
+        2.5,
+        0.0
+      ]
+    ],
+    "lower": [
+      [
+        -0.9,
+        -4.75
+      ],
+      [
+        0.8,
+        -4.75
+      ],
+      [
+        2.5,
+        0.0
+      ]
+    ]
+  },
+  "probe_upper_return_waypoint": [
+    -2.8,
+    0.25
+  ],
+  "training_cases": [
+    [
+      "open",
+      75
+    ],
+    [
+      "open",
+      145
+    ],
+    [
+      "open",
+      230
+    ],
+    [
+      "closed",
+      145
+    ],
+    [
+      "closed",
+      230
+    ]
+  ],
+  "evaluation_cases": [
+    [
+      "open",
+      75
+    ],
+    [
+      "open",
+      145
+    ],
+    [
+      "open",
+      230
+    ],
+    [
+      "closed",
+      75
+    ],
+    [
+      "closed",
+      145
+    ],
+    [
+      "closed",
+      230
+    ]
+  ],
+  "excluded_training_cases": [
+    [
+      "closed",
+      75
+    ]
+  ],
+  "exclusion_scope": "both online PPO collection and auxiliary BC demonstrations; evaluation retains all cases",
+  "policy_mode": "time",
+  "baseline_initialization": "fresh random weights"
+}

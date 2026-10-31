@@ -1,0 +1,85 @@
+{
+  "checkpoint": "/home/yufeng.yang/codespace/time_adaptation/deadline_pick_place/high_level/runs/v2_no_bc_seed0_1000/best.pt",
+  "checkpoint_phase": "ppo",
+  "checkpoint_update": 280,
+  "seed": 300000,
+  "deadline": 150,
+  "scores": {
+    "S": 1.0,
+    "A": 4.0,
+    "B": 2.0,
+    "C": 0.0,
+    "D": 1.0
+  },
+  "positions": [
+    [
+      -0.18,
+      0.0,
+      0.026000000000000002
+    ],
+    [
+      -0.10763841414569514,
+      -0.3435316168858404,
+      0.026000000000000002
+    ],
+    [
+      -0.002063156396916553,
+      0.35999408798712496,
+      0.026000000000000002
+    ],
+    [
+      -0.24397624555801173,
+      -0.26471794726352943,
+      0.026000000000000002
+    ],
+    [
+      -0.2700960141702471,
+      0.23800870389409226,
+      0.026000000000000002
+    ]
+  ],
+  "records": [
+    {
+      "episode": 1,
+      "deadline": 150,
+      "score": 2.0,
+      "delivered": true,
+      "ball": "B",
+      "low_steps": 37,
+      "inspections": [],
+      "actions": [
+        "deliver_B"
+      ]
+    },
+    {
+      "episode": 2,
+      "deadline": 150,
+      "score": 0.0,
+      "delivered": true,
+      "ball": "C",
+      "low_steps": 37,
+      "inspections": [],
+      "actions": [
+        "deliver_C"
+      ]
+    },
+    {
+      "episode": 3,
+      "deadline": 150,
+      "score": 4.0,
+      "delivered": true,
+      "ball": "A",
+      "low_steps": 37,
+      "inspections": [],
+      "actions": [
+        "deliver_A"
+      ]
+    }
+  ],
+  "total_low_steps": 111,
+  "rendering": "Top-down ideal Cartesian state visualization; no MuJoCo joints, collisions or physical grasp simulation",
+  "note": "Score/known-value display is diagnostic only and is not an extra policy input. Playback pauses at contacts and episode boundaries.",
+  "playback_fps": 12,
+  "playback_seconds": 20.0,
+  "trace_frames_checked": 123
+}

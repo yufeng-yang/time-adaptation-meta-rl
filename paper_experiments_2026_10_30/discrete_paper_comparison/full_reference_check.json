@@ -1,0 +1,124 @@
+{
+  "summary": {
+    "trials": 100,
+    "trial_return": {
+      "mean": 0.6490000000000002,
+      "ci95": [
+        0.13939250000000006,
+        1.1419124999999997
+      ]
+    },
+    "final_episode_return": {
+      "mean": 0.32419999999999993,
+      "ci95": [
+        0.14858999999999994,
+        0.49520499999999995
+      ]
+    },
+    "odr": {
+      "mean": 0.78,
+      "ci95": [
+        0.7,
+        0.86
+      ]
+    },
+    "deadline_trial_return": {
+      "mean": 1.1119999999999997,
+      "ci95": [
+        0.6,
+        1.608
+      ]
+    },
+    "deadline_final_episode_return": {
+      "mean": 0.4759999999999999,
+      "ci95": [
+        0.3,
+        0.6479999999999998
+      ]
+    },
+    "per_episode_return": [
+      0.0006000000000000094,
+      0.32419999999999993,
+      0.32419999999999993
+    ],
+    "final_success_rate": 0.78
+  },
+  "oracle": {
+    "open_D15": {
+      "route_values": {
+        "direct": 1.0,
+        "medium": -1.2,
+        "detour": -1.0
+      },
+      "optimal_routes": [
+        "direct"
+      ],
+      "feasible": true
+    },
+    "open_D17": {
+      "route_values": {
+        "direct": 1.0,
+        "medium": 0.8,
+        "detour": -1.0
+      },
+      "optimal_routes": [
+        "direct"
+      ],
+      "feasible": true
+    },
+    "open_D25": {
+      "route_values": {
+        "direct": 1.0,
+        "medium": 0.8,
+        "detour": 1.0
+      },
+      "optimal_routes": [
+        "direct",
+        "detour"
+      ],
+      "feasible": true
+    },
+    "closed_D15": {
+      "route_values": {
+        "direct": -1.0,
+        "medium": -1.2,
+        "detour": -1.0
+      },
+      "optimal_routes": [
+        "direct",
+        "detour"
+      ],
+      "feasible": false
+    },
+    "closed_D17": {
+      "route_values": {
+        "direct": -1.0,
+        "medium": 0.8,
+        "detour": -1.0
+      },
+      "optimal_routes": [
+        "medium"
+      ],
+      "feasible": true
+    },
+    "closed_D25": {
+      "route_values": {
+        "direct": -1.0,
+        "medium": 0.8,
+        "detour": 1.0
+      },
+      "optimal_routes": [
+        "detour"
+      ],
+      "feasible": true
+    }
+  },
+  "case_counts": {
+    "closed_D15": 22,
+    "closed_D17": 20,
+    "closed_D25": 14,
+    "open_D15": 15,
+    "open_D25": 15,
+    "open_D17": 14
+  }
+}

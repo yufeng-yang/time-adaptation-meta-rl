@@ -1,0 +1,56 @@
+{
+  "shared_settings": {
+    "state": {
+      "bc_warmup_updates": true,
+      "bc_decay_steps": true,
+      "bc_initial_weight": true,
+      "bc_min_weight": true,
+      "learning_rate": true,
+      "bc_critical_weight": true,
+      "bc_turn_window": true,
+      "gamma": true,
+      "ppo_epochs": true,
+      "clip_range": true,
+      "entropy_coef": true,
+      "value_coef": true,
+      "max_grad_norm": true,
+      "seed": true,
+      "episode_weights": true
+    },
+    "time": {
+      "bc_warmup_updates": true,
+      "bc_decay_steps": true,
+      "bc_initial_weight": true,
+      "bc_min_weight": true,
+      "learning_rate": true,
+      "bc_critical_weight": true,
+      "bc_turn_window": true,
+      "gamma": true,
+      "ppo_epochs": true,
+      "clip_range": true,
+      "entropy_coef": true,
+      "value_coef": true,
+      "max_grad_norm": true,
+      "seed": true,
+      "episode_weights": true
+    },
+    "context": {
+      "bc_warmup_updates": true,
+      "bc_decay_steps": true,
+      "bc_initial_weight": true,
+      "bc_min_weight": true,
+      "learning_rate": true,
+      "bc_critical_weight": true,
+      "bc_turn_window": true,
+      "gamma": true,
+      "ppo_epochs": true,
+      "clip_range": true,
+      "entropy_coef": true,
+      "value_coef": true,
+      "max_grad_norm": true,
+      "seed": true,
+      "episode_weights": true
+    }
+  },
+  "demonstration_records_identical": true
+}

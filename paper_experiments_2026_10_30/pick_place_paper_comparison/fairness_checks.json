@@ -1,0 +1,8 @@
+{
+  "baseline_demonstration_tasks_and_actions_identical": true,
+  "training_updates": 200,
+  "training_trial_batches": 32,
+  "bc_updates": 1000,
+  "bc_pool_trials": 768,
+  "interaction_steps": "Policy-dependent option durations; actual counts in summaries"
+}

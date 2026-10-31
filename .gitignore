@@ -29,3 +29,7 @@
 /tidyup_plan2/baseline3_gate_meta_rl/release_0_64p5w/generated/
 /.local_experiment_archive/
 /tidyup_plan2/baseline3_gate_meta_rl/episode_transformer_bc/runs/
+
+# Curated four-experiment paper snapshot.
+!/paper_experiments_2026_10_30/
+!/paper_experiments_2026_10_30/**

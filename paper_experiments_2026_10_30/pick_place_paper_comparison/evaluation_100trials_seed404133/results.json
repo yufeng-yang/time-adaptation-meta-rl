@@ -1,0 +1,865 @@
+{
+  "methods": {
+    "state": {
+      "trials": 100,
+      "trial_return": {
+        "mean": 1.5825,
+        "ci95": [
+          1.3825,
+          1.7875
+        ]
+      },
+      "final_episode_return": {
+        "mean": 0.485,
+        "ci95": [
+          0.3975,
+          0.575
+        ]
+      },
+      "odr": {
+        "mean": 0.47,
+        "ci95": [
+          0.37,
+          0.57
+        ]
+      },
+      "trial_score": {
+        "mean": 6.33,
+        "ci95": [
+          5.53,
+          7.15
+        ]
+      },
+      "final_episode_score": {
+        "mean": 1.94,
+        "ci95": [
+          1.59,
+          2.3
+        ]
+      },
+      "delivered_optimal_rate": {
+        "mean": 0.38,
+        "ci95": [
+          0.29,
+          0.48
+        ]
+      },
+      "episode_returns": [
+        0.5725,
+        0.525,
+        0.485
+      ],
+      "final_delivery_rate": 0.66,
+      "checkpoint": "/home/yufeng.yang/codespace/time_adaptation/pick_place_paper_comparison/runs/state_seed0_200updates/best.pt",
+      "checkpoint_sha256": "fd970cb216af19a80c2982a88de85f04e2aeb2c0dd485cedbc7c391dfc955f6f",
+      "selected_phase": "ppo",
+      "selected_update": 140,
+      "selected_low_steps": 551107,
+      "deadline_bands": {
+        "short": {
+          "trials": 5,
+          "trial_return": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "final_episode_return": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "odr": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "trial_score": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "final_episode_score": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "delivered_optimal_rate": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "episode_returns": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "final_delivery_rate": 0.0
+        },
+        "medium": {
+          "trials": 40,
+          "trial_return": {
+            "mean": 1.19375,
+            "ci95": [
+              0.89375,
+              1.49375
+            ]
+          },
+          "final_episode_return": {
+            "mean": 0.38125,
+            "ci95": [
+              0.24375,
+              0.525
+            ]
+          },
+          "odr": {
+            "mean": 0.525,
+            "ci95": [
+              0.375,
+              0.675
+            ]
+          },
+          "trial_score": {
+            "mean": 4.775,
+            "ci95": [
+              3.575,
+              5.975
+            ]
+          },
+          "final_episode_score": {
+            "mean": 1.525,
+            "ci95": [
+              0.975,
+              2.1
+            ]
+          },
+          "delivered_optimal_rate": {
+            "mean": 0.325,
+            "ci95": [
+              0.175,
+              0.475
+            ]
+          },
+          "episode_returns": [
+            0.4125,
+            0.4,
+            0.38125
+          ],
+          "final_delivery_rate": 0.5
+        },
+        "long": {
+          "trials": 55,
+          "trial_return": {
+            "mean": 2.0090909090909093,
+            "ci95": [
+              1.7863636363636364,
+              2.227272727272727
+            ]
+          },
+          "final_episode_return": {
+            "mean": 0.6045454545454545,
+            "ci95": [
+              0.4954545454545455,
+              0.7090909090909091
+            ]
+          },
+          "odr": {
+            "mean": 0.4727272727272727,
+            "ci95": [
+              0.34545454545454546,
+              0.6
+            ]
+          },
+          "trial_score": {
+            "mean": 8.036363636363637,
+            "ci95": [
+              7.1454545454545455,
+              8.909090909090908
+            ]
+          },
+          "final_episode_score": {
+            "mean": 2.418181818181818,
+            "ci95": [
+              1.981818181818182,
+              2.8363636363636364
+            ]
+          },
+          "delivered_optimal_rate": {
+            "mean": 0.45454545454545453,
+            "ci95": [
+              0.32727272727272727,
+              0.5818181818181818
+            ]
+          },
+          "episode_returns": [
+            0.740909090909091,
+            0.6636363636363637,
+            0.6045454545454545
+          ],
+          "final_delivery_rate": 0.8363636363636363
+        }
+      }
+    },
+    "time": {
+      "trials": 100,
+      "trial_return": {
+        "mean": 1.9375,
+        "ci95": [
+          1.785,
+          2.095
+        ]
+      },
+      "final_episode_return": {
+        "mean": 0.6075,
+        "ci95": [
+          0.54,
+          0.6725
+        ]
+      },
+      "odr": {
+        "mean": 0.45,
+        "ci95": [
+          0.35,
+          0.55
+        ]
+      },
+      "trial_score": {
+        "mean": 7.75,
+        "ci95": [
+          7.14,
+          8.38
+        ]
+      },
+      "final_episode_score": {
+        "mean": 2.43,
+        "ci95": [
+          2.16,
+          2.69
+        ]
+      },
+      "delivered_optimal_rate": {
+        "mean": 0.44,
+        "ci95": [
+          0.34,
+          0.54
+        ]
+      },
+      "episode_returns": [
+        0.69,
+        0.64,
+        0.6075
+      ],
+      "final_delivery_rate": 0.98,
+      "checkpoint": "/home/yufeng.yang/codespace/time_adaptation/pick_place_paper_comparison/runs/time_seed0_200updates/best.pt",
+      "checkpoint_sha256": "b30c85892b751e2702264fef9c8d4a19d8b2f2a4d08c8aa61bc8547c0b02e90e",
+      "selected_phase": "ppo",
+      "selected_update": 180,
+      "selected_low_steps": 735992,
+      "deadline_bands": {
+        "short": {
+          "trials": 5,
+          "trial_return": {
+            "mean": 0.75,
+            "ci95": [
+              0.75,
+              0.75
+            ]
+          },
+          "final_episode_return": {
+            "mean": 0.25,
+            "ci95": [
+              0.25,
+              0.25
+            ]
+          },
+          "odr": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "trial_score": {
+            "mean": 3.0,
+            "ci95": [
+              3.0,
+              3.0
+            ]
+          },
+          "final_episode_score": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "delivered_optimal_rate": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "episode_returns": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "final_delivery_rate": 1.0
+        },
+        "medium": {
+          "trials": 40,
+          "trial_return": {
+            "mean": 1.55625,
+            "ci95": [
+              1.33125,
+              1.79375
+            ]
+          },
+          "final_episode_return": {
+            "mean": 0.5375,
+            "ci95": [
+              0.43125,
+              0.64375
+            ]
+          },
+          "odr": {
+            "mean": 0.35,
+            "ci95": [
+              0.2,
+              0.5
+            ]
+          },
+          "trial_score": {
+            "mean": 6.225,
+            "ci95": [
+              5.325,
+              7.175
+            ]
+          },
+          "final_episode_score": {
+            "mean": 2.15,
+            "ci95": [
+              1.725,
+              2.575
+            ]
+          },
+          "delivered_optimal_rate": {
+            "mean": 0.325,
+            "ci95": [
+              0.2,
+              0.475
+            ]
+          },
+          "episode_returns": [
+            0.50625,
+            0.5125,
+            0.5375
+          ],
+          "final_delivery_rate": 0.95
+        },
+        "long": {
+          "trials": 55,
+          "trial_return": {
+            "mean": 2.3227272727272728,
+            "ci95": [
+              2.159090909090909,
+              2.477272727272727
+            ]
+          },
+          "final_episode_return": {
+            "mean": 0.6909090909090909,
+            "ci95": [
+              0.6045454545454545,
+              0.7727272727272727
+            ]
+          },
+          "odr": {
+            "mean": 0.4727272727272727,
+            "ci95": [
+              0.34545454545454546,
+              0.6
+            ]
+          },
+          "trial_score": {
+            "mean": 9.290909090909091,
+            "ci95": [
+              8.636363636363637,
+              9.909090909090908
+            ]
+          },
+          "final_episode_score": {
+            "mean": 2.7636363636363637,
+            "ci95": [
+              2.418181818181818,
+              3.090909090909091
+            ]
+          },
+          "delivered_optimal_rate": {
+            "mean": 0.4727272727272727,
+            "ci95": [
+              0.34545454545454546,
+              0.6
+            ]
+          },
+          "episode_returns": [
+            0.8636363636363636,
+            0.7681818181818182,
+            0.6909090909090909
+          ],
+          "final_delivery_rate": 1.0
+        }
+      }
+    },
+    "context": {
+      "trials": 100,
+      "trial_return": {
+        "mean": 2.415,
+        "ci95": [
+          2.2225,
+          2.5875
+        ]
+      },
+      "final_episode_return": {
+        "mean": 0.9025,
+        "ci95": [
+          0.845,
+          0.955
+        ]
+      },
+      "odr": {
+        "mean": 0.91,
+        "ci95": [
+          0.85,
+          0.96
+        ]
+      },
+      "trial_score": {
+        "mean": 9.66,
+        "ci95": [
+          8.89,
+          10.35
+        ]
+      },
+      "final_episode_score": {
+        "mean": 3.61,
+        "ci95": [
+          3.38,
+          3.82
+        ]
+      },
+      "delivered_optimal_rate": {
+        "mean": 0.89,
+        "ci95": [
+          0.83,
+          0.95
+        ]
+      },
+      "episode_returns": [
+        0.655,
+        0.8575,
+        0.9025
+      ],
+      "final_delivery_rate": 0.92,
+      "checkpoint": "/home/yufeng.yang/codespace/time_adaptation/pick_place_paper_comparison/runs/context_seed0_200updates/best.pt",
+      "checkpoint_sha256": "d89d3d99ae5f9a505c50df8ea0e5bd9236b2196d6fd98b9b9ecde9747de7c4f2",
+      "selected_phase": "ppo",
+      "selected_update": 20,
+      "selected_low_steps": 75684,
+      "deadline_bands": {
+        "short": {
+          "trials": 5,
+          "trial_return": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "final_episode_return": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "odr": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "trial_score": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "final_episode_score": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "delivered_optimal_rate": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "episode_returns": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "final_delivery_rate": 0.0
+        },
+        "medium": {
+          "trials": 40,
+          "trial_return": {
+            "mean": 2.10625,
+            "ci95": [
+              1.80625,
+              2.38125
+            ]
+          },
+          "final_episode_return": {
+            "mean": 0.88125,
+            "ci95": [
+              0.78125,
+              0.9625
+            ]
+          },
+          "odr": {
+            "mean": 0.9,
+            "ci95": [
+              0.8,
+              0.975
+            ]
+          },
+          "trial_score": {
+            "mean": 8.425,
+            "ci95": [
+              7.225,
+              9.525
+            ]
+          },
+          "final_episode_score": {
+            "mean": 3.525,
+            "ci95": [
+              3.125,
+              3.85
+            ]
+          },
+          "delivered_optimal_rate": {
+            "mean": 0.85,
+            "ci95": [
+              0.725,
+              0.95
+            ]
+          },
+          "episode_returns": [
+            0.44375,
+            0.78125,
+            0.88125
+          ],
+          "final_delivery_rate": 0.925
+        },
+        "long": {
+          "trials": 55,
+          "trial_return": {
+            "mean": 2.859090909090909,
+            "ci95": [
+              2.7636363636363637,
+              2.9363636363636365
+            ]
+          },
+          "final_episode_return": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "odr": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "trial_score": {
+            "mean": 11.436363636363636,
+            "ci95": [
+              11.054545454545455,
+              11.745454545454546
+            ]
+          },
+          "final_episode_score": {
+            "mean": 4.0,
+            "ci95": [
+              4.0,
+              4.0
+            ]
+          },
+          "delivered_optimal_rate": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "episode_returns": [
+            0.8681818181818182,
+            0.990909090909091,
+            1.0
+          ],
+          "final_delivery_rate": 1.0
+        }
+      }
+    },
+    "full": {
+      "trials": 100,
+      "trial_return": {
+        "mean": 2.5275,
+        "ci95": [
+          2.3675,
+          2.68
+        ]
+      },
+      "final_episode_return": {
+        "mean": 0.905,
+        "ci95": [
+          0.855,
+          0.95
+        ]
+      },
+      "odr": {
+        "mean": 0.92,
+        "ci95": [
+          0.86,
+          0.97
+        ]
+      },
+      "trial_score": {
+        "mean": 10.11,
+        "ci95": [
+          9.47,
+          10.72
+        ]
+      },
+      "final_episode_score": {
+        "mean": 3.62,
+        "ci95": [
+          3.42,
+          3.8
+        ]
+      },
+      "delivered_optimal_rate": {
+        "mean": 0.92,
+        "ci95": [
+          0.86,
+          0.97
+        ]
+      },
+      "episode_returns": [
+        0.7625,
+        0.86,
+        0.905
+      ],
+      "final_delivery_rate": 1.0,
+      "checkpoint": "/home/yufeng.yang/codespace/time_adaptation/final_experiment_3/half_bc/best.pt",
+      "checkpoint_sha256": "d21bab8f148f3173c2ff891fa0958855f88a31dd6d2f557ada75f3f452ee6ff4",
+      "selected_phase": "ppo",
+      "selected_update": 40,
+      "selected_low_steps": 152964,
+      "deadline_bands": {
+        "short": {
+          "trials": 5,
+          "trial_return": {
+            "mean": 0.75,
+            "ci95": [
+              0.75,
+              0.75
+            ]
+          },
+          "final_episode_return": {
+            "mean": 0.25,
+            "ci95": [
+              0.25,
+              0.25
+            ]
+          },
+          "odr": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "trial_score": {
+            "mean": 3.0,
+            "ci95": [
+              3.0,
+              3.0
+            ]
+          },
+          "final_episode_score": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "delivered_optimal_rate": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "episode_returns": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "final_delivery_rate": 1.0
+        },
+        "medium": {
+          "trials": 40,
+          "trial_return": {
+            "mean": 2.25,
+            "ci95": [
+              1.975,
+              2.50625
+            ]
+          },
+          "final_episode_return": {
+            "mean": 0.86875,
+            "ci95": [
+              0.775,
+              0.94375
+            ]
+          },
+          "odr": {
+            "mean": 0.825,
+            "ci95": [
+              0.7,
+              0.925
+            ]
+          },
+          "trial_score": {
+            "mean": 9.0,
+            "ci95": [
+              7.9,
+              10.025
+            ]
+          },
+          "final_episode_score": {
+            "mean": 3.475,
+            "ci95": [
+              3.1,
+              3.775
+            ]
+          },
+          "delivered_optimal_rate": {
+            "mean": 0.825,
+            "ci95": [
+              0.7,
+              0.925
+            ]
+          },
+          "episode_returns": [
+            0.5875,
+            0.79375,
+            0.86875
+          ],
+          "final_delivery_rate": 1.0
+        },
+        "long": {
+          "trials": 55,
+          "trial_return": {
+            "mean": 2.890909090909091,
+            "ci95": [
+              2.772727272727273,
+              2.981818181818182
+            ]
+          },
+          "final_episode_return": {
+            "mean": 0.990909090909091,
+            "ci95": [
+              0.9727272727272728,
+              1.0
+            ]
+          },
+          "odr": {
+            "mean": 0.9818181818181818,
+            "ci95": [
+              0.9454545454545454,
+              1.0
+            ]
+          },
+          "trial_score": {
+            "mean": 11.563636363636364,
+            "ci95": [
+              11.090909090909092,
+              11.927272727272728
+            ]
+          },
+          "final_episode_score": {
+            "mean": 3.963636363636364,
+            "ci95": [
+              3.890909090909091,
+              4.0
+            ]
+          },
+          "delivered_optimal_rate": {
+            "mean": 0.9818181818181818,
+            "ci95": [
+              0.9454545454545454,
+              1.0
+            ]
+          },
+          "episode_returns": [
+            0.9363636363636364,
+            0.9636363636363636,
+            0.990909090909091
+          ],
+          "final_delivery_rate": 1.0
+        }
+      }
+    }
+  },
+  "deadline_range": [
+    30,
+    150
+  ],
+  "test_trials": 100,
+  "task_seed": 404133,
+  "training_seeds": 1,
+  "environment": "Archived nine ideal Cartesian options; not physical manipulation or the newer8-action primitive environment",
+  "reward": "Delivered score/4, gamma1; raw score companions also provided",
+  "selection": "Original half_bc/best.pt; three fresh baselines use same validation mean-trial-score criterion",
+  "oracle": "Full-information maximum score among targets directly deliverable from episode home within D; only evaluation sees hidden scores",
+  "odr": "Final attempted delivery target belongs to oracle optimal target set; no delivery choice is incorrect. Delivered-optimal rate is separately reported.",
+  "uncertainty": "95% paired-task bootstrap intervals over100 trials; not training-seed uncertainty",
+  "verification": {
+    "archive_unchanged": true,
+    "verified_files": 146
+  }
+}

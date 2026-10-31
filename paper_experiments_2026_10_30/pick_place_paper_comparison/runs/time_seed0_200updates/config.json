@@ -1,0 +1,87 @@
+{
+  "output_dir": "/home/yufeng.yang/codespace/time_adaptation/pick_place_paper_comparison/runs/time_seed0_200updates",
+  "seed": 0,
+  "expert_trials": 768,
+  "bc_updates": 1000,
+  "ppo_updates": 200,
+  "batch_trials": 32,
+  "eval_trials": 64,
+  "eval_every": 20,
+  "task": {
+    "task": {
+      "deadlines": [
+        30,
+        65,
+        150
+      ],
+      "episodes_per_trial": 3,
+      "movement_m_per_step": 0.03,
+      "inspect_steps": 2,
+      "grasp_steps": 2,
+      "release_steps": 2,
+      "safe_score": 1.0,
+      "unknown_scores": [
+        0.0,
+        1.0,
+        2.0,
+        4.0
+      ],
+      "score_sampling": "permutation",
+      "score_scale": 4.0,
+      "time_scale": 100.0
+    },
+    "layout": {
+      "table_size": [
+        0.9,
+        0.9,
+        0.05
+      ],
+      "table_height": 0.8,
+      "home_height_above_table": 0.12,
+      "ball_radius": 0.025,
+      "safe_radius": 0.18,
+      "unknown_radius": 0.36,
+      "unknown_angle_ranges": [
+        [
+          80.0,
+          145.0
+        ],
+        [
+          215.0,
+          280.0
+        ]
+      ],
+      "minimum_ball_separation": 0.1,
+      "tray_radius": 0.065
+    }
+  },
+  "architecture": "causal within-episode Transformer + episode-boundary GRU",
+  "observation_dim": 49,
+  "actions": [
+    "inspect_A",
+    "inspect_B",
+    "inspect_C",
+    "inspect_D",
+    "deliver_S",
+    "deliver_A",
+    "deliver_B",
+    "deliver_C",
+    "deliver_D"
+  ],
+  "torch": "2.13.0+cu130",
+  "training": "legal-history demonstration warmstart + full-trial PPO; no action masks",
+  "environment": "ideal fixed-speed Cartesian options; not MuJoCo execution",
+  "episode_boundary": "terminal event encoded before reset; next episode starts with clean feedback/action/reward fields",
+  "policy_mode": "time",
+  "bc_aux_initial_weight": 0.2,
+  "bc_decay_updates": 100,
+  "learning_rate_bc": 0.001,
+  "learning_rate_ppo": 0.0003,
+  "ppo_epochs": 4,
+  "ppo_minibatches": 2,
+  "entropy_coefficient": 0.01,
+  "value_coefficient": 0.5,
+  "clip_range": 0.2,
+  "max_grad_norm": 0.5,
+  "baseline_initialization": "fresh weights; missing time/context/history masked"
+}

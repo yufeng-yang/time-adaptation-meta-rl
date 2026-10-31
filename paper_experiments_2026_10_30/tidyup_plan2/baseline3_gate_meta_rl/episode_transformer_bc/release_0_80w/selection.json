@@ -1,0 +1,15 @@
+{
+  "selected_checkpoint_steps": 800058,
+  "nominal_retained_limit": 800000,
+  "original_completed_steps": 1000050,
+  "source_run": "runs/seed0_1m",
+  "source_checkpoint": "runs/seed0_1m/checkpoints/steps_800058.pt",
+  "selected_checkpoint_sha256": "9a37f2215463a0c0cf8fff209ce3ea753be3c69608ca1505bfbee9e9ae49bbf0",
+  "semantics": "Retrospective truncation, not a claim that the actual run stopped at 800k",
+  "raw_after_cutoff": "Preserved in the original ignored runs/seed0_1m directory",
+  "csv_rows": {
+    "train_trials.csv": 17036,
+    "evaluation_curve.csv": 161
+  },
+  "evaluation_files": 161
+}

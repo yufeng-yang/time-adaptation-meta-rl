@@ -1,0 +1,602 @@
+[
+  {
+    "trial": 0,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500000
+  },
+  {
+    "trial": 1,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500001
+  },
+  {
+    "trial": 2,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500002
+  },
+  {
+    "trial": 3,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500003
+  },
+  {
+    "trial": 4,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500004
+  },
+  {
+    "trial": 5,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500005
+  },
+  {
+    "trial": 6,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500006
+  },
+  {
+    "trial": 7,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500007
+  },
+  {
+    "trial": 8,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500008
+  },
+  {
+    "trial": 9,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500009
+  },
+  {
+    "trial": 10,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500010
+  },
+  {
+    "trial": 11,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500011
+  },
+  {
+    "trial": 12,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500012
+  },
+  {
+    "trial": 13,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500013
+  },
+  {
+    "trial": 14,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500014
+  },
+  {
+    "trial": 15,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500015
+  },
+  {
+    "trial": 16,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500016
+  },
+  {
+    "trial": 17,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500017
+  },
+  {
+    "trial": 18,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500018
+  },
+  {
+    "trial": 19,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500019
+  },
+  {
+    "trial": 20,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500020
+  },
+  {
+    "trial": 21,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500021
+  },
+  {
+    "trial": 22,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500022
+  },
+  {
+    "trial": 23,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500023
+  },
+  {
+    "trial": 24,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500024
+  },
+  {
+    "trial": 25,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500025
+  },
+  {
+    "trial": 26,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500026
+  },
+  {
+    "trial": 27,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500027
+  },
+  {
+    "trial": 28,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500028
+  },
+  {
+    "trial": 29,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500029
+  },
+  {
+    "trial": 30,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500030
+  },
+  {
+    "trial": 31,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500031
+  },
+  {
+    "trial": 32,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500032
+  },
+  {
+    "trial": 33,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500033
+  },
+  {
+    "trial": 34,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500034
+  },
+  {
+    "trial": 35,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500035
+  },
+  {
+    "trial": 36,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500036
+  },
+  {
+    "trial": 37,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500037
+  },
+  {
+    "trial": 38,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500038
+  },
+  {
+    "trial": 39,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500039
+  },
+  {
+    "trial": 40,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500040
+  },
+  {
+    "trial": 41,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500041
+  },
+  {
+    "trial": 42,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500042
+  },
+  {
+    "trial": 43,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500043
+  },
+  {
+    "trial": 44,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500044
+  },
+  {
+    "trial": 45,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500045
+  },
+  {
+    "trial": 46,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500046
+  },
+  {
+    "trial": 47,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500047
+  },
+  {
+    "trial": 48,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500048
+  },
+  {
+    "trial": 49,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500049
+  },
+  {
+    "trial": 50,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500050
+  },
+  {
+    "trial": 51,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500051
+  },
+  {
+    "trial": 52,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500052
+  },
+  {
+    "trial": 53,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500053
+  },
+  {
+    "trial": 54,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500054
+  },
+  {
+    "trial": 55,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500055
+  },
+  {
+    "trial": 56,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500056
+  },
+  {
+    "trial": 57,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500057
+  },
+  {
+    "trial": 58,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500058
+  },
+  {
+    "trial": 59,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500059
+  },
+  {
+    "trial": 60,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500060
+  },
+  {
+    "trial": 61,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500061
+  },
+  {
+    "trial": 62,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500062
+  },
+  {
+    "trial": 63,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500063
+  },
+  {
+    "trial": 64,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500064
+  },
+  {
+    "trial": 65,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500065
+  },
+  {
+    "trial": 66,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500066
+  },
+  {
+    "trial": 67,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500067
+  },
+  {
+    "trial": 68,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500068
+  },
+  {
+    "trial": 69,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500069
+  },
+  {
+    "trial": 70,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500070
+  },
+  {
+    "trial": 71,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500071
+  },
+  {
+    "trial": 72,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500072
+  },
+  {
+    "trial": 73,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500073
+  },
+  {
+    "trial": 74,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500074
+  },
+  {
+    "trial": 75,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500075
+  },
+  {
+    "trial": 76,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500076
+  },
+  {
+    "trial": 77,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500077
+  },
+  {
+    "trial": 78,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500078
+  },
+  {
+    "trial": 79,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500079
+  },
+  {
+    "trial": 80,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500080
+  },
+  {
+    "trial": 81,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500081
+  },
+  {
+    "trial": 82,
+    "gate": "closed",
+    "deadline": 25,
+    "seed": 500082
+  },
+  {
+    "trial": 83,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500083
+  },
+  {
+    "trial": 84,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500084
+  },
+  {
+    "trial": 85,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500085
+  },
+  {
+    "trial": 86,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500086
+  },
+  {
+    "trial": 87,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500087
+  },
+  {
+    "trial": 88,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500088
+  },
+  {
+    "trial": 89,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500089
+  },
+  {
+    "trial": 90,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500090
+  },
+  {
+    "trial": 91,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500091
+  },
+  {
+    "trial": 92,
+    "gate": "open",
+    "deadline": 15,
+    "seed": 500092
+  },
+  {
+    "trial": 93,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500093
+  },
+  {
+    "trial": 94,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500094
+  },
+  {
+    "trial": 95,
+    "gate": "closed",
+    "deadline": 17,
+    "seed": 500095
+  },
+  {
+    "trial": 96,
+    "gate": "open",
+    "deadline": 17,
+    "seed": 500096
+  },
+  {
+    "trial": 97,
+    "gate": "open",
+    "deadline": 25,
+    "seed": 500097
+  },
+  {
+    "trial": 98,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500098
+  },
+  {
+    "trial": 99,
+    "gate": "closed",
+    "deadline": 15,
+    "seed": 500099
+  }
+]

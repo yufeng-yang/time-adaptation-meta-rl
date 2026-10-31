@@ -1,0 +1,15 @@
+{
+  "samples": 200,
+  "direct_safe_steps": [
+    25,
+    25
+  ],
+  "direct_outer_steps": [
+    37,
+    37
+  ],
+  "inspect_all_then_deliver_worst_target_steps": [
+    96,
+    133
+  ]
+}

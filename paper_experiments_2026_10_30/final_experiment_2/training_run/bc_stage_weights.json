@@ -1,0 +1,137 @@
+[
+  {
+    "gate": "open",
+    "deadline": 75,
+    "episode": 1,
+    "steps": 70,
+    "turn_steps": 0,
+    "upweighted_steps": 0,
+    "weight_sum": 70.0
+  },
+  {
+    "gate": "open",
+    "deadline": 75,
+    "episode": 2,
+    "steps": 70,
+    "turn_steps": 0,
+    "upweighted_steps": 0,
+    "weight_sum": 70.0
+  },
+  {
+    "gate": "open",
+    "deadline": 75,
+    "episode": 3,
+    "steps": 70,
+    "turn_steps": 0,
+    "upweighted_steps": 0,
+    "weight_sum": 70.0
+  },
+  {
+    "gate": "open",
+    "deadline": 145,
+    "episode": 1,
+    "steps": 70,
+    "turn_steps": 0,
+    "upweighted_steps": 0,
+    "weight_sum": 70.0
+  },
+  {
+    "gate": "open",
+    "deadline": 145,
+    "episode": 2,
+    "steps": 70,
+    "turn_steps": 0,
+    "upweighted_steps": 0,
+    "weight_sum": 70.0
+  },
+  {
+    "gate": "open",
+    "deadline": 145,
+    "episode": 3,
+    "steps": 70,
+    "turn_steps": 0,
+    "upweighted_steps": 0,
+    "weight_sum": 70.0
+  },
+  {
+    "gate": "open",
+    "deadline": 230,
+    "episode": 1,
+    "steps": 70,
+    "turn_steps": 0,
+    "upweighted_steps": 0,
+    "weight_sum": 70.0
+  },
+  {
+    "gate": "open",
+    "deadline": 230,
+    "episode": 2,
+    "steps": 70,
+    "turn_steps": 0,
+    "upweighted_steps": 0,
+    "weight_sum": 70.0
+  },
+  {
+    "gate": "open",
+    "deadline": 230,
+    "episode": 3,
+    "steps": 70,
+    "turn_steps": 0,
+    "upweighted_steps": 0,
+    "weight_sum": 70.0
+  },
+  {
+    "gate": "closed",
+    "deadline": 145,
+    "episode": 1,
+    "steps": 145,
+    "turn_steps": 26,
+    "upweighted_steps": 54,
+    "weight_sum": 361.0
+  },
+  {
+    "gate": "closed",
+    "deadline": 145,
+    "episode": 2,
+    "steps": 135,
+    "turn_steps": 22,
+    "upweighted_steps": 59,
+    "weight_sum": 371.0
+  },
+  {
+    "gate": "closed",
+    "deadline": 145,
+    "episode": 3,
+    "steps": 135,
+    "turn_steps": 22,
+    "upweighted_steps": 59,
+    "weight_sum": 371.0
+  },
+  {
+    "gate": "closed",
+    "deadline": 230,
+    "episode": 1,
+    "steps": 199,
+    "turn_steps": 28,
+    "upweighted_steps": 75,
+    "weight_sum": 499.0
+  },
+  {
+    "gate": "closed",
+    "deadline": 230,
+    "episode": 2,
+    "steps": 173,
+    "turn_steps": 25,
+    "upweighted_steps": 69,
+    "weight_sum": 449.0
+  },
+  {
+    "gate": "closed",
+    "deadline": 230,
+    "episode": 3,
+    "steps": 173,
+    "turn_steps": 25,
+    "upweighted_steps": 69,
+    "weight_sum": 449.0
+  }
+]

@@ -1,0 +1,20 @@
+BC state 100 3
+BC state 200 4
+BC state 300 5
+BC state 400 7
+BC state 500 8
+BC state 600 9
+BC state 700 10
+BC state 800 11
+BC state 900 13
+BC state 1000 14
+PPO state 20 72676 validation 3.875 seconds 22
+PPO state 40 146965 validation 3.9167 seconds 29
+PPO state 60 219894 validation 3.8958 seconds 36
+PPO state 80 295738 validation 4.375 seconds 43
+PPO state 100 372967 validation 4.4896 seconds 51
+PPO state 120 458792 validation 4.7812 seconds 58
+PPO state 140 551107 validation 5.0156 seconds 66
+PPO state 160 648274 validation 4.875 seconds 74
+PPO state 180 745754 validation 4.8333 seconds 82
+PPO state 200 846764 validation 4.8229 seconds 90

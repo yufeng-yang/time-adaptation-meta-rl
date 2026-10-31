@@ -1,0 +1,4 @@
+{
+  "status": "interrupted",
+  "reason": "Align validation frequency to archived 10k-step schedule before the main matched run; initial startup run, not selected for results."
+}

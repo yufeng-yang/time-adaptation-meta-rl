@@ -1,0 +1,16 @@
+{
+  "status": "running",
+  "steps": 500573,
+  "updates": 264,
+  "elapsed_seconds": 1821.1168455570005,
+  "metrics": {
+    "loss": 0.16236072778701782,
+    "actor_loss": 0.0003876088303513825,
+    "critic_loss": 0.27710720896720886,
+    "entropy": 0.270862340927124,
+    "bc_loss": 0.24773822724819183,
+    "bc_weight": 0.1,
+    "clip_fraction": 0.020117763429880142,
+    "grad_norm": 0.5767520666122437
+  }
+}

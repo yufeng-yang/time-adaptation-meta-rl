@@ -1,0 +1,71 @@
+{
+  "30": {
+    "mean_trial_score": 2.984375,
+    "episodes": {
+      "1": {
+        "score": 1.0,
+        "delivery_rate": 1.0,
+        "low_steps": 25.0,
+        "inspections": 0.0
+      },
+      "2": {
+        "score": 1.0,
+        "delivery_rate": 1.0,
+        "low_steps": 25.0,
+        "inspections": 0.0
+      },
+      "3": {
+        "score": 0.984375,
+        "delivery_rate": 0.984375,
+        "low_steps": 25.078125,
+        "inspections": 0.0
+      }
+    }
+  },
+  "65": {
+    "mean_trial_score": 4.796875,
+    "episodes": {
+      "1": {
+        "score": 1.140625,
+        "delivery_rate": 1.0,
+        "low_steps": 34.9375,
+        "inspections": 0.0
+      },
+      "2": {
+        "score": 1.78125,
+        "delivery_rate": 1.0,
+        "low_steps": 35.875,
+        "inspections": 0.0
+      },
+      "3": {
+        "score": 1.875,
+        "delivery_rate": 1.0,
+        "low_steps": 37.0,
+        "inspections": 0.0
+      }
+    }
+  },
+  "150": {
+    "mean_trial_score": 5.46875,
+    "episodes": {
+      "1": {
+        "score": 1.25,
+        "delivery_rate": 1.0,
+        "low_steps": 37.0,
+        "inspections": 0.0
+      },
+      "2": {
+        "score": 2.328125,
+        "delivery_rate": 1.0,
+        "low_steps": 37.0,
+        "inspections": 0.0
+      },
+      "3": {
+        "score": 1.890625,
+        "delivery_rate": 1.0,
+        "low_steps": 37.0,
+        "inspections": 0.0
+      }
+    }
+  }
+}
